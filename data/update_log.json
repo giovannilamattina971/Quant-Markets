@@ -1,629 +1,629 @@
 {
- "run": "2026-11-19T19:23:04Z",
+ "run": "2026-11-19T20:24:44Z",
  "series": {
   "MKT.^GSPC": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^GSPC"
   },
   "MKT.^DJI": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^DJI"
   },
   "MKT.^IXIC": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^IXIC"
   },
   "MKT.^NDX": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^NDX"
   },
   "MKT.^RUT": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^RUT"
   },
   "MKT.^VIX": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^VIX"
   },
   "MKT.^SP500TR": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^SP500TR"
   },
   "ASSETS.IEF": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo IEF, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo IEF, scarto aggancio 0.00%)",
    "src": "Yahoo IEF"
   },
   "ASSETS.TLT": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo TLT, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo TLT, scarto aggancio 0.00%)",
    "src": "Yahoo TLT"
   },
   "ASSETS.SHY": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo SHY, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo SHY, scarto aggancio 0.00%)",
    "src": "Yahoo SHY"
   },
   "ASSETS.AGG": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo AGG, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo AGG, scarto aggancio 0.00%)",
    "src": "Yahoo AGG"
   },
   "ASSETS.GLD": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo GLD, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo GLD, scarto aggancio 0.00%)",
    "src": "Yahoo GLD"
   },
   "ASSETS.EEM": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo EEM, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo EEM, scarto aggancio 0.00%)",
    "src": "Yahoo EEM"
   },
   "ASSETS.VWO": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo VWO, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo VWO, scarto aggancio 0.00%)",
    "src": "Yahoo VWO"
   },
   "ASSETS.EFA": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo EFA, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo EFA, scarto aggancio 0.00%)",
    "src": "Yahoo EFA"
   },
   "ASSETS.URTH": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo URTH, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo URTH, scarto aggancio 0.00%)",
    "src": "Yahoo URTH"
   },
   "ASSETS.SWDA.MI": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo SWDA.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo SWDA.MI, scarto aggancio 0.00%)",
    "src": "Yahoo SWDA.MI"
   },
   "ASSETS.XEON.DE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo XEON.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XEON.DE, scarto aggancio 0.00%)",
    "src": "Yahoo XEON.DE"
   },
   "ASSETS.VWRL.AS": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo VWRL.AS, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo VWRL.AS, scarto aggancio 0.00%)",
    "src": "Yahoo VWRL.AS"
   },
   "ASSETS.VUSA.AS": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo VUSA.AS, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo VUSA.AS, scarto aggancio 0.00%)",
    "src": "Yahoo VUSA.AS"
   },
   "ASSETS.VAGF.DE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo VAGF.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo VAGF.DE, scarto aggancio 0.00%)",
    "src": "Yahoo VAGF.DE"
   },
   "ASSETS.CSBGE3.MI": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo CSBGE3.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo CSBGE3.MI, scarto aggancio 0.00%)",
    "src": "Yahoo CSBGE3.MI"
   },
   "ASSETS.IBGX.AS": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo IBGX.AS, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo IBGX.AS, scarto aggancio 0.00%)",
    "src": "Yahoo IBGX.AS"
   },
   "ASSETS.SXRQ.DE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo SXRQ.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo SXRQ.DE, scarto aggancio 0.00%)",
    "src": "Yahoo SXRQ.DE"
   },
   "ASSETS.SXRT.DE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo SXRT.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo SXRT.DE, scarto aggancio 0.00%)",
    "src": "Yahoo SXRT.DE"
   },
   "ASSETS.DJP": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo DJP, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo DJP, scarto aggancio 0.00%)",
    "src": "Yahoo DJP"
   },
   "ASSETS.XLK": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLK, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLK, scarto aggancio 0.00%)",
    "src": "Yahoo XLK"
   },
   "ASSETS.XLF": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLF, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLF, scarto aggancio 0.00%)",
    "src": "Yahoo XLF"
   },
   "ASSETS.XLV": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLV, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLV, scarto aggancio 0.00%)",
    "src": "Yahoo XLV"
   },
   "ASSETS.XLE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLE, scarto aggancio 0.00%)",
    "src": "Yahoo XLE"
   },
   "ASSETS.XLY": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLY, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLY, scarto aggancio 0.00%)",
    "src": "Yahoo XLY"
   },
   "ASSETS.XLI": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLI, scarto aggancio 0.00%)",
    "src": "Yahoo XLI"
   },
   "ASSETS.XLP": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLP, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLP, scarto aggancio 0.00%)",
    "src": "Yahoo XLP"
   },
   "ASSETS.XLB": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLB, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLB, scarto aggancio 0.00%)",
    "src": "Yahoo XLB"
   },
   "ASSETS.XLU": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLU, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLU, scarto aggancio 0.00%)",
    "src": "Yahoo XLU"
   },
   "ASSETS.XLRE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLRE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLRE, scarto aggancio 0.00%)",
    "src": "Yahoo XLRE"
   },
   "ASSETS.XLC": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+15 sedute (Yahoo XLC, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLC, scarto aggancio 0.00%)",
    "src": "Yahoo XLC"
   },
   "ASSETS.AGGI": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo AGGH.MI, scarto aggancio 0.41%)",
+   "note": "+0 sedute (Yahoo AGGH.MI, scarto aggancio 0.00%)",
    "src": "Yahoo AGGH.MI"
   },
   "ASSETS.IE15": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo EUN5.DE, scarto aggancio 0.21%)",
+   "note": "+0 sedute (Yahoo EUN5.DE, scarto aggancio 0.00%)",
    "src": "Yahoo EUN5.DE"
   },
   "ASSETS.CMOD": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo CMOD.MI, scarto aggancio 0.82%)",
+   "note": "+0 sedute (Yahoo CMOD.MI, scarto aggancio 0.00%)",
    "src": "Yahoo CMOD.MI"
   },
   "ASSETS.EMBE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo EMBE.MI, scarto aggancio 0.45%)",
+   "note": "+0 sedute (Yahoo EMBE.MI, scarto aggancio 0.00%)",
    "src": "Yahoo EMBE.MI"
   },
   "ASSETS.CRUD": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: CRUD.MI: la nuova fonte non coincide con lo storico (scarto 2.74% sulle ultime 10 date) | CRUD.DE: https://query1.finance.yahoo.com/v8/finance/chart/CRUD.DE: HTTP 404",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "+14 sedute (Yahoo CRUD.MI, scarto aggancio 2.74%)",
+   "src": "Yahoo CRUD.MI"
   },
   "ASSETS.BRNT": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: BRNT.MI: la nuova fonte non coincide con lo storico (scarto 3.16% sulle ultime 10 date) | OD7F.DE: https://query1.finance.yahoo.com/v8/finance/chart/OD7F.DE: HTTP 404",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "+14 sedute (Yahoo BRNT.MI, scarto aggancio 3.16%)",
+   "src": "Yahoo BRNT.MI"
   },
   "ASSETS.IGLN": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: IGLN.MI: https://query1.finance.yahoo.com/v8/finance/chart/IGLN.MI: HTTP 404 | IS0E.DE: la nuova fonte non coincide con lo storico (scarto 3.32% sulle ultime 10 date) | SGLN.MI: sovrapposizione insufficiente (0 date)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "+14 sedute (Yahoo SGLD.MI, scarto aggancio 0.40%)",
+   "src": "Yahoo SGLD.MI"
   },
   "ASSETS.XGLD": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo 4GLD.DE, scarto aggancio 0.03%)",
+   "note": "+0 sedute (Yahoo 4GLD.DE, scarto aggancio 0.00%)",
    "src": "Yahoo 4GLD.DE"
   },
   "ASSETS.PHAG": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: PHAG.MI: la nuova fonte non coincide con lo storico (scarto 2.31% sulle ultime 10 date) | VZLC.DE: https://query1.finance.yahoo.com/v8/finance/chart/VZLC.DE: HTTP 404 | PHAG.AS: la nuova fonte non coincide con lo storico (scarto 2.10% sulle ultime 10 date)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "+14 sedute (Yahoo PHAG.AS, scarto aggancio 2.10%)",
+   "src": "Yahoo PHAG.AS"
   },
   "ASSETS.FSPV": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi (Yahoo IVE)",
+   "note": "+0 mesi (Yahoo IVE)",
    "src": "Yahoo IVE"
   },
   "ASSETS.FSPG": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi (Yahoo IVW)",
+   "note": "+0 mesi (Yahoo IVW)",
    "src": "Yahoo IVW"
   },
   "ASSETS.FSPEW": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi (Yahoo RSP)",
+   "note": "+0 mesi (Yahoo RSP)",
    "src": "Yahoo RSP"
   },
   "ASSETS.FSDY": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi (Yahoo SDY)",
+   "note": "+0 mesi (Yahoo SDY)",
    "src": "Yahoo SDY"
   },
   "ASSETS.FSPHD": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi (Yahoo SPYD)",
+   "note": "+0 mesi (Yahoo SPYD)",
    "src": "Yahoo SPYD"
   },
   "ASSETS.FSPY": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi (Yahoo SPY)",
+   "note": "+0 mesi (Yahoo SPY)",
    "src": "Yahoo SPY"
   },
   "ASSETS.FSPEWU": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi (Yahoo XDEW.DE)",
+   "note": "+0 mesi (Yahoo XDEW.DE)",
    "src": "Yahoo XDEW.DE"
   },
   "ASSETS.FSDYU": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi (Yahoo USDV.MI)",
+   "note": "+0 mesi (Yahoo USDV.MI)",
    "src": "Yahoo USDV.MI"
   },
   "ASSETS.MSCIEM": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 891800 NETR USD"
   },
   "ASSETS.MSCIEM_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph: HTTPSConnectionPool(host='app2.msci.com', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+1 mesi",
+   "src": "MSCI 891800 NETR EUR"
   },
   "ASSETS.MSCIWD": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 990100 NETR USD"
   },
   "ASSETS.MSCIWD_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 990100 NETR EUR"
   },
   "ASSETS.MSCIEMP": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 891800 STRD USD"
   },
   "ASSETS.MSCIEMP_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 891800 STRD EUR"
   },
   "ASSETS.MSCIWDP": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 990100 STRD USD"
   },
   "ASSETS.MSCIWDP_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 990100 STRD EUR"
   },
   "ASSETS.FWORLD": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 990100 NETR USD"
   },
   "ASSETS.FWORLD_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 990100 NETR EUR"
   },
   "ASSETS.MSCI_CN": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 302400 NETR USD"
   },
   "ASSETS.MSCI_CN_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 302400 NETR EUR"
   },
   "ASSETS.MSCI_IN": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 935600 NETR USD"
   },
   "ASSETS.MSCI_IN_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 935600 NETR EUR"
   },
   "ASSETS.MSCI_KR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 941000 NETR USD"
   },
   "ASSETS.MSCI_KR_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 941000 NETR EUR"
   },
   "ASSETS.MSCI_TW": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 915800 NETR USD"
   },
   "ASSETS.MSCI_TW_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 915800 NETR EUR"
   },
   "ASSETS.MSCI_BR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 907600 NETR USD"
   },
   "ASSETS.MSCI_BR_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 907600 NETR EUR"
   },
   "ASSETS.MSCI_SA": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 705405 NETR USD"
   },
   "ASSETS.MSCI_SA_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 705405 NETR EUR"
   },
   "ASSETS.MSCI_ZA": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 971000 NETR USD"
   },
   "ASSETS.MSCI_ZA_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 971000 NETR EUR"
   },
   "ASSETS.MSCI_MX": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 848400 NETR USD"
   },
   "ASSETS.MSCI_MX_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 848400 NETR EUR"
   },
   "ASSETS.FVAL": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 105868 NETR USD"
   },
   "ASSETS.FVAL_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 105868 NETR EUR"
   },
   "ASSETS.FMOM": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 703755 NETR USD"
   },
   "ASSETS.FMOM_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 703755 NETR EUR"
   },
   "ASSETS.FQUAL": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 702787 NETR USD"
   },
   "ASSETS.FQUAL_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 702787 NETR EUR"
   },
   "ASSETS.FSNQ": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 705169 NETR USD"
   },
   "ASSETS.FSNQ_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 705169 NETR EUR"
   },
   "ASSETS.FMINV": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 129896 NETR USD"
   },
   "ASSETS.FMINV_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 129896 NETR EUR"
   },
   "ASSETS.FSMALL": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 106230 NETR USD"
   },
   "ASSETS.FSMALL_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 106230 NETR EUR"
   },
   "ASSETS.FEQW": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 129857 NETR USD"
   },
   "ASSETS.FEQW_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 129857 NETR EUR"
   },
   "ASSETS.FHDY": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 136064 NETR USD"
   },
   "ASSETS.FHDY_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 136064 NETR EUR"
   },
   "ASSETS.BRENT": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)",
    "src": ""
   },
   "ASSETS.WTI": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)",
    "src": ""
   },
   "ASSETS.CPI_EA": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-09-30",
+   "note": "+0 mesi",
+   "src": "FRED CP0000EZ19M086NEST"
   },
   "ASSETS.CPI_IT": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-09-30",
+   "note": "+0 mesi",
+   "src": "FRED CP0000ITM086NEST"
   },
   "ASSETS.UST10C": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-31",
+   "note": "+1 mesi (calcolato)",
+   "src": "FRED DGS10"
   },
   "ASSETS.UST2C": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-31",
+   "note": "+1 mesi (calcolato)",
+   "src": "FRED DGS2"
   },
   "ASSETS.BTP10C": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-31",
+   "note": "+2 mesi (calcolato)",
+   "src": "FRED IRLTLT01ITM156N"
   },
   "ASSETS.CASH": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-31",
+   "note": "+1 mesi (calcolato)",
+   "src": "FRED TB3MS"
   },
   "ASSETS.GOLDWB": {
    "status": "manuale",
@@ -872,950 +872,907 @@
    "src": ""
   },
   "YIELDS.DGS10": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-31",
+   "note": "+2",
+   "src": "FRED DGS10"
   },
   "YIELDS.DGS2": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-31",
+   "note": "+2",
+   "src": "FRED DGS2"
   },
   "YIELDS.TB3MS": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "ValueError: fonte diversa dallo storico (scarto max 0.191)",
    "src": ""
   },
   "YIELDS.IRLTLT01ITM156N": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-31",
+   "note": "+2",
+   "src": "FRED IRLTLT01ITM156N"
   },
   "YIELDS._rates.DFF": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "YIELDS._rates.ECBDFR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-09-16",
+   "note": "0 variazioni nuove",
+   "src": "FRED ECBDFR"
   },
   "YIELDS._rates.ECBMRRFR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-09-16",
+   "note": "0 variazioni nuove",
+   "src": "FRED ECBMRRFR"
   },
   "YIELDS._rates.FEDFUNDS": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "MACROF.GS10": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10",
+   "note": "+1",
+   "src": "FRED GS10"
   },
   "MACROF.GS2": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10",
+   "note": "+1",
+   "src": "FRED GS2"
   },
   "MACROF.CPIAUCSL": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "MACROF.USREC": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "MACROF.IRLTLT01DEM156N": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10",
+   "note": "+1",
+   "src": "FRED IRLTLT01DEM156N"
   },
   "MACROF.EXUSEU": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10",
+   "note": "+1",
+   "src": "FRED EXUSEU"
   },
   "MACROF.CP0000EZ19M086NEST": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "ValueError: fonte diversa dallo storico (scarto max 28.970)",
    "src": ""
   },
   "MACRO.cpi": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "MACRO.eur": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-19",
+   "note": "+19",
+   "src": "FRED DEXUSEU"
   },
   "BUND.DE10_OECD": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-01",
+   "note": "+1",
+   "src": "FRED IRLTLT01DEM156N"
   },
   "BUND.DE10_ECB": {
    "status": "ok",
    "last": "2026-10-01",
-   "note": "+1",
+   "note": "+0",
    "src": "BCE IRS"
   },
   "BUND.DE10_BBK": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: BBSIS.M.I.UMR.RD.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A: https://api.statistiken.bundesbank.de/rest/data/BBSIS/M.I.UMR.RD.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A: HTTP 404 | BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A: list index out of range",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-01",
+   "note": "+1",
+   "src": "Bundesbank BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A"
   },
   "BUND.DE5_BBK": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: BBSIS.M.I.UMR.RD.EUR.S1311.B.A604.R05XX.R.A.A._Z._Z.A: https://api.statistiken.bundesbank.de/rest/data/BBSIS/M.I.UMR.RD.EUR.S1311.B.A604.R05XX.R.A.A._Z._Z.A: HTTP 404 | BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R05XX.R.A.A._Z._Z.A: list index out of range",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-01",
+   "note": "+1",
+   "src": "Bundesbank BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R05XX.R.A.A._Z._Z.A"
   },
   "BUND.DE2_BBK": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: BBSIS.M.I.UMR.RD.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A: https://api.statistiken.bundesbank.de/rest/data/BBSIS/M.I.UMR.RD.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A: HTTP 404 | BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A: list index out of range",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-01",
+   "note": "+1",
+   "src": "Bundesbank BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A"
   },
   "SIGNALS.T10Y2Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11",
+   "note": "+1 (ultimo mese = ultimo valore)",
+   "src": "FRED T10Y2Y"
   },
   "SIGNALS.HY": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "SIGNALS.BAA10Y": {
    "status": "ERRORE",
    "last": null,
-   "note": "RuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "SIGNALS.USREC": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "SIGNALS.CAPE": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "stima",
+   "last": "2026-11",
+   "note": "esteso dal 2026-10 con il prezzo S&P 500 (utili fermi all'ultimo dato pubblicato)",
+   "src": "Shiller/multpl + prezzo"
   },
   "SIGNALS.PE": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "stima",
+   "last": "2026-11",
+   "note": "esteso dal 2026-06 con il prezzo S&P 500 (utili fermi all'ultimo dato pubblicato)",
+   "src": "Shiller/multpl + prezzo"
   },
   "CURVE.DGS3MO": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9223 osservazioni",
+   "src": "FRED DGS3MO"
   },
   "CURVE.DGS6MO": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9226 osservazioni",
+   "src": "FRED DGS6MO"
   },
   "CURVE.DGS1": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9226 osservazioni",
+   "src": "FRED DGS1"
   },
   "CURVE.DGS2": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9226 osservazioni",
+   "src": "FRED DGS2"
   },
   "CURVE.DGS3": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9226 osservazioni",
+   "src": "FRED DGS3"
   },
   "CURVE.DGS5": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9226 osservazioni",
+   "src": "FRED DGS5"
   },
   "CURVE.DGS7": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9226 osservazioni",
+   "src": "FRED DGS7"
   },
   "CURVE.DGS10": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9226 osservazioni",
+   "src": "FRED DGS10"
   },
   "CURVE.DGS20": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "8287 osservazioni",
+   "src": "FRED DGS20"
   },
   "CURVE.DGS30": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "8232 osservazioni",
+   "src": "FRED DGS30"
   },
   "CURVE.DFII5": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "EmptyDataError: No columns to parse from file",
    "src": ""
   },
   "CURVE.DFII10": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "EmptyDataError: No columns to parse from file",
    "src": ""
   },
   "CURVE.T10YIE": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.T5YIFR": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.T10Y3M": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.T10Y2Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9226 osservazioni",
+   "src": "FRED T10Y2Y"
   },
   "CURVE.BAMLH0A0HYM2": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.BAMLC0A0CM": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.BAMLHE00EHYIOAS": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.BAA10Y": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.NFCI": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.STLFSI4": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.SOFR": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "CURVE.DTWEXBGS": {
    "status": "ERRORE",
    "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "EUCURVE.AAA_3M": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.AAA_1Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.AAA_2Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.AAA_3Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.AAA_5Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.AAA_7Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.AAA_10Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.AAA_15Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.AAA_20Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.AAA_30Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_3M": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_1Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_2Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_3Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_5Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_7Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_10Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_15Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_20Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.ALL_30Y": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5677 oss.",
+   "src": "BCE YC"
   },
   "EUCURVE.GOV10_IT": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10",
+   "note": "",
+   "src": "BCE IRS"
   },
   "EUCURVE.GOV10_DE": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10",
+   "note": "",
+   "src": "BCE IRS"
   },
   "EUCURVE.GOV10_FR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10",
+   "note": "",
+   "src": "BCE IRS"
   },
   "EUCURVE.GOV10_ES": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10",
+   "note": "",
+   "src": "BCE IRS"
   },
   "XTRA.SPY": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "8510 sedute (storia completa)",
+   "src": "Yahoo SPY"
   },
   "XTRA.RSP": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5927 sedute (storia completa)",
+   "src": "Yahoo RSP"
   },
   "XTRA.QQQ": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6968 sedute (storia completa)",
+   "src": "Yahoo QQQ"
   },
   "XTRA.IWM": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6660 sedute (storia completa)",
+   "src": "Yahoo IWM"
   },
   "XTRA.GC=F": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6581 sedute (storia completa)",
+   "src": "Yahoo GC=F"
   },
   "XTRA.HG=F": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6585 sedute (storia completa)",
+   "src": "Yahoo HG=F"
   },
   "XTRA.CL=F": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6588 sedute (storia completa)",
+   "src": "Yahoo CL=F"
   },
   "XTRA.BZ=F": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "4807 sedute (storia completa)",
+   "src": "Yahoo BZ=F"
   },
   "XTRA.NG=F": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6586 sedute (storia completa)",
+   "src": "Yahoo NG=F"
   },
   "XTRA.SI=F": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6582 sedute (storia completa)",
+   "src": "Yahoo SI=F"
   },
   "XTRA.DX-Y.NYB": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9398 sedute (storia completa)",
+   "src": "Yahoo DX-Y.NYB"
   },
   "XTRA.EURUSD=X": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5959 sedute (storia completa)",
+   "src": "Yahoo EURUSD=X"
   },
   "XTRA.^VIX": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9291 sedute (storia completa)",
+   "src": "Yahoo ^VIX"
   },
   "XTRA.^VIX3M": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5119 sedute (storia completa)",
+   "src": "Yahoo ^VIX3M"
   },
   "XTRA.^VIX9D": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "3993 sedute (storia completa)",
+   "src": "Yahoo ^VIX9D"
   },
   "XTRA.^MOVE": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5939 sedute (storia completa)",
+   "src": "Yahoo ^MOVE"
   },
   "XTRA.^SKEW": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9215 sedute (storia completa)",
+   "src": "Yahoo ^SKEW"
   },
   "XTRA.HYG": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "4935 sedute (storia completa)",
+   "src": "Yahoo HYG"
   },
   "XTRA.LQD": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6117 sedute (storia completa)",
+   "src": "Yahoo LQD"
   },
   "XTRA.TIP": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5775 sedute (storia completa)",
+   "src": "Yahoo TIP"
   },
   "XTRA.BTC-USD": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "4446 sedute (storia completa)",
+   "src": "Yahoo BTC-USD"
   },
   "XTRA.^STOXX50E": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "4924 sedute (storia completa)",
+   "src": "Yahoo ^STOXX50E"
   },
   "XTRA.^GDAXI": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9333 sedute (storia completa)",
+   "src": "Yahoo ^GDAXI"
   },
   "XTRA.FTSEMIB.MI": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7378 sedute (storia completa)",
+   "src": "Yahoo FTSEMIB.MI"
   },
   "XTRA.^N225": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "9048 sedute (storia completa)",
+   "src": "Yahoo ^N225"
   },
   "XTRA.EEM": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5939 sedute (storia completa)",
+   "src": "Yahoo EEM"
   },
   "XTRA.ACWI": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "4692 sedute (storia completa)",
+   "src": "Yahoo ACWI"
   },
   "XTRA.URTH": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "3735 sedute (storia completa)",
+   "src": "Yahoo URTH"
   },
   "XTRA.XLK": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7020 sedute (storia completa)",
+   "src": "Yahoo XLK"
   },
   "XTRA.XLF": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7020 sedute (storia completa)",
+   "src": "Yahoo XLF"
   },
   "XTRA.XLV": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7020 sedute (storia completa)",
+   "src": "Yahoo XLV"
   },
   "XTRA.XLE": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7020 sedute (storia completa)",
+   "src": "Yahoo XLE"
   },
   "XTRA.XLY": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7020 sedute (storia completa)",
+   "src": "Yahoo XLY"
   },
   "XTRA.XLI": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7020 sedute (storia completa)",
+   "src": "Yahoo XLI"
   },
   "XTRA.XLP": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7020 sedute (storia completa)",
+   "src": "Yahoo XLP"
   },
   "XTRA.XLB": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7020 sedute (storia completa)",
+   "src": "Yahoo XLB"
   },
   "XTRA.XLU": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "7020 sedute (storia completa)",
+   "src": "Yahoo XLU"
   },
   "XTRA.XLRE": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "2795 sedute (storia completa)",
+   "src": "Yahoo XLRE"
   },
   "XTRA.XLC": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "2117 sedute (storia completa)",
+   "src": "Yahoo XLC"
   },
   "XTRA.SMH": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6655 sedute (storia completa)",
+   "src": "Yahoo SMH"
   },
   "XTRA.TLT": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6117 sedute (storia completa)",
+   "src": "Yahoo TLT"
   },
   "XTRA.IEF": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "6117 sedute (storia completa)",
+   "src": "Yahoo IEF"
   },
   "XTRA.GLD": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo dell'aggiornamento superato: rinviato alla notte successiva",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5535 sedute (storia completa)",
+   "src": "Yahoo GLD"
   },
   "PESNAP": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "tempo massimo superato",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "28/28 ETF",
+   "src": "Yahoo (quoteSummary)"
   }
  },
  "errors": [
   {
-   "key": "ASSETS.CRUD",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 343, in <lambda>\n    run('ASSETS.' + key, lambda key=key, c=c: daily(key, c, tol=0.012))\n                                              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 336, in daily\n    raise RuntimeError(' | '.join(errs))\nRuntimeError: CRUD.MI: la nuova fonte non coincide con lo storico (scarto 2.74% sulle ultime 10 date) | CRUD.DE: https://query1.finance.yahoo.com/v8/finance/chart/CRUD.DE: HTTP 404\n"
-  },
-  {
-   "key": "ASSETS.BRNT",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 343, in <lambda>\n    run('ASSETS.' + key, lambda key=key, c=c: daily(key, c, tol=0.012))\n                                              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 336, in daily\n    raise RuntimeError(' | '.join(errs))\nRuntimeError: BRNT.MI: la nuova fonte non coincide con lo storico (scarto 3.16% sulle ultime 10 date) | OD7F.DE: https://query1.finance.yahoo.com/v8/finance/chart/OD7F.DE: HTTP 404\n"
-  },
-  {
-   "key": "ASSETS.IGLN",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 343, in <lambda>\n    run('ASSETS.' + key, lambda key=key, c=c: daily(key, c, tol=0.012))\n                                              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 336, in daily\n    raise RuntimeError(' | '.join(errs))\nRuntimeError: IGLN.MI: https://query1.finance.yahoo.com/v8/finance/chart/IGLN.MI: HTTP 404 | IS0E.DE: la nuova fonte non coincide con lo storico (scarto 3.32% sulle ultime 10 date) | SGLN.MI: sovrapposizione insufficiente (0 date)\n"
-  },
-  {
-   "key": "ASSETS.PHAG",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 343, in <lambda>\n    run('ASSETS.' + key, lambda key=key, c=c: daily(key, c, tol=0.012))\n                                              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 336, in daily\n    raise RuntimeError(' | '.join(errs))\nRuntimeError: PHAG.MI: la nuova fonte non coincide con lo storico (scarto 2.31% sulle ultime 10 date) | VZLC.DE: https://query1.finance.yahoo.com/v8/finance/chart/VZLC.DE: HTTP 404 | PHAG.AS: la nuova fonte non coincide con lo storico (scarto 2.10% sulle ultime 10 date)\n"
-  },
-  {
-   "key": "ASSETS.MSCIEM_EUR",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 374, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 367, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 134, in msci\n    r = get('https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph',\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph: HTTPSConnectionPool(host='app2.msci.com', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
    "key": "ASSETS.BRENT",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 383, in <lambda>\n    run('ASSETS.BRENT', lambda: fred_daily('BRENT', 'DCOILBRENTEU'))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 378, in fred_daily\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 466, in <lambda>\n    run('ASSETS.BRENT', lambda: fred_daily('BRENT', 'DCOILBRENTEU'))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 461, in fred_daily\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 79, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid}, tries=1, timeout=20)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\n"
   },
   {
    "key": "ASSETS.WTI",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 384, in <lambda>\n    run('ASSETS.WTI', lambda: fred_daily('WTI', 'DCOILWTICO'))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 378, in fred_daily\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "ASSETS.CPI_EA",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 396, in <lambda>\n    run('ASSETS.CPI_EA', lambda: cpi('CPI_EA', 'CP0000EZ19M086NEST'))\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 388, in cpi\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "ASSETS.CPI_IT",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 397, in <lambda>\n    run('ASSETS.CPI_IT', lambda: cpi('CPI_IT', 'CP0000ITM086NEST'))\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 388, in cpi\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "ASSETS.UST10C",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 418, in <lambda>\n    run('ASSETS.UST10C', lambda: bond('UST10C', 'DGS10', 10, 'eop'))\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 402, in bond\n    ys = fred(sid)\n         ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "ASSETS.UST2C",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 419, in <lambda>\n    run('ASSETS.UST2C', lambda: bond('UST2C', 'DGS2', 2, 'eop'))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 402, in bond\n    ys = fred(sid)\n         ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "ASSETS.BTP10C",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 420, in <lambda>\n    run('ASSETS.BTP10C', lambda: bond('BTP10C', 'IRLTLT01ITM156N', 10, 'avg'))\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 402, in bond\n    ys = fred(sid)\n         ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "ASSETS.CASH",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 421, in <lambda>\n    run('ASSETS.CASH', lambda: bond('CASH', 'TB3MS', 0, 'avg'))\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 402, in bond\n    ys = fred(sid)\n         ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "YIELDS.DGS10",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 436, in one\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "YIELDS.DGS2",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 436, in one\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 467, in <lambda>\n    run('ASSETS.WTI', lambda: fred_daily('WTI', 'DCOILWTICO'))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 461, in fred_daily\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 79, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid}, tries=1, timeout=20)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\n"
   },
   {
    "key": "YIELDS.TB3MS",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 436, in one\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "YIELDS.IRLTLT01ITM156N",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 436, in one\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 522, in one\n    n = append_values(Y[k], s, k, 'D', check_tol=0.06)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 295, in append_values\n    raise ValueError(f'fonte diversa dallo storico (scarto max {max(diffs):.3f})')\nValueError: fonte diversa dallo storico (scarto max 0.191)\n"
   },
   {
    "key": "YIELDS._rates.DFF",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 459, in <lambda>\n    run('YIELDS._rates.' + k, lambda k=k: changes(k, k))\n                                          ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 449, in changes\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "YIELDS._rates.ECBDFR",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 459, in <lambda>\n    run('YIELDS._rates.' + k, lambda k=k: changes(k, k))\n                                          ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 449, in changes\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "YIELDS._rates.ECBMRRFR",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 459, in <lambda>\n    run('YIELDS._rates.' + k, lambda k=k: changes(k, k))\n                                          ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 449, in changes\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 542, in <lambda>\n    run('YIELDS._rates.' + k, lambda k=k: changes(k, k))\n                                          ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 532, in changes\n    s = series(sid)\n        ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "YIELDS._rates.FEDFUNDS",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 463, in fedfunds\n    n = append_values(o, fred('FEDFUNDS'), 'FEDFUNDS', 'M01', check_tol=0.05)\n                         ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "MACROF.GS10",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 471, in one\n    n = append_values(MF[k], fred(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "MACROF.GS2",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 471, in one\n    n = append_values(MF[k], fred(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 546, in fedfunds\n    n = append_values(o, fred('FEDFUNDS'), 'FEDFUNDS', 'M01', check_tol=0.05)\n                         ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "MACROF.CPIAUCSL",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 471, in one\n    n = append_values(MF[k], fred(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 554, in one\n    n = append_values(MF[k], series(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "MACROF.USREC",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 471, in one\n    n = append_values(MF[k], fred(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "MACROF.IRLTLT01DEM156N",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 471, in one\n    n = append_values(MF[k], fred(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "MACROF.EXUSEU",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 471, in one\n    n = append_values(MF[k], fred(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 554, in one\n    n = append_values(MF[k], series(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "MACROF.CP0000EZ19M086NEST",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 471, in one\n    n = append_values(MF[k], fred(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 554, in one\n    n = append_values(MF[k], series(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 295, in append_values\n    raise ValueError(f'fonte diversa dallo storico (scarto max {max(diffs):.3f})')\nValueError: fonte diversa dallo storico (scarto max 28.970)\n"
   },
   {
    "key": "MACRO.cpi",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 479, in cpi\n    n = append_values(MA['cpi'], fred('CPIAUCNS'), 'cpi', 'M', check_tol=0.3)\n                                 ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "MACRO.eur",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 483, in eur\n    n = append_values(MA['eur'], fred('DEXUSEU'), 'eur', 'D', check_tol=0.01)\n                                 ^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "BUND.DE10_OECD",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 491, in de10o\n    n = append_values(B['DE10_OECD'], fred('IRLTLT01DEM156N'), 'DE10_OECD', 'M01', check_tol=0.05)\n                                      ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
-  },
-  {
-   "key": "BUND.DE10_BBK",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 511, in <lambda>\n    run('BUND.' + k, lambda k=k, m=m: bbk_one(k, m))\n                                      ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 508, in bbk_one\n    raise RuntimeError(' | '.join(errs))\nRuntimeError: BBSIS.M.I.UMR.RD.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A: https://api.statistiken.bundesbank.de/rest/data/BBSIS/M.I.UMR.RD.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A: HTTP 404 | BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A: list index out of range\n"
-  },
-  {
-   "key": "BUND.DE5_BBK",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 511, in <lambda>\n    run('BUND.' + k, lambda k=k, m=m: bbk_one(k, m))\n                                      ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 508, in bbk_one\n    raise RuntimeError(' | '.join(errs))\nRuntimeError: BBSIS.M.I.UMR.RD.EUR.S1311.B.A604.R05XX.R.A.A._Z._Z.A: https://api.statistiken.bundesbank.de/rest/data/BBSIS/M.I.UMR.RD.EUR.S1311.B.A604.R05XX.R.A.A._Z._Z.A: HTTP 404 | BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R05XX.R.A.A._Z._Z.A: list index out of range\n"
-  },
-  {
-   "key": "BUND.DE2_BBK",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 511, in <lambda>\n    run('BUND.' + k, lambda k=k, m=m: bbk_one(k, m))\n                                      ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 508, in bbk_one\n    raise RuntimeError(' | '.join(errs))\nRuntimeError: BBSIS.M.I.UMR.RD.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A: https://api.statistiken.bundesbank.de/rest/data/BBSIS/M.I.UMR.RD.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A: HTTP 404 | BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A: list index out of range\n"
-  },
-  {
-   "key": "SIGNALS.T10Y2Y",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 517, in one\n    n = append_values(S[k], month_end(fred(sid)), k, 'M', complete_months=False, check_tol=0.08)\n                                      ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 562, in cpi\n    n = append_values(MA['cpi'], fred('CPIAUCNS'), 'cpi', 'M', check_tol=0.3)\n                                 ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "SIGNALS.HY",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 517, in one\n    n = append_values(S[k], month_end(fred(sid)), k, 'M', complete_months=False, check_tol=0.08)\n                                      ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 604, in one\n    n = append_values(S[k], month_end(series(sid)), k, 'M', complete_months=False, check_tol=0.08)\n                                      ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "SIGNALS.BAA10Y",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 260, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 239, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 517, in one\n    n = append_values(S[k], month_end(fred(sid)), k, 'M', complete_months=False, check_tol=0.08)\n                                      ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 65, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 604, in one\n    n = append_values(S[k], month_end(series(sid)), k, 'M', complete_months=False, check_tol=0.08)\n                                      ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "SIGNALS.USREC",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 609, in usrec\n    n = append_values(S['USREC'], fred('USREC'), 'USREC', 'M', check_tol=0.5)\n                                  ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.DFII5",
+   "err": "^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 115, in treasury_year\n    df = pd.read_csv(io.StringIO(r.text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 1866, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 423, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 2721, in __init__\n    self._engine = self._make_engine(f, self.engine)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 3006, in _make_engine\n    return mapping[engine](f, **self.options)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 107, in __init__\n    self._reader = parsers.TextReader(src, **kwds)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 735, in pandas._libs.parsers.TextReader.__cinit__\npandas.errors.EmptyDataError: No columns to parse from file\n"
+  },
+  {
+   "key": "CURVE.DFII10",
+   "err": "^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 115, in treasury_year\n    df = pd.read_csv(io.StringIO(r.text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 1866, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 423, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 2721, in __init__\n    self._engine = self._make_engine(f, self.engine)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 3006, in _make_engine\n    return mapping[engine](f, **self.options)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 107, in __init__\n    self._reader = parsers.TextReader(src, **kwds)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 735, in pandas._libs.parsers.TextReader.__cinit__\npandas.errors.EmptyDataError: No columns to parse from file\n"
+  },
+  {
+   "key": "CURVE.T10YIE",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.T5YIFR",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.T10Y3M",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.BAMLH0A0HYM2",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.BAMLC0A0CM",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.BAMLHE00EHYIOAS",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.BAA10Y",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.NFCI",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.STLFSI4",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.SOFR",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+  },
+  {
+   "key": "CURVE.DTWEXBGS",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   }
  ],
  "timing": {
-  "MKT.^GSPC": 0.6,
+  "MKT.^GSPC": 2.1,
   "MKT.^DJI": 0.2,
   "MKT.^IXIC": 0.2,
-  "MKT.^NDX": 0.1,
-  "MKT.^RUT": 0.1,
+  "MKT.^NDX": 0.3,
+  "MKT.^RUT": 0.2,
   "MKT.^VIX": 0.2,
   "MKT.^SP500TR": 0.2,
   "ASSETS.IEF": 0.2,
   "ASSETS.TLT": 0.2,
   "ASSETS.SHY": 0.2,
-  "ASSETS.AGG": 0.2,
+  "ASSETS.AGG": 0.3,
   "ASSETS.GLD": 0.2,
   "ASSETS.EEM": 0.2,
-  "ASSETS.VWO": 0.2,
-  "ASSETS.EFA": 0.2,
+  "ASSETS.VWO": 0.3,
+  "ASSETS.EFA": 0.3,
   "ASSETS.URTH": 0.2,
   "ASSETS.SWDA.MI": 0.2,
-  "ASSETS.XEON.DE": 0.1,
+  "ASSETS.XEON.DE": 0.2,
   "ASSETS.VWRL.AS": 0.4,
   "ASSETS.VUSA.AS": 0.2,
-  "ASSETS.VAGF.DE": 0.2,
+  "ASSETS.VAGF.DE": 0.1,
   "ASSETS.CSBGE3.MI": 0.1,
   "ASSETS.IBGX.AS": 0.2,
   "ASSETS.SXRQ.DE": 0.2,
-  "ASSETS.SXRT.DE": 0.2,
+  "ASSETS.SXRT.DE": 0.3,
   "ASSETS.DJP": 0.2,
   "ASSETS.XLK": 0.2,
   "ASSETS.XLF": 0.2,
-  "ASSETS.XLV": 0.2,
+  "ASSETS.XLV": 0.3,
   "ASSETS.XLE": 0.3,
-  "ASSETS.XLY": 0.2,
+  "ASSETS.XLY": 0.3,
   "ASSETS.XLI": 0.2,
   "ASSETS.XLP": 0.2,
   "ASSETS.XLB": 0.2,
-  "ASSETS.XLU": 0.3,
+  "ASSETS.XLU": 0.2,
   "ASSETS.XLRE": 0.2,
   "ASSETS.XLC": 0.2,
   "ASSETS.AGGI": 0.2,
-  "ASSETS.IE15": 7.0,
+  "ASSETS.IE15": 7.5,
   "ASSETS.CMOD": 0.2,
   "ASSETS.EMBE": 0.2,
-  "ASSETS.XGLD": 0.1,
-  "ASSETS.FSPV": 0.2,
-  "ASSETS.FSPG": 0.3,
-  "ASSETS.FSPEW": 0.2,
-  "ASSETS.FSDY": 0.2,
-  "ASSETS.FSPHD": 0.2,
-  "ASSETS.FSPY": 0.2,
+  "ASSETS.CRUD": 0.2,
+  "ASSETS.BRNT": 0.1,
+  "ASSETS.IGLN": 7.8,
+  "ASSETS.XGLD": 0.2,
+  "ASSETS.PHAG": 6.8,
+  "ASSETS.FSPV": 0.3,
+  "ASSETS.FSPG": 0.2,
+  "ASSETS.FSPEW": 0.3,
+  "ASSETS.FSDY": 0.5,
+  "ASSETS.FSPHD": 0.3,
+  "ASSETS.FSPY": 0.3,
   "ASSETS.FSPEWU": 0.2,
   "ASSETS.FSDYU": 0.2,
-  "ASSETS.MSCIEM": 34.4,
-  "ASSETS.MSCIWD": 0.6,
-  "ASSETS.MSCIWD_EUR": 6.6,
-  "ASSETS.MSCIEMP": 0.5,
-  "ASSETS.MSCIEMP_EUR": 0.6,
-  "ASSETS.MSCIWDP": 0.7,
+  "ASSETS.MSCIEM": 0.6,
+  "ASSETS.MSCIEM_EUR": 0.4,
+  "ASSETS.MSCIWD": 0.3,
+  "ASSETS.MSCIWD_EUR": 0.3,
+  "ASSETS.MSCIEMP": 0.3,
+  "ASSETS.MSCIEMP_EUR": 0.3,
+  "ASSETS.MSCIWDP": 0.3,
   "ASSETS.MSCIWDP_EUR": 0.4,
-  "ASSETS.FWORLD": 0.6,
-  "ASSETS.FWORLD_EUR": 0.5,
+  "ASSETS.FWORLD": 0.4,
+  "ASSETS.FWORLD_EUR": 0.4,
   "ASSETS.MSCI_CN": 0.5,
-  "ASSETS.MSCI_CN_EUR": 0.7,
-  "ASSETS.MSCI_IN": 0.4,
+  "ASSETS.MSCI_CN_EUR": 0.4,
+  "ASSETS.MSCI_IN": 0.3,
   "ASSETS.MSCI_IN_EUR": 0.4,
   "ASSETS.MSCI_KR": 0.4,
   "ASSETS.MSCI_KR_EUR": 0.4,
   "ASSETS.MSCI_TW": 0.4,
   "ASSETS.MSCI_TW_EUR": 0.4,
   "ASSETS.MSCI_BR": 0.4,
-  "ASSETS.MSCI_BR_EUR": 0.3,
-  "ASSETS.MSCI_SA": 0.4,
+  "ASSETS.MSCI_BR_EUR": 0.4,
+  "ASSETS.MSCI_SA": 0.3,
   "ASSETS.MSCI_SA_EUR": 0.3,
   "ASSETS.MSCI_ZA": 0.4,
-  "ASSETS.MSCI_ZA_EUR": 0.5,
+  "ASSETS.MSCI_ZA_EUR": 0.4,
   "ASSETS.MSCI_MX": 0.4,
   "ASSETS.MSCI_MX_EUR": 0.3,
   "ASSETS.FVAL": 0.4,
@@ -1825,16 +1782,117 @@
   "ASSETS.FQUAL": 0.4,
   "ASSETS.FQUAL_EUR": 0.5,
   "ASSETS.FSNQ": 0.3,
-  "ASSETS.FSNQ_EUR": 0.5,
-  "ASSETS.FMINV": 0.5,
-  "ASSETS.FMINV_EUR": 0.5,
-  "ASSETS.FSMALL": 0.5,
-  "ASSETS.FSMALL_EUR": 0.4,
-  "ASSETS.FEQW": 0.3,
+  "ASSETS.FSNQ_EUR": 0.4,
+  "ASSETS.FMINV": 0.4,
+  "ASSETS.FMINV_EUR": 0.4,
+  "ASSETS.FSMALL": 0.3,
+  "ASSETS.FSMALL_EUR": 0.5,
+  "ASSETS.FEQW": 0.4,
   "ASSETS.FEQW_EUR": 0.4,
-  "ASSETS.FHDY": 0.3,
-  "ASSETS.FHDY_EUR": 0.3,
-  "BUND.DE10_ECB": 1.6
+  "ASSETS.FHDY": 1.4,
+  "ASSETS.FHDY_EUR": 0.4,
+  "ASSETS.CPI_EA": 4.6,
+  "ASSETS.CPI_IT": 5.4,
+  "ASSETS.UST10C": 0.7,
+  "ASSETS.UST2C": 0.0,
+  "ASSETS.BTP10C": 3.0,
+  "ASSETS.CASH": 0.0,
+  "YIELDS.DGS10": 0.0,
+  "YIELDS.DGS2": 0.0,
+  "YIELDS.IRLTLT01ITM156N": 0.4,
+  "YIELDS._rates.ECBDFR": 2.7,
+  "YIELDS._rates.ECBMRRFR": 6.2,
+  "MACROF.GS10": 0.0,
+  "MACROF.GS2": 0.0,
+  "MACROF.IRLTLT01DEM156N": 2.6,
+  "MACROF.EXUSEU": 1.7,
+  "MACRO.eur": 0.5,
+  "BUND.DE10_OECD": 0.3,
+  "BUND.DE10_ECB": 0.3,
+  "BUND.DE10_BBK": 0.7,
+  "BUND.DE5_BBK": 0.8,
+  "BUND.DE2_BBK": 0.4,
+  "SIGNALS.T10Y2Y": 0.0,
+  "SIGNALS.CAPE": 0.0,
+  "SIGNALS.PE": 0.0,
+  "CURVE.DGS3MO": 10.2,
+  "CURVE.DGS6MO": 0.0,
+  "CURVE.DGS1": 0.0,
+  "CURVE.DGS2": 0.0,
+  "CURVE.DGS3": 0.0,
+  "CURVE.DGS5": 0.0,
+  "CURVE.DGS7": 0.0,
+  "CURVE.DGS10": 0.0,
+  "CURVE.DGS20": 0.0,
+  "CURVE.DGS30": 0.0,
+  "CURVE.T10Y2Y": 0.0,
+  "EUCURVE.AAA_3M": 6.4,
+  "EUCURVE.AAA_1Y": 2.4,
+  "EUCURVE.AAA_2Y": 1.7,
+  "EUCURVE.AAA_3Y": 4.6,
+  "EUCURVE.AAA_5Y": 5.6,
+  "EUCURVE.AAA_7Y": 3.4,
+  "EUCURVE.AAA_10Y": 5.9,
+  "EUCURVE.AAA_15Y": 4.8,
+  "EUCURVE.AAA_20Y": 4.3,
+  "EUCURVE.AAA_30Y": 2.5,
+  "EUCURVE.ALL_3M": 5.9,
+  "EUCURVE.ALL_1Y": 4.7,
+  "EUCURVE.ALL_2Y": 5.1,
+  "EUCURVE.ALL_3Y": 6.6,
+  "EUCURVE.ALL_5Y": 5.8,
+  "EUCURVE.ALL_7Y": 4.1,
+  "EUCURVE.ALL_10Y": 1.6,
+  "EUCURVE.ALL_15Y": 4.3,
+  "EUCURVE.ALL_20Y": 7.2,
+  "EUCURVE.ALL_30Y": 4.8,
+  "EUCURVE.GOV10_IT": 1.0,
+  "EUCURVE.GOV10_DE": 3.6,
+  "EUCURVE.GOV10_FR": 2.1,
+  "EUCURVE.GOV10_ES": 3.3,
+  "XTRA.SPY": 0.4,
+  "XTRA.RSP": 0.3,
+  "XTRA.QQQ": 0.5,
+  "XTRA.IWM": 0.4,
+  "XTRA.GC=F": 0.6,
+  "XTRA.HG=F": 0.3,
+  "XTRA.CL=F": 0.3,
+  "XTRA.BZ=F": 0.3,
+  "XTRA.NG=F": 0.4,
+  "XTRA.SI=F": 0.3,
+  "XTRA.DX-Y.NYB": 0.3,
+  "XTRA.EURUSD=X": 0.5,
+  "XTRA.^VIX": 0.2,
+  "XTRA.^VIX3M": 0.4,
+  "XTRA.^VIX9D": 0.2,
+  "XTRA.^MOVE": 0.3,
+  "XTRA.^SKEW": 0.4,
+  "XTRA.HYG": 0.3,
+  "XTRA.LQD": 0.5,
+  "XTRA.TIP": 0.4,
+  "XTRA.BTC-USD": 0.3,
+  "XTRA.^STOXX50E": 0.3,
+  "XTRA.^GDAXI": 0.5,
+  "XTRA.FTSEMIB.MI": 0.4,
+  "XTRA.^N225": 0.3,
+  "XTRA.EEM": 0.3,
+  "XTRA.ACWI": 0.6,
+  "XTRA.URTH": 0.2,
+  "XTRA.XLK": 0.3,
+  "XTRA.XLF": 0.3,
+  "XTRA.XLV": 0.6,
+  "XTRA.XLE": 0.4,
+  "XTRA.XLY": 0.3,
+  "XTRA.XLI": 0.3,
+  "XTRA.XLP": 0.3,
+  "XTRA.XLB": 0.4,
+  "XTRA.XLU": 0.4,
+  "XTRA.XLRE": 0.2,
+  "XTRA.XLC": 0.2,
+  "XTRA.SMH": 0.4,
+  "XTRA.TLT": 0.3,
+  "XTRA.IEF": 0.4,
+  "XTRA.GLD": 0.2
  },
  "tickers": {
   "IEF": "IEF",
@@ -1871,6 +1929,10 @@
   "IE15": "EUN5.DE",
   "CMOD": "CMOD.MI",
   "EMBE": "EMBE.MI",
-  "XGLD": "4GLD.DE"
+  "CRUD": "CRUD.MI",
+  "BRNT": "BRNT.MI",
+  "IGLN": "SGLD.MI",
+  "XGLD": "4GLD.DE",
+  "PHAG": "PHAG.AS"
  }
 }
