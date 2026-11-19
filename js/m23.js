@@ -22,7 +22,7 @@ window.__tf = window.__tf || { sel: new Set(["FVAL", "FMOM", "FSNQ", "FMINV", "F
 const tfName = id => (TF_INFO[id] || [UNI[id].n])[0];
 function renderTilt() {
   const o = $("#tiltOut"); if (o.dataset.ok) return runTilt(); o.dataset.ok = 1;
-  const yrs = Array.from({ length: 2026 - 1993 + 1 }, (_, i) => 2026 - i).map(y => `<option value="${y}">${y}</option>`).join("");
+  const yrs = Array.from({ length: new Date().getFullYear() - 1993 + 1 }, (_, i) => new Date().getFullYear() - i).map(y => `<option value="${y}">${y}</option>`).join("");
   const D = {}; ["cum", "rs", "roll", "corr", "eq", "fe", "hm"].forEach(k => { const [h, id] = div(k === "cum" || k === "fe" || k === "hm" ? "chart tall" : "chart"); D[k] = [h, id]; });
   o._D = Object.fromEntries(Object.entries(D).map(([k, v]) => [k, v[1]]));
   o.innerHTML = `${pdfBtn("tiltPdf", "Scarica PDF")}<div class="card"><h2>Tilt fattoriali: conviene aggiungere satelliti al portafoglio?</h2>

@@ -15,7 +15,7 @@ function lumpSim(S, i0, i1, amt, X, rule, cashR) {
 }
 function lumpHtml() {
   const [c1, i1] = div("chart"), [c2, i2] = div("chart");
-  const yrs = Array.from({ length: 2026 - 1928 + 1 }, (_, i) => 2026 - i).map(y => `<option value="${y}" ${y === 2000 ? "selected" : ""}>${y}</option>`).join("");
+  const yrs = Array.from({ length: new Date().getFullYear() - 1928 + 1 }, (_, i) => new Date().getFullYear() - i).map(y => `<option value="${y}" ${y === 2000 ? "selected" : ""}>${y}</option>`).join("");
   return [`<div class="card lump"><h2>Ho dei soldi da investire: entro subito o aspetto un calo?</h2>
    <p class="lead">Molti pensano: «la Borsa è alta, aspetto che scenda un po' e poi compro». Qui lo verifichi sui dati veri: scegli quando avresti avuto i soldi e quanto calo avresti aspettato.</p>
    <div class="form lumpform"><label>Anno del versamento <select id="lpY">${yrs}</select></label>

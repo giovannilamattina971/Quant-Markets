@@ -46,7 +46,7 @@ function sgFwd(px, idxs, h) { const r = idxs.filter(i => i + h < px.length).map(
 function renderSig() {
   const o = $("#sgOut"); if (!o) return; if (o.dataset.ok) return runSig(); o.dataset.ok = 1;
   const [e1, ei] = div("chart tall"), [d1, di] = div("chart"), [t1, ti] = div("chart"), [p1, pi] = div("chart tall"), [v1, vi] = div("chart tall");
-  const yrs = l => `<option value="">${l}</option>` + Array.from({ length: 2026 - 1928 + 1 }, (_, i) => 2026 - i).map(y => `<option>${y}</option>`).join("");
+  const yrs = l => `<option value="">${l}</option>` + Array.from({ length: new Date().getFullYear() - 1928 + 1 }, (_, i) => new Date().getFullYear() - i).map(y => `<option>${y}</option>`).join("");
   const G = window.__sg;
   o.innerHTML = `<div class="card sgcard"><h2>Backtest a segnali: una regola semplice batte il «compra e tieni»?</h2>
    <p class="lead">Scegli uno o più segnali (anche tutti insieme). Ogni fine mese la regola guarda i segnali: se dicono «investito» si resta sull'indice il mese successivo, altrimenti si passa in liquidità. Il confronto è con il <b>buy &amp; hold</b>: comprare e tenere sempre.</p>

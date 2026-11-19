@@ -36,7 +36,11 @@ def log(key, status, last=None, note='', src=''):
     print(f'[{status:8}] {key:28} {last or "":12} {note}', flush=True)
 
 
-def get(url, params=None, headers=None, tries=3, timeout=40):
+T0 = time.time()
+BUDGET = float(os.environ.get('UPDATE_BUDGET', '1500'))  # secondi massimi per l'intero aggiornamento
+
+
+def get(url, params=None, headers=None, tries=2, timeout=25):
     err = None
     for i in range(tries):
         try:
@@ -46,7 +50,7 @@ def get(url, params=None, headers=None, tries=3, timeout=40):
             err = f'HTTP {r.status_code}'
         except Exception as e:  # noqa: BLE001
             err = str(e)
-        time.sleep(2 + 3 * i)
+        time.sleep(2 + 2 * i)
     raise RuntimeError(f'{url}: {err}')
 
 
@@ -78,9 +82,12 @@ def sdmx_csv(url, params=None):
     return pd.Series(df[vcol].values, index=idx).sort_index().dropna()
 
 
-def ecb(key):
+def ecb(key, start=None):
     flow, rest = key.split('/', 1)
-    return sdmx_csv(f'https://data-api.ecb.europa.eu/service/data/{flow}/{rest}', {'format': 'csvdata'})
+    p = {'format': 'csvdata'}
+    if start:
+        p['startPeriod'] = start
+    return sdmx_csv(f'https://data-api.ecb.europa.eu/service/data/{flow}/{rest}', p)
 
 
 def bbk(key):
@@ -99,7 +106,7 @@ def yahoo(sym, start, adjusted=True):
     s = None
     try:
         import yfinance as yf
-        df = yf.Ticker(sym).history(start=str(start), auto_adjust=adjusted, actions=False, timeout=30)
+        df = yf.Ticker(sym).history(start=str(start), auto_adjust=adjusted, actions=False, timeout=20)
         if df is not None and len(df):
             s = df[['Close', 'Volume']].copy()
     except Exception as e:  # noqa: BLE001
@@ -227,9 +234,31 @@ def append_values(obj, new, key, fmt, vkey='v', complete_months=True, check_tol=
     return n
 
 
-def run(key, fn):
+def _safe(fn, box):
     try:
         fn()
+        return True
+    except Exception as e:  # noqa: BLE001
+        box['err'] = e
+        return False
+
+
+def run(key, fn):
+    if time.time() - T0 > BUDGET:
+        log(key, 'ERRORE', None, 'tempo massimo dell\'aggiornamento superato: rinviato alla notte successiva')
+        return
+    t = time.time()
+    try:
+        # ogni serie ha al massimo 150 secondi: una fonte bloccata non ferma tutto l'aggiornamento
+        import threading
+        box = {}
+        th = threading.Thread(target=lambda: box.update(ok=_safe(fn, box)), daemon=True)
+        th.start(); th.join(150)
+        if th.is_alive():
+            raise TimeoutError('la fonte non ha risposto entro 150 secondi')
+        if 'err' in box:
+            raise box['err']
+        LOG.setdefault('timing', {})[key] = round(time.time() - t, 1)
     except Exception as e:  # noqa: BLE001
         log(key, 'ERRORE', None, f'{type(e).__name__}: {e}'[:300])
         LOG['errors'].append({'key': key, 'err': traceback.format_exc()[-1500:]})
@@ -539,8 +568,15 @@ def upd_curve():
     for tag, mats in (('AAA', 'G_N_A'), ('ALL', 'G_N_C')):
         for m in ('3M', '1Y', '2Y', '3Y', '5Y', '7Y', '10Y', '15Y', '20Y', '30Y'):
             def one(tag=tag, mats=mats, m=m):
-                s = ecb(f'YC/B.U2.EUR.4F.{mats}.SV_C_YM.SR_{m}')
-                E[f'{tag}_{m}'] = {'d': list(s.index.strftime('%Y-%m-%d')), 'v': [float(x) for x in s.values]}
+                k = f'{tag}_{m}'
+                old = E.get(k)
+                st = (pd.Timestamp(old['d'][-1]) - pd.Timedelta(days=20)).strftime('%Y-%m-%d') if old and old.get('d') else None
+                s = ecb(f'YC/B.U2.EUR.4F.{mats}.SV_C_YM.SR_{m}', st)
+                if st:
+                    keep = [(d, v) for d, v in zip(old['d'], old['v']) if d < s.index.min().strftime('%Y-%m-%d')]
+                    E[k] = {'d': [d for d, _ in keep] + list(s.index.strftime('%Y-%m-%d')), 'v': [v for _, v in keep] + [float(x) for x in s.values]}
+                else:
+                    E[k] = {'d': list(s.index.strftime('%Y-%m-%d')), 'v': [float(x) for x in s.values]}
                 log(f'EUCURVE.{tag}_{m}', 'ok', E[f'{tag}_{m}']['d'][-1], f'{len(s)} oss.', 'BCE YC')
             run(f'EUCURVE.{tag}_{m}', one)
     for cc in ('IT', 'DE', 'FR', 'ES'):
@@ -573,12 +609,25 @@ def upd_xtra():
     X = D.load('XTRA') or {}
     for sym, name in XTRA.items():
         def one(sym=sym, name=name):
-            s = yahoo(sym, '1990-01-01', adjusted=sym not in XTRA_RAW)['Close']
+            adj = sym not in XTRA_RAW
+            o = X.get(sym)
+            if o and len(o['d']) > 300:
+                start = (pd.Timestamp(o['d'][-1]) - pd.Timedelta(days=40)).date()
+                s = yahoo(sym, start, adjusted=adj)['Close']
+                s = s[s > 0]
+                try:
+                    d, c, n, rr, disp = splice_levels(o['d'], o['c'], s, sym, tol=0.02)
+                    o['d'], o['c'] = d, c
+                    log('XTRA.' + sym, 'ok', d[-1], f'+{n} sedute', 'Yahoo ' + sym)
+                    return
+                except ValueError as e:
+                    print('  ricarico tutta la storia di', sym, e)
+            s = yahoo(sym, '1990-01-01', adjusted=adj)['Close']
             s = s[s > 0]
             if len(s) < 50:
                 raise ValueError('serie troppo corta')
             X[sym] = {'name': name, 'd': list(s.index.strftime('%Y-%m-%d')), 'c': [float(x) for x in s.values]}
-            log('XTRA.' + sym, 'ok', X[sym]['d'][-1], f'{len(s)} sedute', 'Yahoo ' + sym)
+            log('XTRA.' + sym, 'ok', X[sym]['d'][-1], f'{len(s)} sedute (storia completa)', 'Yahoo ' + sym)
         run('XTRA.' + sym, one)
     D.save('XTRA', X)
 
@@ -590,6 +639,9 @@ PE_TICKERS = ['SPY', 'QQQ', 'IWM', 'RSP', 'URTH', 'ACWI', 'EFA', 'EEM', 'EZU', '
 def upd_pe():
     """Fotografia giornaliera di P/E, P/B e dividendo degli ETF (Yahoo). Lo storico si accumula giorno per giorno."""
     import yfinance as yf
+    if time.time() - T0 > BUDGET:
+        log('PESNAP', 'ERRORE', None, 'tempo massimo superato')
+        return
     P = D.load('PESNAP') or {'_info': 'P/E trailing, P/B e rendimento da dividendo degli ETF (Yahoo), una riga al giorno'}
     day = (TODAY - dt.timedelta(days=1)).isoformat()
     n_ok = 0

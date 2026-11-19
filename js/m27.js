@@ -16,7 +16,7 @@ function cmYears(S) { const ye = new Map(); S.d.forEach((x, i) => ye.set(+x.slic
 function renderCM() {
   const o = $("#cmOut"); if (o.dataset.ok) return runCM(); o.dataset.ok = 1;
   const ids = [...Object.keys(UNI), ...Object.keys(EXTRA)], [a1, ai] = div("chart tall"), [s1, si] = div("chart"), [b1, bi] = div("chart"), [k1, ki] = div("chart tall");
-  const yrs = l => `<option value="">${l}</option>` + Array.from({ length: 2026 - 1871 + 1 }, (_, i) => 2026 - i).map(y => `<option>${y}</option>`).join("");
+  const yrs = l => `<option value="">${l}</option>` + Array.from({ length: new Date().getFullYear() - 1871 + 1 }, (_, i) => new Date().getFullYear() - i).map(y => `<option>${y}</option>`).join("");
   o.innerHTML = `${pdfBtn("cmPdf", "Scarica PDF")}<div class="card"><h2>Comportamento dei mercati</h2><p class="lead">Quanti anni sono positivi, quanto durano le serie di anni buoni, cosa succede dopo un anno negativo e quanto spesso arrivano le correzioni. Tutto calcolato sui dati veri dell'asset che scegli.</p>
    <div class="form"><label>Asset <select id="cmId">${ids.map(id => `<option value="${id}" ${id === "SPP" ? "selected" : ""}>${keyOf(id)[0]}</option>`).join("")}</select></label><label>Valuta <select id="cmCcy"><option value="USD">USD</option><option value="EUR">EUR</option></select></label>
     <label>Dall'anno <select id="cmY0">${yrs("Primo disponibile")}</select></label><label>All'anno <select id="cmY1">${yrs("Ultimo disponibile")}</select></label></div><div id="cmNote"></div></div>

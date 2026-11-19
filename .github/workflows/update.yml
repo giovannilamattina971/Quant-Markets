@@ -20,7 +20,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,8 +28,11 @@ jobs:
           python-version: "3.12"
       - run: pip install -q -r tools/requirements.txt
       - name: Scarica i dati del giorno precedente
-        run: python tools/update.py
+        run: timeout 2400 python tools/update.py || echo "aggiornamento interrotto"
+        env:
+          UPDATE_BUDGET: "1800"
       - name: Salva i dati nel repository
+        if: always()
         run: |
           git config user.name "quant-bot"
           git config user.email "actions@users.noreply.github.com"

@@ -4,7 +4,7 @@ const BOND_IDS = ["IBGS", "IBGX", "IBGM", "BTP1", "BTP2", "BTP3", "BTP5", "BTP10
 const BOND_DEF = ["IBGS", "IBGM", "BTP13Y", "BTP10Y"];
 function renderBond() {
   const Yd = window.YIELDS || {}, R = Yd._rates || {}, [y1, yi1] = div("chart tall"), [s1, si1] = div(), [g1, gi1] = div("chart tall"), [sb1, sbi1] = div("chart tall"), [cv1, cvi1] = div();
-  const YO = l => `<option value="">${l}</option>` + Array.from({ length: 2026 - 1971 + 1 }, (_, i) => 2026 - i).map(y => `<option value="${y}">${y}</option>`).join("");
+  const YO = l => `<option value="">${l}</option>` + Array.from({ length: new Date().getFullYear() - 1971 + 1 }, (_, i) => new Date().getFullYear() - i).map(y => `<option value="${y}">${y}</option>`).join("");
   $("#bondOut").innerHTML = `<div class="card"><h3>Titoli di Stato europei e BTP: quanto rendono e come si sono comportati</h3>
    <p class="muted">Il rendimento di un titolo di Stato (BTP italiano, Bund tedesco) è l'interesse annuo che si incassa comprandolo oggi e tenendolo fino a scadenza. Quando i rendimenti salgono, i prezzi dei titoli già in circolazione scendono (e viceversa): più lunga è la scadenza, più forte è l'effetto.</p></div>
   <div class="card"><h3>Rendimenti dei titoli di Stato (FRED)</h3>${y1}<p class="note">BTP: rendimento a lungo termine Italia (OCSE, media mensile, FRED IRLTLT01ITM156N). DGS10/DGS2: Treasury USA a scadenza costante (fine mese). TB3MS: T-Bill 3 mesi. Tasso BCE sui depositi: FRED ECBDFR.</p>

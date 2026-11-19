@@ -136,14 +136,14 @@ function renderMulti() {
   window.__drawFE = null;
   const ids = Object.keys(UNI);
   const [e1, ei1] = div("chart tall"), [dd1, ddi1] = div(), [y1, yi1] = div(), [rc1, rci1] = div(), [f1, fi1] = div("chart tall fechart"), [st1, sti1] = div("chart");
-  const YOPT = l => `<option value="">${l}</option>` + Array.from({ length: 2026 - 1971 + 1 }, (_, i) => 2026 - i).map(y => `<option value="${y}">${y}</option>`).join("");
+  const YOPT = l => `<option value="">${l}</option>` + Array.from({ length: new Date().getFullYear() - 1971 + 1 }, (_, i) => new Date().getFullYear() - i).map(y => `<option value="${y}">${y}</option>`).join("");
   window.__feC = window.__feC || "0.6"; if (window.__feAlt == null) window.__feAlt = 10; window.__feB = window.__feB || {};
   const allIds = [...ids, ...Object.keys(EXTRA)];
   $("#multiOut").innerHTML = `${TB("multiOut", "multi_asset")}
   <div class="card"><h3>Simulatore di portafoglio</h3>
    <div class="form"><label>Modello <select id="pfPreset">${Object.keys(PRESETS).map(k => `<option>${k}</option>`).join("")}</select></label>
-    <label title="Primo anno della simulazione. Se un asset o benchmark scelto non ha dati così indietro, si parte dal primo anno comune e lo si segnala.">Anno di partenza <select id="pfY0"><option value="">Massimo disponibile</option>${Array.from({length: 2026 - 1971 + 1}, (_, i) => 2026 - i).map(y => `<option value="${y}">${y}</option>`).join("")}</select></label>
-    <label>Anno di fine <select id="pfY1"><option value="">Ultimo disponibile</option>${Array.from({length: 2026 - 1971 + 1}, (_, i) => 2026 - i).map(y => `<option value="${y}">${y}</option>`).join("")}</select></label>
+    <label title="Primo anno della simulazione. Se un asset o benchmark scelto non ha dati così indietro, si parte dal primo anno comune e lo si segnala.">Anno di partenza <select id="pfY0"><option value="">Massimo disponibile</option>${Array.from({length: new Date().getFullYear() - 1971 + 1 }, (_, i) => new Date().getFullYear() - i).map(y => `<option value="${y}">${y}</option>`).join("")}</select></label>
+    <label>Anno di fine <select id="pfY1"><option value="">Ultimo disponibile</option>${Array.from({length: new Date().getFullYear() - 1971 + 1 }, (_, i) => new Date().getFullYear() - i).map(y => `<option value="${y}">${y}</option>`).join("")}</select></label>
     <label>Ribilanciamento <select id="pfReb"><option value="annual">Annuale</option><option value="quarterly">Trimestrale</option><option value="monthly">Mensile</option><option value="none">Nessuno</option></select></label>
     <label>Valuta <select id="pfCcy"><option value="EUR" selected>EUR (dal 1999)</option><option value="USD">USD</option></select></label>
     <label>Capitale iniziale <input id="pfInit" type="number" value="10000" min="0"></label><label>PAC mensile (0 = nessuno) <input id="pfPac" type="number" value="0" min="0"></label>

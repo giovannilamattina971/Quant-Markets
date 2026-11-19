@@ -1,0 +1,33 @@
+"use strict";
+/* ===== v9: Oro, petrolio, rame, dollaro ===== */
+XL.page("cx_cmd", ["XTRA", "CURVE"], o => {
+  const X = window.XTRA || {}, Cv = window.CURVE || {};
+  const gold = XL.get("XTRA:GC=F") || XL.get("ASSETS:GLD"), oil = XL.get("ASSETS:BRENT"), wti = XL.get("ASSETS:WTI"), cu = XL.get("XTRA:HG=F"), dxy = XL.get("XTRA:DX-Y.NYB"), eur = XL.get("XTRA:EURUSD=X");
+  const cpi = new Map(MACRO.cpi.d.map((d, i) => [d, MACRO.cpi.v[i]])), cpiLast = MACRO.cpi.v[MACRO.cpi.v.length - 1], cpiLastD = MACRO.cpi.d[MACRO.cpi.d.length - 1];
+  const realize = s => { const m = XL.monthly(s); return { d: m.d, c: m.d.map((d, i) => { const k = cpi.has(d) ? cpi.get(d) : (d > cpiLastD ? cpiLast : NaN); return m.c[i] * cpiLast / k; }) }; };
+  const card = (name, s, unit) => { if (!s) return ""; const c = s.c, n = c.length - 1, ma = XL.sma(c, 200), r12 = XL.ret(c, 252), dd = XL.dd(c);
+    return `<div class="kpi"><span>${name}</span><b>${num(c[n], c[n] > 100 ? 0 : 2)} ${unit}</b><small class="muted">12 mesi ${pct(r12[n])} · ${pct(c[n] / ma[n] - 1)} da MA200 · ${XL.pp(XL.pctl(r12, r12[n]))} perc. 12m · dal max ${pct(dd[n])}</small></div>`; };
+  // oro vs tasso reale
+  const gR = gold && Cv.DFII10 ? XL.align([XL.weekly(gold), XL.weekly({ d: Cv.DFII10.d, c: Cv.DFII10.v })]) : null;
+  let corrTxt = ""; if (gR) { const w = 104, gr = gR.cs[0].map((x, i) => i ? Math.log(x / gR.cs[0][i - 1]) : NaN), yr = gR.cs[1].map((x, i) => i ? x - gR.cs[1][i - 1] : NaN); const rc = gr.map((_, i) => { if (i < w) return NaN; const a = gr.slice(i - w + 1, i + 1), b = yr.slice(i - w + 1, i + 1), ma = mean(a), mb = mean(b); let s = 0, sa = 0, sb = 0; for (let k = 0; k < w; k++) { s += (a[k] - ma) * (b[k] - mb); sa += (a[k] - ma) ** 2; sb += (b[k] - mb) ** 2; } return s / Math.sqrt(sa * sb); }); gR.rc = rc; corrTxt = `Correlazione a 2 anni tra variazioni settimanali dell'oro e del tasso reale: oggi ${num(rc[rc.length - 1], 2)} (media storica ${num(mean(rc.filter(isFinite)), 2)}).`; }
+  const cg = cu && gold ? XL.align([cu, gold]) : null, cgY = cg && Cv.DGS10 ? XL.align([{ d: cg.d, c: cg.cs[0].map((x, i) => x / cg.cs[1][i] * 1000) }, { d: Cv.DGS10.d, c: Cv.DGS10.v }]) : null;
+  const oR = oil ? realize(oil) : null;
+  const [g1, i1] = div("chart tall"), [g2, i2] = div(), [g3, i3] = div(), [g4, i4] = div(), [g5, i5] = div(), [g6, i6] = div(), [g7, i7] = div();
+  o.innerHTML = XL.pdfBtn("cx_cmd", "Oro, petrolio, dollaro", "Materie prime e valute: livelli, eccessi, relazioni con i tassi") + `
+  <div class="card"><h3>Situazione</h3><div class="kpis">${card("Oro", gold, "$/oz")}${card("Petrolio Brent", oil, "$/bbl")}${card("Rame", cu, "$/lb")}${card("Dollaro (DXY)", dxy, "")}${card("EUR/USD", eur, "")}</div>
+   <p class="note">Percentile 12m = posizione del rendimento degli ultimi 12 mesi rispetto a tutta la storia disponibile dello stesso strumento. Petrolio: prezzo spot EIA; oro, rame: future continui (Yahoo).</p></div>
+  <div class="card"><h3>Oro e tassi reali</h3>${g1}<p class="answer">L'oro non paga cedole: per decenni è salito quando i tassi reali (rendimento dei titoli indicizzati all'inflazione) scendevano e viceversa. Dal 2022 il legame si è allentato: l'oro è salito nonostante tassi reali alti, sostenuto dagli acquisti delle banche centrali e dalla domanda di protezione geopolitica. ${corrTxt}</p>${g2}</div>
+  <div class="grid2"><div class="card"><h3>Oro in euro e in dollari</h3>${g3}<p class="note">Per un investitore europeo conta l'oro in euro: il cambio può attenuare o amplificare i movimenti.</p></div>
+   <div class="card"><h3>Rapporto rame/oro e Treasury 10 anni</h3>${g4}<p class="note">Il rame segue il ciclo industriale, l'oro la paura: il rapporto sale quando l'economia accelera e tende a muoversi con i rendimenti a lungo termine. Se il rapporto scende e i tassi restano alti, i tassi «scontano» più di quanto dica l'economia reale.</p></div></div>
+  <div class="card"><h3>Petrolio: prezzo reale e oscillazioni</h3><div class="grid2"><div>${g5}</div><div>${g6}</div></div>
+   <p class="note">Prezzo reale = prezzo in dollari di oggi (deflazionato con l'inflazione USA). Il petrolio spot non è investibile direttamente: gli ETC su future hanno costi di rinnovo (roll) che per lunghi periodi hanno tolto molto rendimento. A destra la distribuzione dei rendimenti a 12 mesi: code molto larghe in entrambe le direzioni, per questo pesi piccoli.</p></div>
+  <div class="card"><h3>Dollaro</h3>${g7}<p class="note">Un dollaro forte riduce il rendimento in euro degli investimenti USA non coperti; uno debole lo aumenta. Il DXY misura il dollaro contro un paniere dominato dall'euro.</p></div>`;
+  if (gR) { plot(i1, [{ x: gR.d, y: gR.cs[0], name: "Oro ($/oncia)", line: { color: C.gold } }, { x: gR.d, y: gR.cs[1], name: "Tasso reale 10a (asse invertito)", yaxis: "y2", line: { color: C.blue } }], { title: "Oro e tasso reale USA a 10 anni (asse destro invertito)", yaxis: { type: "log" }, yaxis2: { overlaying: "y", side: "right", autorange: "reversed", ticksuffix: "%", showgrid: false } });
+    plot(i2, [{ x: gR.d, y: gR.rc, name: "Correlazione 2 anni", line: { color: C.gold } }], { title: "Correlazione mobile oro – tasso reale (negativa = legame classico)", yaxis: { range: [-1, 1] }, shapes: [{ type: "line", xref: "paper", x0: 0, x1: 1, y0: 0, y1: 0, line: { color: "#555" } }] }); }
+  const gE = XL.get("ASSETS:IGLN") || XL.get("ASSETS:XGLD"), gU = XL.get("ASSETS:GLD");
+  if (gE && gU) { const a = XL.align([gE, gU]); plot(i3, [{ x: a.d, y: a.cs[0].map(v => v / a.cs[0][0] * 100), name: "Oro in EUR", line: { color: C.gold } }, { x: a.d, y: a.cs[1].map(v => v / a.cs[1][0] * 100), name: "Oro in USD", line: { color: C.blue } }], { title: "Oro: euro vs dollaro (base 100)", yaxis: { type: "log" } }); }
+  if (cgY) plot(i4, [{ x: cgY.d, y: cgY.cs[0], name: "Rame/oro ×1000", line: { color: "#e0794a" } }, { x: cgY.d, y: cgY.cs[1], name: "Treasury 10a", yaxis: "y2", line: { color: C.blue } }], { title: "Rame/oro vs Treasury 10 anni", yaxis2: { overlaying: "y", side: "right", ticksuffix: "%", showgrid: false } });
+  if (oR) plot(i5, [{ x: oR.d, y: oR.c, name: "Brent reale", line: { color: C.gold } }, { x: XL.monthly(oil).d, y: XL.monthly(oil).c, name: "Brent nominale", line: { color: C.grey, width: 1 } }], { title: "Brent: nominale e reale ($ di oggi)", shapes: XL.recShapes("1987-01") });
+  if (oil) { const r = XL.ret(oil.c, 252); XL.histo(i6, [["Brent: rendimento 12 mesi", r, C.gold]], `Brent: rendimenti a 12 mesi (oggi ${pct(r[r.length - 1])})`); }
+  if (dxy) { const ma = XL.sma(dxy.c, 200); plot(i7, [{ x: dxy.d, y: dxy.c, name: "DXY", line: { color: C.gold, width: 1 } }, { x: dxy.d, y: ma, name: "Media 200 gg", line: { color: C.grey } }], { title: "Indice del dollaro (DXY)" }); }
+});
