@@ -1,0 +1,4 @@
+// P/E forward 12 mesi S&P 500: valori pubblici (nessuna serie storica mensile gratuita). Aggiornare a mano a ogni nuova edizione.
+window.FWDPE = {
+  factset: { date: "2026-10-23", fwd: 18.7, avg5: 19.8, avg10: 19.1, ttm: 25.7, ttm5: 24.4, ttm10: 23.6, fwdQ3: 19.0, src: "FactSet Earnings Insight, 23 ottobre 2026", url: "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_102326.pdf" },
+  jpm: { date: "2026-09-30", fwd: 19.0, avg30: 17.2, sdLo: 13.9, sdHi: 20.5, cape: 40.9, cape30: 28.9, src: "J.P. Morgan Asset Management, Guide to the Markets U.S. 4Q 2026 (dati al 30 settembre 2026)", url: "https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/market-insights/guide-to-the-markets/mi-guide-to-the-markets-us.pdf" } };

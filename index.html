@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quant Markets · Giovanni La Mattina</title>
+<link rel="stylesheet" href="css/app.css">
+
+<script src="lib/plotly.min.js"></script>
+<script src="data/MKT.js"></script>
+<script src="data/MACRO.js"></script>
+<script src="data/VERIF.js"></script>
+<script src="data/ASSETS.js"></script>
+<script src="data/YIELDS.js"></script>
+<script src="data/BUND.js"></script>
+<script src="data/MACROF.js"></script>
+<script src="data/SIGNALS.js"></script>
+<script src="data/SHILLER.js"></script>
+<script src="data/meta.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/m07.js"></script>
+
+<script src="lib/jspdf.umd.min.js"></script>
+
+</head><body>
+<header>
+ <div class="brand"><span class="logo">GLM</span><div><b>Quant Markets</b><small>Analisi quantitativa dei mercati USA</small></div></div>
+ <div class="controls">
+  <label>Indice <select id="idx" title="Indice da analizzare"></select></label>
+  <label>Dal <input type="date" id="from"></label>
+  <label>Al <input type="date" id="to"></label>
+  <label>Ultimi N anni <input type="number" id="nYears" title="Numero di anni da oggi all'indietro (qualsiasi valore fino all'intera storia)" min="1" max="99" placeholder="es. 37" style="width:90px"></label>
+  <label>Regime di mercato <select id="regime" title="Filtra i giorni analizzati in base allo stato del mercato">
+   <option value="all">Tutti i giorni</option><option value="aboveMA">Prezzo sopra MA200</option><option value="belowMA">Prezzo sotto MA200</option>
+   <option value="bull">Fuori da bear market (DD &gt; -20%)</option><option value="bear">In bear market (DD ≤ -20%)</option>
+   <option value="corr">In correzione (DD tra -10% e -20%)</option><option value="vixHi">VIX alto (&gt; 25)</option><option value="vixLo">VIX basso (&lt; 15)</option>
+   <option value="dem">Presidente democratico</option><option value="rep">Presidente repubblicano</option></select></label>
+  <label>Serie <select id="serie" title="Prezzo (senza dividendi) o Total return con dividendi reinvestiti (solo S&amp;P 500 dal 1988)"><option value="px">Prezzo</option><option value="tr">Total return (S&amp;P 500, dal 1988)</option></select></label>
+  <label>Misura <select id="misura" title="Nominale, reale (al netto dell'inflazione USA) o convertito in euro"><option value="nom">Nominale USD</option><option value="real">Reale USD (al netto inflazione)</option><option value="eur">Nominale in EUR (dal 1999)</option><option value="realeur">Reale USD + in EUR</option></select></label>
+  <label>Statistica <select id="stat" title="Statistica mostrata nelle tabelle di rendimento futuro"><option value="mean">Media</option><option value="median">Mediana</option><option value="p10">10° percentile</option><option value="p25">25° percentile</option><option value="p75">75° percentile</option><option value="p90">90° percentile</option></select></label>
+  <label>Orizzonte extra <select id="hExtra" title="Aggiunge un orizzonte temporale alle tabelle di rendimento futuro"><option value="0">—</option><option value="10">2 settimane</option><option value="504">2 anni</option><option value="756">3 anni</option><option value="1260">5 anni</option><option value="2520">10 anni</option></select></label>
+  <div class="presets"><button data-y="1">1A</button><button data-y="3">3A</button><button data-y="5">5A</button><button data-y="10">10A</button><button data-y="20">20A</button><button data-y="30">30A</button><button data-y="50">50A</button><button data-y="0">Max</button></div>
+ </div>
+</header>
+<div id="seriesBadge" class="badge"></div>
+
+<button id="hamb" aria-label="Menu">☰</button><div class="layout"><nav id="tabs" class="side">
+ <div class="grp main">Backtest &amp; Portafogli</div>
+ <button data-tab="multi" title="Laboratorio portafogli: pesi personalizzati, benchmark attivabili, confronto portafogli salvati, tabella annuale, correlazione tra due asset, frontiera efficiente con portafoglio ideale">Laboratorio portafogli <span class="keydot" title="Sezione principale" aria-label="Sezione principale">●</span></button>
+ <button data-tab="bt" title="Backtest a segnali (trend, VIX, RSI, P/E e CAPE, curva dei tassi, spread di credito) contro buy &amp; hold, e PAC vs unica soluzione">Backtest indice <span class="keydot" title="Sezione principale" aria-label="Sezione principale">●</span></button>
+ <button data-tab="pres" title="Presentazione per il cliente con evidenze storiche e download PDF">Presentazione cliente</button>
+ <div class="grp main">Analisi Asset</div>
+ <button data-tab="aa" title="Confronto tra asset, ipercomprato/ipervenduto, stagionalità, drawdown, regimi, forza relativa, momentum e backtest dei segnali">Analisi Asset</button>
+ <button data-tab="aaguide" title="Cosa sono e come si leggono gli indicatori">Guida agli indicatori</button>
+ <div class="grp main">The Bull</div>
+ <button data-tab="tb_dd" title="Grafico sott'acqua, profondità e durata dei cali, calo durante l'anno vs rendimento di fine anno">Drawdown e correzioni</button>
+ <button data-tab="tb_fwd" title="Rendimenti a 1/3/5/10 anni in base al calo dai massimi e al CAPE di partenza">Prezzi giù, rendimenti attesi su</button>
+ <button data-tab="tb_eps" title="Prezzo e utili nel lungo periodo, scomposizione del rendimento, utili vs multiplo nei crolli">Prezzi e utili</button>
+ <button data-tab="tb_gap" title="PAC disciplinato contro investitore emotivo: il gap comportamentale">Gap comportamentale</button>
+ <button data-tab="tb_ath" title="Quanti massimi storici, cosa succede dopo, età dei rialzi">Massimi storici ed età del rialzo</button>
+ <button data-tab="tb_risk" title="100/0, 80/20, 60/40, 60/40 con oro; ribilanciamento; correlazioni mobili">Rischio e ribilanciamento</button>
+ <button data-tab="tb_pac" title="Rata, anni di ritardo e scenari 4/6/8%">PAC: quanto e quando</button>
+ <button data-tab="tb_crisi" title="1973-74, 2000-03, 2008, 2020, 2022: azioni, obbligazioni, oro, 60/40">Anatomia delle crisi</button>
+ <div class="grp main">Educazione</div>
+ <button data-tab="timing" title="Ho dei soldi: investo subito o aspetto un calo? Verifica sui dati reali">Investo subito o aspetto un calo? <span class="keydot" title="Sezione principale" aria-label="Sezione principale">●</span></button><button data-tab="tilt" title="Value, Momentum, Quality, Minima volatilità, Small cap, Dividendi: conviene aggiungerli come satelliti?">Tilt fattoriali</button><button data-tab="cm" title="Anni positivi e negativi, serie di anni buoni, comprare dopo un anno negativo, quanto spesso arrivano le correzioni">Comportamento dei mercati <span class="keydot" title="Sezione principale" aria-label="Sezione principale">●</span></button>
+ <button data-tab="pac" title="Simulatore di Piano di Accumulo su indici reali con tabella anno per anno">Simulatore PAC <span class="keydot" title="Sezione principale" aria-label="Sezione principale">●</span></button>
+ <button data-tab="basi" title="Azioni, obbligazioni, ETF, diversificazione, interesse composto, inflazione: spiegati semplice con dati reali">Azioni, obbligazioni &amp; ETF</button>
+ <button data-tab="soci" title="Possedere un indice globale significa essere soci di migliaia di aziende reali">Soci dell'economia reale</button>
+ <button data-tab="infl" title="Potere d'acquisto del contante, inflazione, quanto tempo serve per perderne il 25% / 50%">Inflazione e contante</button>
+ <button data-tab="crisi" title="1929, 1973, 1987, 2000, 2008, 2020, 2022: calo, recupero, chi è rimasto investito o ha continuato il PAC">Crisi storiche</button>
+ <div class="grp main">Pianificazione finanziaria</div>
+ <button data-tab="profilo" title="Questionario indicativo e portafoglio modello con il peggior calo storico">Profilo di rischio</button>
+ <button data-tab="obiettivi" title="Importo obiettivo + data: rata PAC necessaria e probabilità storica di successo">Obiettivi di vita</button>
+ <button data-tab="decumulo" title="Prelievo sostenibile in termini reali, tasso di successo storico, verifica regola del 4%">Decumulo</button>
+ <div class="grp">Mercati</div>
+ <button data-tab="overview" class="on" title="Grafico, volumi, rendimenti annuali e drawdown dell'indice selezionato">Panoramica</button>
+ <button data-tab="adv" title="Rendimenti mobili, mappa di calore anno×mese, confronto tra indici, volatilità e Sharpe mobili">Analisi avanzate</button>
+ <button data-tab="signals" title="RSI, distanza dalla media a 200 giorni, drawdown e VIX di oggi, con percentili storici">Segnali attuali</button>
+ <div class="grp">Domande frequenti</div>
+ <button data-tab="faq" title="Le domande più frequenti, calcolate dai dati in tempo reale">Domande frequenti</button>
+ <button data-tab="ask" title="Domanda libera e costruttore di query condizione → rendimento futuro">Fai una domanda</button>
+ <div class="grp">Tassi &amp; Macro</div>
+ <button data-tab="bond" title="Titoli di Stato europei, BTP e Bund: rendimenti storici, spread BTP–Bund, confronto dei governativi euro">Titoli di Stato &amp; BTP</button>
+ <button data-tab="macro" title="Fed e BCE: tassi storici, rendimenti dopo tagli/rialzi/pause, regimi dei tassi">Banche centrali</button>
+ <div class="grp">Dati</div>
+ <button data-tab="info" title="Fonti, copertura, verifiche incrociate e limiti dei dati">Info dati</button>
+</nav>
+<main>
+ <section id="overview" class="tab on">
+  <div id="kpis" class="kpis"></div>
+  <div class="card"><div class="cardhead"><h3 id="ovTitle">Andamento</h3><label class="chk"><input type="checkbox" id="logScale" checked> Scala logaritmica</label></div><div id="ovChart" class="chart tall"></div></div>
+  <div class="grid2"><div class="card"><h3>Rendimenti annuali</h3><div id="ovYears" class="chart"></div></div>
+  <div class="card"><h3>Drawdown dal massimo storico</h3><div id="ovDD" class="chart"></div></div></div>
+ </section>
+ <section id="faq" class="tab">
+  <div id="regNote" class="muted" style="margin-bottom:10px"></div><div id="faqBtns" class="faqbtns"></div>
+  <div id="faqOut"></div>
+ </section>
+ <section id="ask" class="tab">
+  <div class="card"><h3>Fai una domanda</h3>
+   <p class="muted">Nessuna intelligenza artificiale: la piattaforma riconosce parole chiave e collega la domanda all'analisi corrispondente, calcolata in tempo reale sui dati. Esempi: «conviene comprare sui massimi?», «come vanno gli anni midterm?», «cosa succede dopo un calo del 5%?», «VIX sopra 40», «settembre è un mese negativo?».</p>
+   <div class="askrow"><input id="q" placeholder="Scrivi la tua domanda in italiano..."><button id="qGo" class="primary">Chiedi</button></div>
+   <div id="qMsg" class="muted"></div></div>
+  <div class="card"><h3>Costruttore di query: condizione → rendimento futuro</h3>
+   <div class="form">
+    <label>Condizione <select id="cbCond">
+     <option value="all">Tutti i giorni (base)</option>
+     <option value="rsiLt">RSI(14) sotto</option><option value="rsiGt">RSI(14) sopra</option>
+     <option value="maLt">Distanza da media 200g sotto (%)</option><option value="maGt">Distanza da media 200g sopra (%)</option>
+     <option value="ddLe">Drawdown dai massimi pari o peggiore di (%)</option>
+     <option value="retLe">Calo giornaliero pari o peggiore di (%)</option><option value="retGe">Rialzo giornaliero pari o superiore a (%)</option>
+     <option value="downN">Giorni consecutivi di ribasso ≥</option>
+     <option value="vixGt">VIX sopra</option><option value="vixLt">VIX sotto</option>
+     <option value="ath">Nuovo massimo storico</option>
+     <option value="month">Primo giorno del mese n° (1-12)</option><option value="wd">Giorno della settimana (1=lun … 5=ven)</option>
+    </select></label>
+    <label>Valore <input id="cbVal" type="number" value="30" step="any"></label>
+    <label>Orizzonte <select id="cbH"><option value="5">1 settimana</option><option value="21">1 mese</option><option value="63">3 mesi</option><option value="126">6 mesi</option><option value="252" selected>1 anno</option><option value="756">3 anni</option><option value="1260">5 anni</option><option value="2520">10 anni</option></select></label>
+    <p class="muted" style="flex-basis:100%;margin:0">Il filtro «Regime di mercato» in alto si combina con la condizione (es. RSI &lt; 30 <i>e</i> prezzo sotto MA200). Con meno di 30 eventi compare l'avviso ⚠ (campione poco affidabile).</p><label>Distanza minima tra eventi (giorni) <input id="cbGap" type="number" value="21" min="1"></label>
+    <button id="cbGo" class="primary">Calcola</button>
+   </div>
+   <div class="exp" data-t="cbOut"></div><div id="cbOut"></div></div>
+  <div id="askOut"></div>
+ </section>
+ <section id="bt" class="tab">
+  <div class="card"><h3>Lump sum vs PAC (piano di accumulo)</h3>
+   <div class="form">
+    <label>Rata mensile (€/$) <input id="pacAmt" type="number" value="500" min="1"></label>
+    <label>Inizio <input id="pacFrom" type="date"></label><label>Fine <input id="pacTo" type="date"></label>
+    <button id="pacGo" class="primary">Esegui backtest</button></div>
+   <p class="muted">Lump sum = l'intero capitale del PAC (rata × numero mesi) investito il primo giorno. Rate investite al primo giorno di borsa di ogni mese. Nessun costo/tassa. Per gli indici di prezzo i dividendi sono esclusi: per l'S&amp;P 500 usare «S&amp;P 500 Total Return» (dal 1988).</p>
+   <div class="exp" data-t="pacOut"></div><div id="pacOut"></div></div>
+  <div id="sgOut"></div>
+  <div class="card" id="oldStrat" style="display:none" aria-hidden="true"><h3>Strategie vs Buy &amp; Hold (versione precedente, sostituita dal backtest a segnali)</h3>
+   <div class="form">
+    <label>Strategia <select id="stType">
+     <option value="ma">Sopra la media mobile (investito se prezzo &gt; MA)</option>
+     <option value="cross">Incrocio medie (MA veloce &gt; MA lenta)</option>
+     <option value="dd">Entra dopo calo X% dai massimi, esci al nuovo massimo</option>
+     <option value="rsi">RSI: compra sotto soglia bassa, vendi sopra soglia alta</option></select></label>
+    <label id="lP1">Parametro 1 <input id="stP1" type="number" value="200"></label>
+    <label id="lP2">Parametro 2 <input id="stP2" type="number" value="50"></label>
+    <label>Costo per operazione (%) <input id="stCost" type="number" value="0.1" step="0.05"></label>
+    <button id="stGo" class="primary">Esegui backtest</button></div>
+   <p class="muted">Segnale calcolato sulla chiusura ed eseguito a quella chiusura (ordine «al close»): la nuova posizione partecipa ai rendimenti solo dal giorno successivo, senza look-ahead. Liquidità remunerata 0%. Sharpe calcolato con tasso privo di rischio = 0.</p>
+   <div class="exp" data-t="stOut"></div><div id="stOut"></div></div>
+ </section>
+ <section id="adv" class="tab"><div id="advOut"></div></section>
+ <section id="multi" class="tab"><div id="multiOut"></div></section>
+ <section id="cm" class="tab"><div id="cmOut"></div></section>
+ <section id="bond" class="tab"><div id="bondOut"></div></section>
+ <section id="macro" class="tab"><div id="macroOut"></div></section>
+ <section id="pres" class="tab"><div id="presOut"></div></section>
+ <section id="signals" class="tab"><div id="sigOut"></div></section>
+ <section id="info" class="tab"><div id="infoOut"></div></section>
+ <section id="timing" class="tab"><div id="timOut"></div></section><section id="tilt" class="tab"><div id="tiltOut"></div></section>
+ <section id="pac" class="tab"><div id="psOut"></div></section>
+ <section id="basi" class="tab"><div id="basiOut"></div></section>
+ <section id="soci" class="tab"><div id="sociOut"></div></section>
+ <section id="infl" class="tab"><div id="inflOut"></div></section>
+ <section id="crisi" class="tab"><div id="crisiOut"></div></section>
+ <section id="profilo" class="tab"><div id="profOut"></div></section>
+ <section id="obiettivi" class="tab"><div id="objOut"></div></section>
+ <section id="decumulo" class="tab"><div id="decOut"></div></section>
+<section id="aa" class="tab"><div id="aaOut"></div></section>
+<section id="aaguide" class="tab"><div id="guideOut"></div></section>
+<section id="tb_dd" class="tab"><div id="tbDDOut"></div></section><section id="tb_fwd" class="tab"><div id="tbFwdOut"></div></section><section id="tb_eps" class="tab"><div id="tbEpsOut"></div></section><section id="tb_gap" class="tab"><div id="tbGapOut"></div></section><section id="tb_ath" class="tab"><div id="tbAthOut"></div></section><section id="tb_risk" class="tab"><div id="tbRiskOut"></div></section><section id="tb_pac" class="tab"><div id="tbPacOut"></div></section><section id="tb_crisi" class="tab"><div id="tbCrOut"></div></section>
+</main></div>
+<footer><b>Avvertenza.</b> Analisi storica a scopo esclusivamente informativo ed educativo: non costituisce consulenza finanziaria, raccomandazione o sollecitazione all'investimento. I rendimenti passati non sono indicativi né garanzia di quelli futuri. Le statistiche descrivono il passato e non sono previsioni. Dati: Yahoo Finance, MSCI, FRED (Federal Reserve Bank of St. Louis), Banca Mondiale.</footer>
+
+<script src="js/m09.js"></script>
+
+<script src="js/m10.js"></script>
+
+
+
+<script src="js/m12.js"></script>
+
+<script src="js/m13.js"></script>
+
+<script src="js/m14.js"></script>
+
+<script src="js/m15.js"></script>
+
+<script src="js/m16.js"></script>
+
+<script src="js/m17.js"></script>
+
+<script src="js/m18.js"></script>
+
+<script src="js/m19.js"></script>
+
+<script src="js/m20.js"></script>
+
+<script src="js/m21.js"></script>
+
+
+
+<script src="js/m23.js"></script>
+
+
+
+<script src="js/m25.js"></script>
+
+<script src="js/m26.js"></script>
+
+<script src="js/m27.js"></script>
+
+<script src="js/m28.js"></script>
+
+
+
+<script src="js/m30.js"></script>
+
+<script src="js/m31.js"></script>
+
+</body></html>
