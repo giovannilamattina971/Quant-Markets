@@ -101,7 +101,7 @@ function runSig() {
    ${table(["", "Capitale finale", "Rend. annuo (CAGR)", "Volatilità", "Calo massimo", "Tempo investito", "Operazioni"], [["<b>Strategia</b>", money(fS), pc(A.cagr, 2), pct(A.vol), pc(A.md), pct(inT, 0), trades], ["Buy &amp; hold", money(fB), pc(Bh.cagr, 2), pct(Bh.vol), pc(Bh.md), "100%", 1]]).replace("<table", '<table class="full"')}
    <p class="note">${S.name}, ${ccy}. Fonte indice: ${S.src}. Costo ${pct(cost, 2)} a operazione.</p></div>`;
   window.__sgLast = { A, Bh, fS, fB, inT, trades, from: B.m[s0], to: B.m[s1], en: en.map(s => s.k) };
-  const HL = { bgcolor: "#000", font: { size: 15 } };
+  const HL = { bgcolor: "#ffffff", font: { size: 15 } };
   plot(CH.ei, [{ x: xs, y: Bh.eq.map(v => v * cap), name: "Buy & hold", type: "scatter", line: { color: "#aaa", width: 1.6 } }, { x: xs, y: A.eq.map(v => v * cap), name: "Strategia a segnali", type: "scatter", line: { color: C.gold, width: 2.4 } }], { title: T(`Valore di ${money(cap)} nel tempo`), yaxis: { type: "log", ticksuffix: " " + cur }, hoverlabel: HL });
   plot(CH.di, [{ x: xs, y: Bh.dd.map(v => v * 100), name: "Buy & hold", type: "scatter", line: { color: "#aaa", width: 1 }, fill: "tozeroy", fillcolor: "rgba(170,170,170,.12)" }, { x: xs, y: A.dd.map(v => v * 100), name: "Strategia", type: "scatter", line: { color: C.gold, width: 1.4 } }], { title: T("Cali dai massimi"), yaxis: { ticksuffix: "%" }, hoverlabel: HL });
   const rows = [...en.map(s => ({ n: s.n.split(":")[0], z: B.m.slice(s0, s1).map((_, i) => { const c = sgCond(s.k, V[s.k][s0 + i]); return c == null ? null : +c; }) })), { n: "<b>Strategia</b>", z: pos }];
@@ -137,9 +137,9 @@ function runVal(D0) {
   $("#sgValT").innerHTML = `<h4>P/E e CAPE su utili effettivi (trailing): serie storica usata nei backtest</h4><div class="lumpkpi"><div class="kpi gold"><span>Oggi (${ks[ks.length - 1]})</span><b>${nm} ${num(last, 1)}</b></div><div class="kpi"><span>Media dal ${ks[0].slice(0, 4)}</span><b>${num(lt, 1)}</b></div></div>
    <div class="answer">Oggi il ${nm} è <b>${num(last, 1)}</b>, la media dal ${ks[0].slice(0, 4)} è ${num(lt, 1)}: <b>${last > lt ? "+" : ""}${pct(last / lt - 1, 0)}</b> ${last > lt ? "sopra" : "sotto"} la media${roll ? ` (media degli ultimi ${RW / 12} anni: ${num(roll[roll.length - 1], 1)})` : ""}.</div>
    ${table(["Media del " + nm, "Ultimi 10 anni", "Ultimi 20 anni", "Dal 1990", "Dal 2000", `Tutta la storia (dal ${ksAll[0].slice(0, 4)})`], [["Valore", ...[win(10), win(20), a90, a00, aFull].map(x => num(x, 1))], ["Oggi rispetto alla media", ...[win(10), win(20), a90, a00, aFull].map(x => `${last > x ? "+" : ""}${pct(last / x - 1, 0)}`)]])}`;
-  const tr = [{ x: ks, y: v, name: nm, type: "scatter", line: { color: C.gold, width: 1.4 } }, { x: [ks[0], ks[ks.length - 1]], y: [lt, lt], name: `Media dal ${ks[0].slice(0, 4)}`, type: "scatter", line: { color: "#fff", dash: "dash", width: 1.4 } }];
+  const tr = [{ x: ks, y: v, name: nm, type: "scatter", line: { color: C.gold, width: 1.4 } }, { x: [ks[0], ks[ks.length - 1]], y: [lt, lt], name: `Media dal ${ks[0].slice(0, 4)}`, type: "scatter", line: { color: "#13233A", dash: "dash", width: 1.4 } }];
   if (roll) tr.push({ x: ks, y: roll, name: `Media mobile ${RW / 12} anni`, type: "scatter", line: { color: C.blue, width: 1.2 } });
-  plot(o._ch.vi, tr, { title: T(`S&P 500: ${nm} e la sua media`), hoverlabel: { bgcolor: "#000", font: { size: 15 } } });
+  plot(o._ch.vi, tr, { title: T(`S&P 500: ${nm} e la sua media`), hoverlabel: { bgcolor: "#ffffff", font: { size: 15 } } });
   // quintili del rapporto con la media espandente (senza look-ahead) e rendimenti futuri dell'S&P 500
   const SP = idxSeries("SP", "P", "USD"), PB = sgMonths(SP.d, SP.c), pIdx = new Map(PB.m.map((k, i) => [k, i]));
   const rel = ks.map((k, i) => ({ k, r: v[i] / exp[i] - 1, i: pIdx.get(k) })).filter(x => x.i != null && x.k >= String(Math.max(1937, +F0 + 5)));

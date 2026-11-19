@@ -30,7 +30,7 @@ function renderCM() {
   runCM();
 }
 function runCM() {
-  const o = $("#cmOut"), CH = o._ch, id = $("#cmId").value, ccy = $("#cmCcy").value, S = cmSeries(id, ccy), HL = { bgcolor: "#000", font: { size: 15 } };
+  const o = $("#cmOut"), CH = o._ch, id = $("#cmId").value, ccy = $("#cmCcy").value, S = cmSeries(id, ccy), HL = { bgcolor: "#ffffff", font: { size: 15 } };
   if (!S || S.d.length < 30) { $("#cmNote").innerHTML = `<p class="warn">Dati non disponibili per questo asset in ${ccy}.</p>`; return; }
   const y0 = +$("#cmY0").value || 0, y1 = +$("#cmY1").value || 9999, all = cmYears(S), Y = all.filter(x => x.y >= y0 && x.y <= y1), C0 = Y.filter(x => !x.partial), nm = S.name.replace(/ \(.*\)/, "");
   const first = all.length ? all[0].y : null;
@@ -42,7 +42,7 @@ function runCM() {
   $("#cmA").innerHTML = `<div class="lumpwin now small"><div class="big">${P.length} anni positivi su ${C0.length} (${pct(P.length / C0.length, 0)})</div><div class="sub">In media un anno positivo ha reso ${pc(avg(P.map(x => x.r)), 1)}, uno negativo ${N.length ? pc(avg(N.map(x => x.r)), 1) : "–"}.</div></div>
    <div class="answer">${nm} è salito in circa ${Math.round(P.length / C0.length * 10)} anni su 10. ${N.length ? `Gli anni negativi ci sono sempre stati (il peggiore: ${worst.y}, ${pc(worst.r, 0)}), ma ${N.length < P.length ? "sono stati meno frequenti" : "sono stati frequenti"} e in media ${Math.abs(avg(N.map(x => x.r))) < avg(P.map(x => x.r)) ? "meno ampi" : "più ampi"} dei guadagni degli anni positivi.` : "Nel periodo non ci sono anni negativi."}</div>`;
   plot(CH.ai, [{ x: Y.map(x => x.y + (x.partial ? "*" : "")), y: Y.map(x => x.r * 100), type: "bar", name: "Rendimento dell'anno", marker: { color: Y.map(x => x.partial ? "#666" : x.r > 0 ? C.gold : C.red) }, hovertemplate: "%{x}: %{y:.1f}%<extra></extra>" },
-    { x: Y.map(x => x.y + (x.partial ? "*" : "")), y: Y.map(x => x.md * 100), type: "scatter", mode: "markers", name: "Calo massimo durante l'anno", marker: { color: "#fff", size: 5, symbol: "diamond" }, hovertemplate: "calo massimo nell'anno: %{y:.1f}%<extra></extra>" }],
+    { x: Y.map(x => x.y + (x.partial ? "*" : "")), y: Y.map(x => x.md * 100), type: "scatter", mode: "markers", name: "Calo massimo durante l'anno", marker: { color: "#13233A", size: 5, symbol: "diamond" }, hovertemplate: "calo massimo nell'anno: %{y:.1f}%<extra></extra>" }],
     { title: T("Rendimento di ogni anno (oro = positivo, rosso = negativo) e calo massimo durante l'anno (◆)"), xaxis: { type: "category", tickangle: -60 }, yaxis: { ticksuffix: "%" }, hoverlabel: HL, legend: { orientation: "h", y: -0.25 } });
   const streaks = []; let run = 0; C0.forEach((x, i) => { if (x.r > 0) run++; if (x.r <= 0 || i === C0.length - 1) { if (run) streaks.push({ n: run, end: x.r <= 0 ? C0[i - 1].y : x.y, open: x.r > 0 }); run = 0; } });
   const closed = streaks.filter(s => !s.open), longest = streaks.reduce((a, b) => b.n > a.n ? b : a, { n: 0 }), cur = streaks.length && streaks[streaks.length - 1].open ? streaks[streaks.length - 1].n : 0;

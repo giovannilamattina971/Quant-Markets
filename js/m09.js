@@ -2,7 +2,7 @@
 /* ===== Utilità ===== */
 const $ = s => document.querySelector(s);
 const DAY = 864e5, YR = 365.25 * DAY;
-const C = { gold: "#c9a54c", red: "#c0283f", green: "#3fae7a", grey: "#8e8e99", blue: "#5b8bd9", text: "#ececef", grid: "#24242b" };
+const C = { gold: "#A9822B", red: "#C4453B", green: "#1A8A5B", grey: "#8A97A8", blue: "#2F6FD1", text: "#13233A", grid: "#E8ECF1", teal: "#127C86" };
 const pct = (x, d = 1) => (x == null || isNaN(x)) ? "–" : (x * 100).toFixed(d).replace(".", ",") + "%";
 const num = (x, d = 2) => (x == null || isNaN(x)) ? "–" : x.toLocaleString("it-IT", { minimumFractionDigits: d, maximumFractionDigits: d, useGrouping: "always" });
 const cls = x => x > 0 ? "pos" : x < 0 ? "neg" : "";
@@ -15,10 +15,10 @@ const lb = (arr, v) => { let lo = 0, hi = arr.length; while (lo < hi) { const m 
 const MESI = ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"];
 const fmtD = s => { const [y, m, d] = s.split("-"); return `${d}/${m}/${y}`; };
 const LAYOUT = (o = {}) => Object.assign({
-  paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", font: { color: C.text, family: "Inter, Segoe UI, sans-serif", size: 12 },
-  margin: { l: 55, r: 20, t: 30, b: 45 }, xaxis: { gridcolor: C.grid, zerolinecolor: C.grid }, yaxis: { gridcolor: C.grid, zerolinecolor: "#444" },
+  paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", font: { color: "#3D4E63", family: "Figtree, Inter, Segoe UI, sans-serif", size: 12 },
+  margin: { l: 55, r: 20, t: 30, b: 45 }, xaxis: { gridcolor: C.grid, zerolinecolor: C.grid }, yaxis: { gridcolor: C.grid, zerolinecolor: "#C9D2DC" },
   legend: { orientation: "h", y: 1.12 }, hovermode: "x unified", separators: ",.",
-  hoverlabel: { bgcolor: "#111114", bordercolor: "#c9a54c", font: { color: "#ffffff", size: 14, family: "Inter, Segoe UI, sans-serif" }, namelength: -1 }
+  hoverlabel: { bgcolor: "#ffffff", bordercolor: "#127C86", font: { color: "#13233A", size: 14, family: "Inter, Segoe UI, sans-serif" }, namelength: -1 }
 }, o);
 const plot = (el, data, lay, cfg) => { const L = LAYOUT(lay); if (L.title && (L.title.text || typeof L.title === "string")) { const t = typeof L.title === "string" ? { text: L.title } : L.title; L.title = Object.assign({ y: 0.975, yref: "container", yanchor: "top", x: 0.01, xanchor: "left" }, t); L.margin = Object.assign({}, L.margin, { t: Math.max((L.margin || {}).t || 0, 72) }); if (L.showlegend !== false) L.legend = Object.assign({ orientation: "h", x: 0, xanchor: "left", y: 1.01, yanchor: "bottom" }, (lay || {}).legend || {}); } Object.keys(L).filter(k => /^[xy]axis\d*$/.test(k)).forEach(k => { L[k] = Object.assign({ gridcolor: C.grid, zerolinecolor: C.grid }, L[k]); }); (data || []).forEach(t => { if (t && t.type === "bar" && t.text && t.cliponaxis == null) t.cliponaxis = false; }); return Plotly.react(el, data, L, Object.assign({ displaylogo: false, responsive: true }, cfg)); };
 const table = (head, rows) => `<table><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</table>`;
@@ -245,7 +245,7 @@ ANS.annual = S => {
     <div class="grid2"><div>${d1}</div><div>${d2}</div></div>
     ${table(["Fascia di rendimento", "N. anni", "%", "Anni"], bk.map(([lo, hi]) => { const z = Y.filter(x => x.r >= lo && x.r < hi); return [lo < -1 ? "< " + pct(hi, 0) : hi > 1 ? "> " + pct(lo, 0) : pct(lo, 0) + " / " + pct(hi, 0), z.length, pct(z.length / Y.length, 0), `<span class="muted">${z.map(x => x.y).join(", ")}</span>`]; }))}`,
     draw() {
-      plot(i1, [{ x: a.map(x => x * 100), type: "histogram", xbins: { start: -50, end: 60, size: 5 }, marker: { color: C.gold, line: { color: "#000", width: 1 } }, hovertemplate: "%{x}%: %{y} anni<extra></extra>" }], { title: T("Istogramma dei rendimenti annuali (classi del 5%)"), xaxis: { ticksuffix: "%", gridcolor: C.grid }, yaxis: { title: "N. anni", gridcolor: C.grid }, hovermode: "closest" });
+      plot(i1, [{ x: a.map(x => x * 100), type: "histogram", xbins: { start: -50, end: 60, size: 5 }, marker: { color: C.gold, line: { color: "#ffffff", width: 1.5 } }, hovertemplate: "%{x}%: %{y} anni<extra></extra>" }], { title: T("Istogramma dei rendimenti annuali (classi del 5%)"), xaxis: { ticksuffix: "%", gridcolor: C.grid }, yaxis: { title: "N. anni", gridcolor: C.grid }, hovermode: "closest" });
       plot(i2, [{ x: Y.map(x => x.y), y: a.map(x => x * 100), type: "bar", marker: { color: a.map(x => x >= 0 ? C.green : C.red) }, hovertemplate: "%{x}: %{y:.1f}%<extra></extra>" }], { title: T("Rendimento per anno"), yaxis: { ticksuffix: "%", gridcolor: C.grid }, hovermode: "closest" });
     }
   };
@@ -714,7 +714,7 @@ function renderAdv() {
   // heatmap
   const M = monthly(S), Yr = yearly(S), yrsL = [...new Set(M.map(x => x.y))];
   const z = yrsL.map(y => [...MESI.map((_, k) => { const r = M.find(x => x.y === y && x.m === k + 1); return r ? +(r.r * 100).toFixed(2) : null; }), (() => { const r = Yr.find(x => x.y === y); return r ? +(r.r * 100).toFixed(2) : null; })()]);
-  plot(hi1, [{ z, x: [...MESI, "Anno"], y: yrsL.map(String), type: "heatmap", colorscale: [[0, "#8b1e2f"], [0.5, "#1b1b21"], [1, "#2f8f5f"]], zmid: 0, zmin: -15, zmax: 15, text: z.map(r => r.map(v => v == null ? "" : v.toFixed(1))), texttemplate: yrsL.length <= 40 ? "%{text}" : "", hovertemplate: "%{y} %{x}: %{z:.2f}%<extra></extra>", colorbar: { ticksuffix: "%" } }], { yaxis: { autorange: "reversed", type: "category", gridcolor: C.grid }, hovermode: "closest", margin: { l: 50, r: 20, t: 20, b: 30 } });
+  plot(hi1, [{ z, x: [...MESI, "Anno"], y: yrsL.map(String), type: "heatmap", colorscale: [[0, "#C4453B"], [0.5, "#F4F6F9"], [1, "#1A8A5B"]], zmid: 0, zmin: -15, zmax: 15, text: z.map(r => r.map(v => v == null ? "" : v.toFixed(1))), texttemplate: yrsL.length <= 40 ? "%{text}" : "", hovertemplate: "%{y} %{x}: %{z:.2f}%<extra></extra>", colorbar: { ticksuffix: "%" } }], { yaxis: { autorange: "reversed", type: "category", gridcolor: C.grid }, hovermode: "closest", margin: { l: 50, r: 20, t: 20, b: 30 } });
   // confronto
   const drawCmp = () => {
     const ks = [...document.querySelectorAll(".cmpk:checked")].map(x => x.value); if (!ks.length) return;
@@ -727,7 +727,7 @@ function renderAdv() {
     const R = maps.map(m => common.slice(1).map((d, i) => m.get(d) / m.get(common[i]) - 1));
     const corr = (a, b) => { const ma = mean(a), mb = mean(b); let n = 0, x = 0, y = 0; for (let i = 0; i < a.length; i++) { n += (a[i] - ma) * (b[i] - mb); x += (a[i] - ma) ** 2; y += (b[i] - mb) ** 2; } return n / Math.sqrt(x * y); };
     const Cm = R.map(a => R.map(b => +corr(a, b).toFixed(2))), names = SS.map(s => s.name.replace(" in EUR", "").replace(/ \(reale.*\)/, ""));
-    plot(mi1, [{ z: Cm, x: names, y: names, type: "heatmap", colorscale: [[0, "#1b1b21"], [1, C.gold]], zmin: 0, zmax: 1, text: Cm.map(r => r.map(v => v.toFixed(2))), texttemplate: "%{text}", hovertemplate: "%{x} / %{y}: %{z}<extra></extra>" }], { title: T("Correlazione rendimenti giornalieri"), hovermode: "closest", margin: { l: 120, r: 20, t: 30, b: 80 } });
+    plot(mi1, [{ z: Cm, x: names, y: names, type: "heatmap", colorscale: [[0, "#F4F6F9"], [1, C.gold]], zmin: 0, zmax: 1, text: Cm.map(r => r.map(v => v.toFixed(2))), texttemplate: "%{text}", hovertemplate: "%{x} / %{y}: %{z}<extra></extra>" }], { title: T("Correlazione rendimenti giornalieri"), hovermode: "closest", margin: { l: 120, r: 20, t: 30, b: 80 } });
     const Y = (common.length - 1) / 252;
     $("#cmpTab").innerHTML = table(["Indice", "Rend. totale", "CAGR", "Volatilità", "Sharpe (rf=0)", "Max DD"], SS.map((s, k) => { const eq = common.map(d => maps[k].get(d)), m = metrics(common, eq); return [s.name, pc(m.tot, 0), pc(m.cagr, 2), pct(m.vol), num(m.sharpe), pc(m.md)]; }));
   };

@@ -16,31 +16,37 @@ function lightFig(gd) {
 async function chartPng(gd) { const f = lightFig(gd); return Plotly.toImage({ data: f.data, layout: f.layout }, { format: "png", width: 1100, height: 520 }); }
 function newDoc() { const { jsPDF } = window.jspdf; return new jsPDF({ unit: "mm", format: "a4", compress: true }); }
 function pdfCover(doc, title, sub) {
-  doc.setFillColor(15, 15, 18); doc.rect(0, 0, 210, 297, "F"); doc.setFillColor(201, 165, 76); doc.rect(20, 92, 40, 1.2, "F");
-  doc.setTextColor(201, 165, 76); doc.setFont("helvetica", "bold"); doc.setFontSize(12); doc.text(pdfTxt(BRAND).toUpperCase(), 20, 80);
-  doc.setTextColor(255, 255, 255); doc.setFontSize(26); doc.text(doc.splitTextToSize(pdfTxt(title), 170), 20, 110);
-  doc.setFont("helvetica", "normal"); doc.setFontSize(12); doc.setTextColor(200, 200, 200); doc.text(doc.splitTextToSize(pdfTxt(sub || ""), 170), 20, 135);
-  doc.setFontSize(10); doc.setTextColor(150, 150, 150); doc.text("Data: " + new Date().toLocaleDateString("it-IT", { day: "2-digit", month: "long", year: "numeric" }), 20, 270);
-  doc.text("Documento informativo – non costituisce consulenza personalizzata", 20, 276);
+  const INK = [19, 35, 58], LAG = [18, 124, 134], SL = [94, 110, 130];
+  if (window.__pdfCoverImg) doc.addImage(window.__pdfCoverImg, "JPEG", 0, 0, 210, 297);
+  else { doc.setFillColor(244, 246, 249); doc.rect(0, 0, 210, 297, "F"); doc.setFillColor(...INK); doc.roundedRect(20, 24, 14, 14, 3, 3, "F"); doc.setTextColor(255, 255, 255); doc.setFont("helvetica", "bold"); doc.setFontSize(7.5); doc.text("GLM", 27, 32.4, { align: "center" }); doc.setTextColor(...INK); doc.setFontSize(11); doc.text("Quant Markets", 38, 32.6); }
+  // area testo nella metà inferiore
+  doc.setFillColor(255, 255, 255); doc.roundedRect(16, 168, 178, 96, 4, 4, "F");
+  doc.setFillColor(...LAG); doc.rect(24, 178, 24, 1.2, "F");
+  doc.setTextColor(...INK); doc.setFont("helvetica", "bold"); doc.setFontSize(24); const T = doc.splitTextToSize(pdfTxt(title), 160); doc.text(T, 24, 192);
+  doc.setFont("helvetica", "normal"); doc.setFontSize(11.5); doc.setTextColor(...SL); doc.text(doc.splitTextToSize(pdfTxt(sub || ""), 160), 24, 194 + T.length * 9);
+  doc.setFontSize(9.5); doc.setTextColor(...INK); doc.setFont("helvetica", "bold"); doc.text(pdfTxt(BRAND), 24, 250);
+  doc.setFont("helvetica", "normal"); doc.setTextColor(...SL); doc.text("Data: " + new Date().toLocaleDateString("it-IT", { day: "2-digit", month: "long", year: "numeric" }) + "   ·   Documento informativo, non costituisce consulenza personalizzata", 24, 256);
 }
+// copertina disegnata in Canva (assets/pdf_cover.jpg): caricata una volta come immagine
+(function loadCover() { try { const im = new Image(); im.onload = () => { const c = document.createElement("canvas"); c.width = im.naturalWidth; c.height = im.naturalHeight; c.getContext("2d").drawImage(im, 0, 0); window.__pdfCoverImg = c.toDataURL("image/jpeg", .9); }; im.src = "assets/pdf_cover.jpg"; } catch (e) { /* si usa la copertina disegnata dal programma */ } })();
 function pdfWriter(doc, title) {
   const W = 210, M = 15, TOP = 22, BOT = 282; let y = TOP, page = 1;
-  const header = () => { doc.setFillColor(15, 15, 18); doc.rect(0, 0, W, 12, "F"); doc.setFillColor(201, 165, 76); doc.rect(0, 12, W, .6, "F");
-    doc.setFont("helvetica", "bold"); doc.setFontSize(8); doc.setTextColor(201, 165, 76); doc.text(pdfTxt(BRAND), M, 7.8); doc.setTextColor(220, 220, 220); doc.setFont("helvetica", "normal"); doc.text(pdfTxt(title), W - M, 7.8, { align: "right" });
+  const header = () => { doc.setFillColor(19, 35, 58); doc.roundedRect(M, 5.2, 6, 6, 1.2, 1.2, "F"); doc.setFont("helvetica", "bold"); doc.setFontSize(4.2); doc.setTextColor(255, 255, 255); doc.text("GLM", M + 3, 8.9, { align: "center" }); doc.setFillColor(18, 124, 134); doc.rect(M, 14, W - 2 * M, .35, "F");
+    doc.setFontSize(8); doc.setTextColor(19, 35, 58); doc.text(pdfTxt(BRAND), M + 8, 9.3); doc.setTextColor(94, 110, 130); doc.setFont("helvetica", "normal"); doc.text(pdfTxt(title), W - M, 9.3, { align: "right" });
     doc.setFontSize(7); doc.setTextColor(140, 140, 140); doc.text("Pag. " + (++page), W - M, 290, { align: "right" }); doc.text("Dati storici, non previsioni. Vedi avvertenze finali.", M, 290); };
   const add = () => { doc.addPage(); header(); y = TOP; };
   const need = h => { if (y + h > BOT) add(); };
   add();
   const w = {
-    h(t, lvl = 2) { need(14); doc.setFont("helvetica", "bold"); doc.setFontSize(lvl === 2 ? 15 : 12); doc.setTextColor(30, 30, 34); const L = doc.splitTextToSize(pdfTxt(t), W - 2 * M); doc.text(L, M, y + 5); y += L.length * (lvl === 2 ? 6.5 : 5.2) + 2; doc.setFillColor(201, 165, 76); doc.rect(M, y - 1, lvl === 2 ? 30 : 14, .5, "F"); y += 3; },
+    h(t, lvl = 2) { need(14); doc.setFont("helvetica", "bold"); doc.setFontSize(lvl === 2 ? 15 : 12); doc.setTextColor(19, 35, 58); const L = doc.splitTextToSize(pdfTxt(t), W - 2 * M); doc.text(L, M, y + 5); y += L.length * (lvl === 2 ? 6.5 : 5.2) + 2; doc.setFillColor(18, 124, 134); doc.rect(M, y - 1, lvl === 2 ? 22 : 10, .6, "F"); y += 3; },
     p(t, o = {}) { t = pdfTxt(t); if (!t) return; doc.setFont("helvetica", o.bold ? "bold" : "normal"); doc.setFontSize(o.size || 9.5); doc.setTextColor(...(o.color || [40, 40, 45])); const L = doc.splitTextToSize(t, W - 2 * M - (o.box ? 6 : 0)); const h = L.length * (o.size || 9.5) * .42 + 2;
-      if (o.box) { need(h + 4); doc.setFillColor(248, 245, 236); doc.rect(M, y - 1, W - 2 * M, h + 3, "F"); doc.setFillColor(201, 165, 76); doc.rect(M, y - 1, 1, h + 3, "F"); doc.text(L, M + 4, y + 3.2); y += h + 5; }
+      if (o.box) { need(h + 4); doc.setFillColor(242, 248, 248); doc.roundedRect(M, y - 1, W - 2 * M, h + 3, 1.5, 1.5, "F"); doc.setFillColor(18, 124, 134); doc.rect(M, y - 1, 1, h + 3, "F"); doc.text(L, M + 4, y + 3.2); y += h + 5; }
       else { for (const line of L) { need(5); doc.text(line, M, y + 3.2); y += (o.size || 9.5) * .42; } y += 2.5; } },
-    kpis(items) { if (!items.length) return; const n = Math.min(4, items.length), cw = (W - 2 * M - (n - 1) * 3) / n; for (let i = 0; i < items.length; i += n) { need(19); items.slice(i, i + n).forEach(([a, b], k) => { const x = M + k * (cw + 3); doc.setFillColor(246, 246, 248); doc.rect(x, y, cw, 16, "F"); doc.setFillColor(201, 165, 76); doc.rect(x, y, .9, 16, "F"); doc.setFontSize(7); doc.setTextColor(110, 110, 115); doc.setFont("helvetica", "normal"); doc.text(doc.splitTextToSize(pdfTxt(a).toUpperCase(), cw - 4)[0], x + 3, y + 5); doc.setFontSize(12.5); doc.setFont("helvetica", "bold"); doc.setTextColor(25, 25, 30); doc.text(pdfTxt(b), x + 3, y + 12.5); }); y += 19; } },
+    kpis(items) { if (!items.length) return; const n = Math.min(4, items.length), cw = (W - 2 * M - (n - 1) * 3) / n; for (let i = 0; i < items.length; i += n) { need(19); items.slice(i, i + n).forEach(([a, b], k) => { const x = M + k * (cw + 3); doc.setFillColor(244, 246, 249); doc.roundedRect(x, y, cw, 16, 1.5, 1.5, "F"); doc.setFontSize(7); doc.setTextColor(110, 110, 115); doc.setFont("helvetica", "normal"); doc.text(doc.splitTextToSize(pdfTxt(a), cw - 4)[0], x + 3, y + 5); doc.setFontSize(12.5); doc.setFont("helvetica", "bold"); doc.setTextColor(19, 35, 58); doc.text(pdfTxt(b), x + 3, y + 12.5); }); y += 19; } },
     table(rows, o = {}) { if (!rows.length) return; const nc = Math.max(...rows.map(r => r.length)); const fs = nc > 10 ? 5.8 : nc > 7 ? 6.8 : 7.8; const avail = W - 2 * M; const first = nc > 7 ? 38 : nc > 3 ? Math.min(52, avail * 0.3) : avail / nc; const cw = nc > 1 ? (avail - first) / (nc - 1) : avail;
       const draw = (r, hdr, ri) => { doc.setFontSize(hdr ? fs - 0.6 : fs); doc.setFont("helvetica", hdr ? "bold" : "normal"); const cells = r.map((c, j) => doc.splitTextToSize(pdfTxt(c.t), (j ? cw : first) - 2)); const h = Math.max(...cells.map(c => c.length)) * fs * .4 + 2.4; need(h);
-        if (hdr) { doc.setFillColor(28, 28, 33); doc.rect(M, y, avail, h, "F"); } else if (ri % 2) { doc.setFillColor(248, 248, 250); doc.rect(M, y, avail, h, "F"); }
-        r.forEach((c, j) => { const x = M + (j ? first + (j - 1) * cw : 0); if (c.bg && !hdr) { doc.setFillColor(...c.bg); doc.rect(x, y, j ? cw : first, h, "F"); } doc.setTextColor(...(hdr ? [230, 200, 120] : c.col || [35, 35, 40])); doc.text(cells[j], x + 1, y + fs * .4 + .6); });
+        if (hdr) { doc.setFillColor(19, 35, 58); doc.rect(M, y, avail, h, "F"); } else if (ri % 2) { doc.setFillColor(246, 248, 250); doc.rect(M, y, avail, h, "F"); }
+        r.forEach((c, j) => { const x = M + (j ? first + (j - 1) * cw : 0); if (c.bg && !hdr) { doc.setFillColor(...c.bg); doc.rect(x, y, j ? cw : first, h, "F"); } doc.setTextColor(...(hdr ? [255, 255, 255] : c.col || [19, 35, 58])); doc.text(cells[j], x + 1, y + fs * .4 + .6); });
         y += h; return h; };
       draw(rows[0], true, 0); rows.slice(1).forEach((r, i) => { if (y + 6 > BOT) { add(); draw(rows[0], true, 0); } draw(r, false, i); }); y += 4; },
     async chart(gd, cap) { const img = await chartPng(gd); const h = (W - 2 * M) * 520 / 1100; need(h + 4); doc.addImage(img, "PNG", M, y, W - 2 * M, h); y += h + 2; if (cap) w.p(cap, { size: 7.5, color: [110, 110, 110] }); },
@@ -66,7 +72,7 @@ async function pdfSection(w, root) {
     else if (el.matches(".js-plotly-plot") && el.data && el.data.length) await w.chart(el);
   }
 }
-function pdfEnd(w) { w.add(); w.h("Avvertenze e fonti dei dati", 2); w.p(DISCL_TXT, { box: true }); w.p(SOURCES_TXT, { size: 8.5 }); w.p("Verifiche: livelli MSCI confrontati con i rendimenti annuali pubblicati (es. MSCI EM 2008 -53,3%, 2017 +37,3% Net USD; MSCI World 2008 -40,7%); inflazione confrontata con i dati ufficiali (HICP area euro dic-2022 +9,2%, CPI Italia dic-2022 +11,6%). Dettagli nella sezione 'Info dati' della piattaforma.", { size: 8.5 }); w.p(BRAND, { bold: true, size: 10, color: [150, 120, 40] }); }
+function pdfEnd(w) { w.add(); w.h("Avvertenze e fonti dei dati", 2); w.p(DISCL_TXT, { box: true }); w.p(SOURCES_TXT, { size: 8.5 }); w.p("Verifiche: livelli MSCI confrontati con i rendimenti annuali pubblicati (es. MSCI EM 2008 -53,3%, 2017 +37,3% Net USD; MSCI World 2008 -40,7%); inflazione confrontata con i dati ufficiali (HICP area euro dic-2022 +9,2%, CPI Italia dic-2022 +11,6%). Dettagli nella sezione 'Info dati' della piattaforma.", { size: 8.5 }); w.p(BRAND, { bold: true, size: 10, color: [19, 35, 58] }); }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function makePdf({ title, sub, file, parts }) {
   const back = document.querySelector(".tab.on").id; const doc = newDoc(); pdfCover(doc, title, sub); const w = pdfWriter(doc, title);

@@ -96,5 +96,5 @@ XL.page("cx_rot", ["XTRA", "PESNAP"], o => {
   const yrs = [...new Set(bench.d.map(d => d.slice(0, 4)))].filter(y => y >= "1999");
   const z = [], txt = [];
   SECTS.forEach(([k]) => { const s = XL.get("ASSETS:" + k); const row = [], tr = []; yrs.forEach(y => { const a = XL.at(s, (+y - 1) + "-12-31"), b = XL.at(s, y + "-12-31"); const v = s && s.d[0] <= (+y - 1) + "-12-31" ? b / a - 1 : NaN; row.push(isFinite(v) ? v * 100 : null); tr.push(isFinite(v) ? (v * 100).toFixed(0) + "%" : ""); }); z.push(row); txt.push(tr); });
-  plot(i4, [{ type: "heatmap", z, x: yrs, y: SECTS.map(s => s[1]), text: txt, texttemplate: "%{text}", colorscale: [[0, "#7a1f2c"], [.5, "#1b1b21"], [1, "#2b7a52"]], zmid: 0, zmin: -40, zmax: 40, showscale: false, hovertemplate: "%{y} %{x}: %{text}<extra></extra>" }], { title: "Rendimento annuale per settore", hovermode: "closest", margin: { l: 150 }, height: 460 });
+  plot(i4, [{ type: "heatmap", z, x: yrs, y: SECTS.map(s => s[1]), text: txt, texttemplate: "%{text}", colorscale: [[0, "#C4453B"], [.5, "#F4F6F9"], [1, "#1A8A5B"]], zmid: 0, zmin: -40, zmax: 40, showscale: false, hovertemplate: "%{y} %{x}: %{text}<extra></extra>" }], { title: "Rendimento annuale per settore", hovermode: "closest", margin: { l: 150 }, height: 460 });
 });
