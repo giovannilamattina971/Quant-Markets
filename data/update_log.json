@@ -1,5 +1,5 @@
 {
- "run": "2026-11-19T20:24:44Z",
+ "run": "2026-11-19T20:33:34Z",
  "series": {
   "MKT.^GSPC": {
    "status": "ok",
@@ -250,19 +250,19 @@
   "ASSETS.CRUD": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo CRUD.MI, scarto aggancio 2.74%)",
+   "note": "+0 sedute (Yahoo CRUD.MI, scarto aggancio 0.00%)",
    "src": "Yahoo CRUD.MI"
   },
   "ASSETS.BRNT": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo BRNT.MI, scarto aggancio 3.16%)",
+   "note": "+0 sedute (Yahoo BRNT.MI, scarto aggancio 0.00%)",
    "src": "Yahoo BRNT.MI"
   },
   "ASSETS.IGLN": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo SGLD.MI, scarto aggancio 0.40%)",
+   "note": "+0 sedute (Yahoo SGLD.MI, scarto aggancio 0.00%)",
    "src": "Yahoo SGLD.MI"
   },
   "ASSETS.XGLD": {
@@ -274,8 +274,8 @@
   "ASSETS.PHAG": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "+14 sedute (Yahoo PHAG.AS, scarto aggancio 2.10%)",
-   "src": "Yahoo PHAG.AS"
+   "note": "+0 sedute (Yahoo PHAG.MI, scarto aggancio 0.12%)",
+   "src": "Yahoo PHAG.MI"
   },
   "ASSETS.FSPV": {
    "status": "ok",
@@ -334,7 +334,7 @@
   "ASSETS.MSCIEM_EUR": {
    "status": "ok",
    "last": "2026-10-30",
-   "note": "+1 mesi",
+   "note": "+0 mesi",
    "src": "MSCI 891800 NETR EUR"
   },
   "ASSETS.MSCIWD": {
@@ -604,26 +604,26 @@
   "ASSETS.UST10C": {
    "status": "ok",
    "last": "2026-10-31",
-   "note": "+1 mesi (calcolato)",
+   "note": "+0 mesi (calcolato)",
    "src": "FRED DGS10"
   },
   "ASSETS.UST2C": {
    "status": "ok",
    "last": "2026-10-31",
-   "note": "+1 mesi (calcolato)",
+   "note": "+0 mesi (calcolato)",
    "src": "FRED DGS2"
   },
   "ASSETS.BTP10C": {
    "status": "ok",
    "last": "2026-10-31",
-   "note": "+2 mesi (calcolato)",
+   "note": "+0 mesi (calcolato)",
    "src": "FRED IRLTLT01ITM156N"
   },
   "ASSETS.CASH": {
-   "status": "ok",
-   "last": "2026-10-31",
-   "note": "+1 mesi (calcolato)",
-   "src": "FRED TB3MS"
+   "status": "ERRORE",
+   "last": null,
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
+   "src": ""
   },
   "ASSETS.GOLDWB": {
    "status": "manuale",
@@ -874,25 +874,25 @@
   "YIELDS.DGS10": {
    "status": "ok",
    "last": "2026-10-31",
-   "note": "+2",
+   "note": "+1",
    "src": "FRED DGS10"
   },
   "YIELDS.DGS2": {
    "status": "ok",
    "last": "2026-10-31",
-   "note": "+2",
+   "note": "+1",
    "src": "FRED DGS2"
   },
   "YIELDS.TB3MS": {
    "status": "ERRORE",
    "last": null,
-   "note": "ValueError: fonte diversa dallo storico (scarto max 0.191)",
+   "note": "RuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)",
    "src": ""
   },
   "YIELDS.IRLTLT01ITM156N": {
    "status": "ok",
    "last": "2026-10-31",
-   "note": "+2",
+   "note": "+0",
    "src": "FRED IRLTLT01ITM156N"
   },
   "YIELDS._rates.DFF": {
@@ -922,13 +922,13 @@
   "MACROF.GS10": {
    "status": "ok",
    "last": "2026-10",
-   "note": "+1",
+   "note": "+0",
    "src": "FRED GS10"
   },
   "MACROF.GS2": {
    "status": "ok",
    "last": "2026-10",
-   "note": "+1",
+   "note": "+0",
    "src": "FRED GS2"
   },
   "MACROF.CPIAUCSL": {
@@ -946,20 +946,20 @@
   "MACROF.IRLTLT01DEM156N": {
    "status": "ok",
    "last": "2026-10",
-   "note": "+1",
+   "note": "+0",
    "src": "FRED IRLTLT01DEM156N"
   },
   "MACROF.EXUSEU": {
    "status": "ok",
    "last": "2026-10",
-   "note": "+1",
+   "note": "+0",
    "src": "FRED EXUSEU"
   },
   "MACROF.CP0000EZ19M086NEST": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "ValueError: fonte diversa dallo storico (scarto max 28.970)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-09",
+   "note": "+0",
+   "src": "FRED CP0000EZ19M086NEST"
   },
   "MACRO.cpi": {
    "status": "ERRORE",
@@ -970,13 +970,13 @@
   "MACRO.eur": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+19",
+   "note": "+0",
    "src": "FRED DEXUSEU"
   },
   "BUND.DE10_OECD": {
    "status": "ok",
    "last": "2026-10-01",
-   "note": "+1",
+   "note": "+0",
    "src": "FRED IRLTLT01DEM156N"
   },
   "BUND.DE10_ECB": {
@@ -988,19 +988,19 @@
   "BUND.DE10_BBK": {
    "status": "ok",
    "last": "2026-10-01",
-   "note": "+1",
+   "note": "+0",
    "src": "Bundesbank BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A"
   },
   "BUND.DE5_BBK": {
    "status": "ok",
    "last": "2026-10-01",
-   "note": "+1",
+   "note": "+0",
    "src": "Bundesbank BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R05XX.R.A.A._Z._Z.A"
   },
   "BUND.DE2_BBK": {
    "status": "ok",
    "last": "2026-10-01",
-   "note": "+1",
+   "note": "+0",
    "src": "Bundesbank BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A"
   },
   "SIGNALS.T10Y2Y": {
@@ -1100,16 +1100,16 @@
    "src": "FRED DGS30"
   },
   "CURVE.DFII5": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "EmptyDataError: No columns to parse from file",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5974 osservazioni",
+   "src": "FRED DFII5"
   },
   "CURVE.DFII10": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "EmptyDataError: No columns to parse from file",
-   "src": ""
+   "status": "ok",
+   "last": "2026-11-18",
+   "note": "5974 osservazioni",
+   "src": "FRED DFII10"
   },
   "CURVE.T10YIE": {
    "status": "ERRORE",
@@ -1186,121 +1186,121 @@
   "EUCURVE.AAA_3M": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_1Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_2Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_3Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_5Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_7Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_10Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_15Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_20Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_30Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_3M": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_1Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_2Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_3Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_5Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_7Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_10Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_15Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_20Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_30Y": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5677 oss.",
+   "note": "15 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.GOV10_IT": {
@@ -1330,259 +1330,259 @@
   "XTRA.SPY": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "8510 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo SPY"
   },
   "XTRA.RSP": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5927 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo RSP"
   },
   "XTRA.QQQ": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6968 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo QQQ"
   },
   "XTRA.IWM": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6660 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo IWM"
   },
   "XTRA.GC=F": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6581 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo GC=F"
   },
   "XTRA.HG=F": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6585 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo HG=F"
   },
   "XTRA.CL=F": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6588 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo CL=F"
   },
   "XTRA.BZ=F": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "4807 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo BZ=F"
   },
   "XTRA.NG=F": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6586 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo NG=F"
   },
   "XTRA.SI=F": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6582 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo SI=F"
   },
   "XTRA.DX-Y.NYB": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "9398 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo DX-Y.NYB"
   },
   "XTRA.EURUSD=X": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5959 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo EURUSD=X"
   },
   "XTRA.^VIX": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "9291 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo ^VIX"
   },
   "XTRA.^VIX3M": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5119 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo ^VIX3M"
   },
   "XTRA.^VIX9D": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "3993 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo ^VIX9D"
   },
   "XTRA.^MOVE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5939 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo ^MOVE"
   },
   "XTRA.^SKEW": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "9215 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo ^SKEW"
   },
   "XTRA.HYG": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "4935 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo HYG"
   },
   "XTRA.LQD": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6117 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo LQD"
   },
   "XTRA.TIP": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5775 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo TIP"
   },
   "XTRA.BTC-USD": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "4446 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo BTC-USD"
   },
   "XTRA.^STOXX50E": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "4924 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo ^STOXX50E"
   },
   "XTRA.^GDAXI": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "9333 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo ^GDAXI"
   },
   "XTRA.FTSEMIB.MI": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7378 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo FTSEMIB.MI"
   },
   "XTRA.^N225": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "9048 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo ^N225"
   },
   "XTRA.EEM": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5939 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo EEM"
   },
   "XTRA.ACWI": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "4692 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo ACWI"
   },
   "XTRA.URTH": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "3735 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo URTH"
   },
   "XTRA.XLK": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7020 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLK"
   },
   "XTRA.XLF": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7020 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLF"
   },
   "XTRA.XLV": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7020 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLV"
   },
   "XTRA.XLE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7020 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLE"
   },
   "XTRA.XLY": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7020 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLY"
   },
   "XTRA.XLI": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7020 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLI"
   },
   "XTRA.XLP": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7020 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLP"
   },
   "XTRA.XLB": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7020 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLB"
   },
   "XTRA.XLU": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "7020 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLU"
   },
   "XTRA.XLRE": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "2795 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLRE"
   },
   "XTRA.XLC": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "2117 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo XLC"
   },
   "XTRA.SMH": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6655 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo SMH"
   },
   "XTRA.TLT": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6117 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo TLT"
   },
   "XTRA.IEF": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "6117 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo IEF"
   },
   "XTRA.GLD": {
    "status": "ok",
    "last": "2026-11-18",
-   "note": "5535 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo GLD"
   },
   "PESNAP": {
@@ -1595,303 +1595,297 @@
  "errors": [
   {
    "key": "ASSETS.BRENT",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 466, in <lambda>\n    run('ASSETS.BRENT', lambda: fred_daily('BRENT', 'DCOILBRENTEU'))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 461, in fred_daily\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 79, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid}, tries=1, timeout=20)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 467, in <lambda>\n    run('ASSETS.BRENT', lambda: fred_daily('BRENT', 'DCOILBRENTEU'))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 462, in fred_daily\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 79, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid}, tries=1, timeout=20)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\n"
   },
   {
    "key": "ASSETS.WTI",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 467, in <lambda>\n    run('ASSETS.WTI', lambda: fred_daily('WTI', 'DCOILWTICO'))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 461, in fred_daily\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 79, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid}, tries=1, timeout=20)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 468, in <lambda>\n    run('ASSETS.WTI', lambda: fred_daily('WTI', 'DCOILWTICO'))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 462, in fred_daily\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 79, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid}, tries=1, timeout=20)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\n"
+  },
+  {
+   "key": "ASSETS.CASH",
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 505, in <lambda>\n    run('ASSETS.CASH', lambda: bond('CASH', 'TB3MS', 0, 'avg'))\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 486, in bond\n    ys = series(sid)\n         ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "YIELDS.TB3MS",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 522, in one\n    n = append_values(Y[k], s, k, 'D', check_tol=0.06)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 295, in append_values\n    raise ValueError(f'fonte diversa dallo storico (scarto max {max(diffs):.3f})')\nValueError: fonte diversa dallo storico (scarto max 0.191)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 520, in one\n    s = series(sid)\n        ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "YIELDS._rates.DFF",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 542, in <lambda>\n    run('YIELDS._rates.' + k, lambda k=k: changes(k, k))\n                                          ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 532, in changes\n    s = series(sid)\n        ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 543, in <lambda>\n    run('YIELDS._rates.' + k, lambda k=k: changes(k, k))\n                                          ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 533, in changes\n    s = series(sid)\n        ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "YIELDS._rates.FEDFUNDS",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 546, in fedfunds\n    n = append_values(o, fred('FEDFUNDS'), 'FEDFUNDS', 'M01', check_tol=0.05)\n                         ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 547, in fedfunds\n    n = append_values(o, fred('FEDFUNDS'), 'FEDFUNDS', 'M01', check_tol=0.05)\n                         ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "MACROF.CPIAUCSL",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 554, in one\n    n = append_values(MF[k], series(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 555, in one\n    ser = series(k)\n          ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "MACROF.USREC",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 554, in one\n    n = append_values(MF[k], series(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n                             ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
-  },
-  {
-   "key": "MACROF.CP0000EZ19M086NEST",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 554, in one\n    n = append_values(MF[k], series(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 295, in append_values\n    raise ValueError(f'fonte diversa dallo storico (scarto max {max(diffs):.3f})')\nValueError: fonte diversa dallo storico (scarto max 28.970)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 555, in one\n    ser = series(k)\n          ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "MACRO.cpi",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 562, in cpi\n    n = append_values(MA['cpi'], fred('CPIAUCNS'), 'cpi', 'M', check_tol=0.3)\n                                 ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 570, in cpi\n    n = append_values(MA['cpi'], fred('CPIAUCNS'), 'cpi', 'M', check_tol=0.3)\n                                 ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "SIGNALS.HY",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 604, in one\n    n = append_values(S[k], month_end(series(sid)), k, 'M', complete_months=False, check_tol=0.08)\n                                      ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 612, in one\n    n = append_values(S[k], month_end(series(sid)), k, 'M', complete_months=False, check_tol=0.08)\n                                      ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "SIGNALS.BAA10Y",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 604, in one\n    n = append_values(S[k], month_end(series(sid)), k, 'M', complete_months=False, check_tol=0.08)\n                                      ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 612, in one\n    n = append_values(S[k], month_end(series(sid)), k, 'M', complete_months=False, check_tol=0.08)\n                                      ^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "SIGNALS.USREC",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 609, in usrec\n    n = append_values(S['USREC'], fred('USREC'), 'USREC', 'M', check_tol=0.5)\n                                  ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
-  },
-  {
-   "key": "CURVE.DFII5",
-   "err": "^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 115, in treasury_year\n    df = pd.read_csv(io.StringIO(r.text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 1866, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 423, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 2721, in __init__\n    self._engine = self._make_engine(f, self.engine)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 3006, in _make_engine\n    return mapping[engine](f, **self.options)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 107, in __init__\n    self._reader = parsers.TextReader(src, **kwds)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 735, in pandas._libs.parsers.TextReader.__cinit__\npandas.errors.EmptyDataError: No columns to parse from file\n"
-  },
-  {
-   "key": "CURVE.DFII10",
-   "err": "^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 115, in treasury_year\n    df = pd.read_csv(io.StringIO(r.text))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 1866, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 423, in _read\n    parser = TextFileReader(filepath_or_buffer, **kwds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 2721, in __init__\n    self._engine = self._make_engine(f, self.engine)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py\", line 3006, in _make_engine\n    return mapping[engine](f, **self.options)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 107, in __init__\n    self._reader = parsers.TextReader(src, **kwds)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 735, in pandas._libs.parsers.TextReader.__cinit__\npandas.errors.EmptyDataError: No columns to parse from file\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 617, in usrec\n    n = append_values(S['USREC'], fred('USREC'), 'USREC', 'M', check_tol=0.5)\n                                  ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.T10YIE",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.T5YIFR",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.T10Y3M",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.BAMLH0A0HYM2",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.BAMLC0A0CM",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.BAMLHE00EHYIOAS",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.BAA10Y",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.NFCI",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.STLFSI4",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.SOFR",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   },
   {
    "key": "CURVE.DTWEXBGS",
-   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 338, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 317, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 647, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 149, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 136, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
+   "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 655, in one\n    s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 150, in series\n    raise e\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 139, in series\n    return fred(sid)\n           ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 77, in fred\n    raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')\nRuntimeError: FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)\n"
   }
  ],
  "timing": {
-  "MKT.^GSPC": 2.1,
+  "MKT.^GSPC": 0.9,
   "MKT.^DJI": 0.2,
   "MKT.^IXIC": 0.2,
-  "MKT.^NDX": 0.3,
+  "MKT.^NDX": 0.2,
   "MKT.^RUT": 0.2,
   "MKT.^VIX": 0.2,
-  "MKT.^SP500TR": 0.2,
-  "ASSETS.IEF": 0.2,
-  "ASSETS.TLT": 0.2,
-  "ASSETS.SHY": 0.2,
+  "MKT.^SP500TR": 0.3,
+  "ASSETS.IEF": 0.3,
+  "ASSETS.TLT": 0.3,
+  "ASSETS.SHY": 0.3,
   "ASSETS.AGG": 0.3,
   "ASSETS.GLD": 0.2,
-  "ASSETS.EEM": 0.2,
+  "ASSETS.EEM": 0.3,
   "ASSETS.VWO": 0.3,
   "ASSETS.EFA": 0.3,
   "ASSETS.URTH": 0.2,
   "ASSETS.SWDA.MI": 0.2,
-  "ASSETS.XEON.DE": 0.2,
-  "ASSETS.VWRL.AS": 0.4,
+  "ASSETS.XEON.DE": 0.3,
+  "ASSETS.VWRL.AS": 0.2,
   "ASSETS.VUSA.AS": 0.2,
-  "ASSETS.VAGF.DE": 0.1,
-  "ASSETS.CSBGE3.MI": 0.1,
-  "ASSETS.IBGX.AS": 0.2,
-  "ASSETS.SXRQ.DE": 0.2,
-  "ASSETS.SXRT.DE": 0.3,
-  "ASSETS.DJP": 0.2,
-  "ASSETS.XLK": 0.2,
-  "ASSETS.XLF": 0.2,
+  "ASSETS.VAGF.DE": 0.2,
+  "ASSETS.CSBGE3.MI": 0.2,
+  "ASSETS.IBGX.AS": 0.3,
+  "ASSETS.SXRQ.DE": 0.3,
+  "ASSETS.SXRT.DE": 0.2,
+  "ASSETS.DJP": 0.3,
+  "ASSETS.XLK": 0.3,
+  "ASSETS.XLF": 0.3,
   "ASSETS.XLV": 0.3,
   "ASSETS.XLE": 0.3,
   "ASSETS.XLY": 0.3,
-  "ASSETS.XLI": 0.2,
-  "ASSETS.XLP": 0.2,
-  "ASSETS.XLB": 0.2,
-  "ASSETS.XLU": 0.2,
+  "ASSETS.XLI": 0.3,
+  "ASSETS.XLP": 0.3,
+  "ASSETS.XLB": 0.3,
+  "ASSETS.XLU": 0.3,
   "ASSETS.XLRE": 0.2,
-  "ASSETS.XLC": 0.2,
+  "ASSETS.XLC": 0.3,
   "ASSETS.AGGI": 0.2,
-  "ASSETS.IE15": 7.5,
+  "ASSETS.IE15": 7.4,
   "ASSETS.CMOD": 0.2,
-  "ASSETS.EMBE": 0.2,
+  "ASSETS.EMBE": 0.3,
   "ASSETS.CRUD": 0.2,
-  "ASSETS.BRNT": 0.1,
-  "ASSETS.IGLN": 7.8,
-  "ASSETS.XGLD": 0.2,
-  "ASSETS.PHAG": 6.8,
+  "ASSETS.BRNT": 0.2,
+  "ASSETS.IGLN": 7.5,
+  "ASSETS.XGLD": 0.3,
+  "ASSETS.PHAG": 0.2,
   "ASSETS.FSPV": 0.3,
-  "ASSETS.FSPG": 0.2,
+  "ASSETS.FSPG": 0.3,
   "ASSETS.FSPEW": 0.3,
-  "ASSETS.FSDY": 0.5,
-  "ASSETS.FSPHD": 0.3,
+  "ASSETS.FSDY": 0.3,
+  "ASSETS.FSPHD": 0.2,
   "ASSETS.FSPY": 0.3,
   "ASSETS.FSPEWU": 0.2,
-  "ASSETS.FSDYU": 0.2,
+  "ASSETS.FSDYU": 0.3,
   "ASSETS.MSCIEM": 0.6,
   "ASSETS.MSCIEM_EUR": 0.4,
-  "ASSETS.MSCIWD": 0.3,
-  "ASSETS.MSCIWD_EUR": 0.3,
-  "ASSETS.MSCIEMP": 0.3,
-  "ASSETS.MSCIEMP_EUR": 0.3,
-  "ASSETS.MSCIWDP": 0.3,
-  "ASSETS.MSCIWDP_EUR": 0.4,
+  "ASSETS.MSCIWD": 0.5,
+  "ASSETS.MSCIWD_EUR": 0.6,
+  "ASSETS.MSCIEMP": 0.5,
+  "ASSETS.MSCIEMP_EUR": 0.4,
+  "ASSETS.MSCIWDP": 0.5,
+  "ASSETS.MSCIWDP_EUR": 0.6,
   "ASSETS.FWORLD": 0.4,
-  "ASSETS.FWORLD_EUR": 0.4,
+  "ASSETS.FWORLD_EUR": 0.5,
   "ASSETS.MSCI_CN": 0.5,
   "ASSETS.MSCI_CN_EUR": 0.4,
-  "ASSETS.MSCI_IN": 0.3,
+  "ASSETS.MSCI_IN": 0.4,
   "ASSETS.MSCI_IN_EUR": 0.4,
-  "ASSETS.MSCI_KR": 0.4,
+  "ASSETS.MSCI_KR": 0.5,
   "ASSETS.MSCI_KR_EUR": 0.4,
   "ASSETS.MSCI_TW": 0.4,
-  "ASSETS.MSCI_TW_EUR": 0.4,
-  "ASSETS.MSCI_BR": 0.4,
+  "ASSETS.MSCI_TW_EUR": 0.5,
+  "ASSETS.MSCI_BR": 0.3,
   "ASSETS.MSCI_BR_EUR": 0.4,
-  "ASSETS.MSCI_SA": 0.3,
+  "ASSETS.MSCI_SA": 0.4,
   "ASSETS.MSCI_SA_EUR": 0.3,
-  "ASSETS.MSCI_ZA": 0.4,
-  "ASSETS.MSCI_ZA_EUR": 0.4,
-  "ASSETS.MSCI_MX": 0.4,
-  "ASSETS.MSCI_MX_EUR": 0.3,
+  "ASSETS.MSCI_ZA": 0.5,
+  "ASSETS.MSCI_ZA_EUR": 0.5,
+  "ASSETS.MSCI_MX": 0.3,
+  "ASSETS.MSCI_MX_EUR": 0.4,
   "ASSETS.FVAL": 0.4,
   "ASSETS.FVAL_EUR": 0.4,
   "ASSETS.FMOM": 0.4,
   "ASSETS.FMOM_EUR": 0.4,
-  "ASSETS.FQUAL": 0.4,
-  "ASSETS.FQUAL_EUR": 0.5,
-  "ASSETS.FSNQ": 0.3,
-  "ASSETS.FSNQ_EUR": 0.4,
+  "ASSETS.FQUAL": 0.5,
+  "ASSETS.FQUAL_EUR": 0.3,
+  "ASSETS.FSNQ": 0.4,
+  "ASSETS.FSNQ_EUR": 0.3,
   "ASSETS.FMINV": 0.4,
   "ASSETS.FMINV_EUR": 0.4,
   "ASSETS.FSMALL": 0.3,
-  "ASSETS.FSMALL_EUR": 0.5,
+  "ASSETS.FSMALL_EUR": 0.4,
   "ASSETS.FEQW": 0.4,
   "ASSETS.FEQW_EUR": 0.4,
-  "ASSETS.FHDY": 1.4,
+  "ASSETS.FHDY": 1.3,
   "ASSETS.FHDY_EUR": 0.4,
-  "ASSETS.CPI_EA": 4.6,
-  "ASSETS.CPI_IT": 5.4,
-  "ASSETS.UST10C": 0.7,
+  "ASSETS.CPI_EA": 4.2,
+  "ASSETS.CPI_IT": 1.9,
+  "ASSETS.UST10C": 1.1,
   "ASSETS.UST2C": 0.0,
-  "ASSETS.BTP10C": 3.0,
-  "ASSETS.CASH": 0.0,
+  "ASSETS.BTP10C": 0.9,
   "YIELDS.DGS10": 0.0,
   "YIELDS.DGS2": 0.0,
-  "YIELDS.IRLTLT01ITM156N": 0.4,
-  "YIELDS._rates.ECBDFR": 2.7,
-  "YIELDS._rates.ECBMRRFR": 6.2,
+  "YIELDS.IRLTLT01ITM156N": 0.6,
+  "YIELDS._rates.ECBDFR": 3.2,
+  "YIELDS._rates.ECBMRRFR": 2.4,
   "MACROF.GS10": 0.0,
   "MACROF.GS2": 0.0,
-  "MACROF.IRLTLT01DEM156N": 2.6,
-  "MACROF.EXUSEU": 1.7,
-  "MACRO.eur": 0.5,
-  "BUND.DE10_OECD": 0.3,
-  "BUND.DE10_ECB": 0.3,
-  "BUND.DE10_BBK": 0.7,
-  "BUND.DE5_BBK": 0.8,
-  "BUND.DE2_BBK": 0.4,
+  "MACROF.IRLTLT01DEM156N": 5.3,
+  "MACROF.EXUSEU": 2.5,
+  "MACROF.CP0000EZ19M086NEST": 0.5,
+  "MACRO.eur": 0.9,
+  "BUND.DE10_OECD": 0.5,
+  "BUND.DE10_ECB": 0.4,
+  "BUND.DE10_BBK": 1.6,
+  "BUND.DE5_BBK": 0.7,
+  "BUND.DE2_BBK": 0.7,
   "SIGNALS.T10Y2Y": 0.0,
   "SIGNALS.CAPE": 0.0,
   "SIGNALS.PE": 0.0,
-  "CURVE.DGS3MO": 10.2,
-  "CURVE.DGS6MO": 0.0,
-  "CURVE.DGS1": 0.0,
-  "CURVE.DGS2": 0.0,
-  "CURVE.DGS3": 0.0,
-  "CURVE.DGS5": 0.0,
-  "CURVE.DGS7": 0.0,
-  "CURVE.DGS10": 0.0,
-  "CURVE.DGS20": 0.0,
-  "CURVE.DGS30": 0.0,
-  "CURVE.T10Y2Y": 0.0,
-  "EUCURVE.AAA_3M": 6.4,
-  "EUCURVE.AAA_1Y": 2.4,
-  "EUCURVE.AAA_2Y": 1.7,
+  "CURVE.DGS3MO": 0.1,
+  "CURVE.DGS6MO": 0.1,
+  "CURVE.DGS1": 0.1,
+  "CURVE.DGS2": 0.1,
+  "CURVE.DGS3": 0.1,
+  "CURVE.DGS5": 0.1,
+  "CURVE.DGS7": 0.1,
+  "CURVE.DGS10": 0.1,
+  "CURVE.DGS20": 0.1,
+  "CURVE.DGS30": 0.1,
+  "CURVE.DFII5": 18.1,
+  "CURVE.DFII10": 0.0,
+  "CURVE.T10Y2Y": 0.1,
+  "EUCURVE.AAA_3M": 3.5,
+  "EUCURVE.AAA_1Y": 1.7,
+  "EUCURVE.AAA_2Y": 9.1,
   "EUCURVE.AAA_3Y": 4.6,
-  "EUCURVE.AAA_5Y": 5.6,
-  "EUCURVE.AAA_7Y": 3.4,
-  "EUCURVE.AAA_10Y": 5.9,
-  "EUCURVE.AAA_15Y": 4.8,
-  "EUCURVE.AAA_20Y": 4.3,
-  "EUCURVE.AAA_30Y": 2.5,
-  "EUCURVE.ALL_3M": 5.9,
-  "EUCURVE.ALL_1Y": 4.7,
-  "EUCURVE.ALL_2Y": 5.1,
-  "EUCURVE.ALL_3Y": 6.6,
-  "EUCURVE.ALL_5Y": 5.8,
-  "EUCURVE.ALL_7Y": 4.1,
-  "EUCURVE.ALL_10Y": 1.6,
-  "EUCURVE.ALL_15Y": 4.3,
-  "EUCURVE.ALL_20Y": 7.2,
-  "EUCURVE.ALL_30Y": 4.8,
-  "EUCURVE.GOV10_IT": 1.0,
-  "EUCURVE.GOV10_DE": 3.6,
-  "EUCURVE.GOV10_FR": 2.1,
-  "EUCURVE.GOV10_ES": 3.3,
-  "XTRA.SPY": 0.4,
-  "XTRA.RSP": 0.3,
-  "XTRA.QQQ": 0.5,
-  "XTRA.IWM": 0.4,
-  "XTRA.GC=F": 0.6,
+  "EUCURVE.AAA_5Y": 5.5,
+  "EUCURVE.AAA_7Y": 4.0,
+  "EUCURVE.AAA_10Y": 5.7,
+  "EUCURVE.AAA_15Y": 3.0,
+  "EUCURVE.AAA_20Y": 4.6,
+  "EUCURVE.AAA_30Y": 3.4,
+  "EUCURVE.ALL_3M": 8.2,
+  "EUCURVE.ALL_1Y": 3.1,
+  "EUCURVE.ALL_2Y": 1.9,
+  "EUCURVE.ALL_3Y": 4.5,
+  "EUCURVE.ALL_5Y": 9.7,
+  "EUCURVE.ALL_7Y": 3.0,
+  "EUCURVE.ALL_10Y": 4.2,
+  "EUCURVE.ALL_15Y": 3.9,
+  "EUCURVE.ALL_20Y": 3.1,
+  "EUCURVE.ALL_30Y": 2.8,
+  "EUCURVE.GOV10_IT": 0.7,
+  "EUCURVE.GOV10_DE": 1.5,
+  "EUCURVE.GOV10_FR": 1.9,
+  "EUCURVE.GOV10_ES": 1.7,
+  "XTRA.SPY": 0.2,
+  "XTRA.RSP": 0.2,
+  "XTRA.QQQ": 0.3,
+  "XTRA.IWM": 0.3,
+  "XTRA.GC=F": 0.3,
   "XTRA.HG=F": 0.3,
-  "XTRA.CL=F": 0.3,
+  "XTRA.CL=F": 0.2,
   "XTRA.BZ=F": 0.3,
-  "XTRA.NG=F": 0.4,
-  "XTRA.SI=F": 0.3,
-  "XTRA.DX-Y.NYB": 0.3,
-  "XTRA.EURUSD=X": 0.5,
+  "XTRA.NG=F": 0.2,
+  "XTRA.SI=F": 0.2,
+  "XTRA.DX-Y.NYB": 0.2,
+  "XTRA.EURUSD=X": 0.2,
   "XTRA.^VIX": 0.2,
-  "XTRA.^VIX3M": 0.4,
-  "XTRA.^VIX9D": 0.2,
-  "XTRA.^MOVE": 0.3,
-  "XTRA.^SKEW": 0.4,
+  "XTRA.^VIX3M": 0.2,
+  "XTRA.^VIX9D": 0.3,
+  "XTRA.^MOVE": 0.2,
+  "XTRA.^SKEW": 0.3,
   "XTRA.HYG": 0.3,
-  "XTRA.LQD": 0.5,
-  "XTRA.TIP": 0.4,
-  "XTRA.BTC-USD": 0.3,
-  "XTRA.^STOXX50E": 0.3,
-  "XTRA.^GDAXI": 0.5,
-  "XTRA.FTSEMIB.MI": 0.4,
-  "XTRA.^N225": 0.3,
-  "XTRA.EEM": 0.3,
-  "XTRA.ACWI": 0.6,
+  "XTRA.LQD": 0.3,
+  "XTRA.TIP": 0.3,
+  "XTRA.BTC-USD": 0.2,
+  "XTRA.^STOXX50E": 0.2,
+  "XTRA.^GDAXI": 0.2,
+  "XTRA.FTSEMIB.MI": 0.2,
+  "XTRA.^N225": 0.2,
+  "XTRA.EEM": 0.2,
+  "XTRA.ACWI": 0.3,
   "XTRA.URTH": 0.2,
-  "XTRA.XLK": 0.3,
-  "XTRA.XLF": 0.3,
-  "XTRA.XLV": 0.6,
-  "XTRA.XLE": 0.4,
-  "XTRA.XLY": 0.3,
-  "XTRA.XLI": 0.3,
-  "XTRA.XLP": 0.3,
-  "XTRA.XLB": 0.4,
-  "XTRA.XLU": 0.4,
+  "XTRA.XLK": 0.2,
+  "XTRA.XLF": 0.2,
+  "XTRA.XLV": 0.2,
+  "XTRA.XLE": 0.2,
+  "XTRA.XLY": 0.2,
+  "XTRA.XLI": 0.2,
+  "XTRA.XLP": 0.2,
+  "XTRA.XLB": 0.2,
+  "XTRA.XLU": 0.2,
   "XTRA.XLRE": 0.2,
   "XTRA.XLC": 0.2,
-  "XTRA.SMH": 0.4,
-  "XTRA.TLT": 0.3,
-  "XTRA.IEF": 0.4,
+  "XTRA.SMH": 0.3,
+  "XTRA.TLT": 0.2,
+  "XTRA.IEF": 0.2,
   "XTRA.GLD": 0.2
  },
  "tickers": {
@@ -1933,6 +1927,6 @@
   "BRNT": "BRNT.MI",
   "IGLN": "SGLD.MI",
   "XGLD": "4GLD.DE",
-  "PHAG": "PHAG.AS"
+  "PHAG": "PHAG.MI"
  }
 }
