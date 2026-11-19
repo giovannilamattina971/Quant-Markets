@@ -112,9 +112,12 @@ def treasury_year(year, real=False):
         typ = 'daily_treasury_real_yield_curve' if real else 'daily_treasury_yield_curve'
         r = get(f'https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/{year}/all',
                 {'type': typ, 'field_tdr_date_value': year, 'page': '', '_format': 'csv'}, timeout=40)
-        df = pd.read_csv(io.StringIO(r.text))
-        df['Date'] = pd.to_datetime(df['Date'])
-        _TSY[k] = df.set_index('Date').sort_index()
+        try:
+            df = pd.read_csv(io.StringIO(r.text))
+            df['Date'] = pd.to_datetime(df['Date'])
+            _TSY[k] = df.set_index('Date').sort_index()
+        except Exception:  # noqa: BLE001 - anni senza dati (es. tassi reali prima del 2003)
+            _TSY[k] = pd.DataFrame()
     return _TSY[k]
 
 
@@ -139,8 +142,6 @@ def series(sid, start_year=None):
             return ALT[sid]()
         if sid in TSY_COL or sid in TSY_REAL:
             return treasury(sid, start_year or (TODAY.year - 1))
-        if sid == 'TB3MS':
-            return month_avg(treasury('DGS3MO', start_year or TODAY.year - 1))
         if sid in ('GS10', 'GS2'):
             return month_avg(treasury('DGS' + sid[2:], start_year or TODAY.year - 1))
         if sid == 'T10Y2Y':
@@ -551,7 +552,14 @@ def upd_rates():
     MF = D.load('MACROF')
     for k in MF:
         def one(k=k):
-            n = append_values(MF[k], series(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)
+            ser = series(k)
+            if k.startswith('CP'):  # indici dei prezzi: la fonte alternativa può avere un'altra base (es. 2015=100) → si riscala
+                om = dict(zip(MF[k]['d'], MF[k]['v'])); nm = dict(zip(ser.index.strftime('%Y-%m'), ser.values))
+                ov = [m for m in MF[k]['d'][-24:] if m in nm]
+                if ov:
+                    rr = om[ov[-1]] / nm[ov[-1]]
+                    ser = ser * rr
+            n = append_values(MF[k], ser, k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)
             log('MACROF.' + k, 'ok', MF[k]['d'][-1], f'+{n}', 'FRED ' + k)
         run('MACROF.' + k, one)
     D.save('MACROF', MF)

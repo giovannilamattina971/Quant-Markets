@@ -33,8 +33,8 @@ XL.page("cx_rates", ["CURVE", "EUCURVE"], o => {
   o.innerHTML = XL.pdfBtn("cx_rates", "Curve dei tassi e obbligazioni", "Treasury, governativi euro, BTP, tassi reali, spread di credito, scenari sui rendimenti") + `
   <div class="card"><h3>Tassi oggi</h3><div class="kpis">
    <div class="kpi"><span>Treasury 10 anni</span><b>${num(lastV(Cv.DGS10)[1])}%</b><small class="muted">${usLast ? fmtD(usLast) : ""} · ${XL.pp(XL.pctl(Cv.DGS10.v, lastV(Cv.DGS10)[1]))} percentile dal 1990</small></div>
-   <div class="kpi"><span>Pendenza 10a − 2a</span><b>${num(s10)} pp</b><small class="muted">10a − 3 mesi: ${num(s3m)} pp</small></div>
-   <div class="kpi"><span>Tasso reale 10a (TIPS)</span><b>${num(ry)}%</b><small class="muted">inflazione attesa 10a: ${num(be)}%</small></div>
+   <div class="kpi"><span>Pendenza 10a − 2a</span><b>${num(s10)} pp</b><small class="muted">10a − 3 mesi: ${isFinite(s3m) ? num(s3m) + " pp" : "–"}</small></div>
+   <div class="kpi"><span>Tasso reale 10a (TIPS)</span><b>${isFinite(ry) ? num(ry) + "%" : "–"}</b><small class="muted">inflazione attesa 10a: ${isFinite(be) ? num(be) + "%" : "–"}</small></div>
    <div class="kpi"><span>Euro AAA 10 anni</span><b>${E.AAA_10Y ? num(lastV(E.AAA_10Y)[1]) + "%" : "–"}</b><small class="muted">${euLast ? fmtD(euLast) : ""}</small></div></div></div>
   <div class="card"><h3>Quanto possono salire i tassi prima di perdere? Rendimento a 12 mesi per scenario</h3>${brTab}
    <p class="answer">La colonna in grassetto è il «cuscinetto»: di quanto devono salire i rendimenti entro un anno perché la cedola sia annullata dalla perdita di prezzo. I titoli brevi hanno cuscinetti ampi e poca sensibilità; i lunghi guadagnano molto se i tassi scendono ma soffrono se salgono. Utile per decidere la duration del portafoglio obbligazionario in base allo scenario che si ritiene più probabile.</p>

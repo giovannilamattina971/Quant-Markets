@@ -41,5 +41,7 @@ XL.histo = (el, sets, title, xfmt = "%") => plot(el, sets.map(([name, a, col]) =
 // selettore
 XL.sel = (id, opts, val) => `<select id="${id}">${opts.map(([v, t]) => `<option value="${v}" ${v === val ? "selected" : ""}>${t}</option>`).join("")}</select>`;
 XL.out = id => document.getElementById(id + "Out");
+// grafici rimasti vuoti perché una fonte non è ancora disponibile: messaggio al posto dello spazio bianco
+XL.empties = o => o.querySelectorAll(".chart").forEach(c => { if (!c.classList.contains("js-plotly-plot") && !c.innerHTML.trim()) { c.style.height = "auto"; c.innerHTML = `<p class="note">Grafico non disponibile: la fonte di questi dati (FRED, Federal Reserve) non ha ancora risposto all'aggiornamento automatico. Comparirà da solo al prossimo aggiornamento riuscito.</p>`; } });
 // prepara una pagina: carica i dati pesanti una volta sola, poi disegna
-XL.page = (id, datasets, render) => { XR[id] = () => { const o = XL.out(id); if (o.dataset.ok) { window.dispatchEvent(new Event("resize")); return; } o.innerHTML = loadingHtml(); needData(datasets).then(() => { o.dataset.ok = 1; try { render(o); } catch (e) { console.error(e); o.innerHTML = `<div class="card warn">Errore nel calcolo: ${e.message}</div>`; } }); }; };
+XL.page = (id, datasets, render) => { XR[id] = () => { const o = XL.out(id); if (o.dataset.ok) { window.dispatchEvent(new Event("resize")); return; } o.innerHTML = loadingHtml(); needData(datasets).then(() => { o.dataset.ok = 1; try { render(o); XL.empties(o); } catch (e) { console.error(e); o.innerHTML = `<div class="card warn">Errore nel calcolo: ${e.message}</div>`; } }); }; };
