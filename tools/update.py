@@ -56,19 +56,97 @@ def get(url, params=None, headers=None, tries=2, timeout=25):
 
 # ------------------------------------------------------------------ fonti
 _FRED = {}
+_FRED_DOWN = {'n': 0}
+FRED_KEY = os.environ.get('FRED_API_KEY', '').strip()
 
 
 def fred(sid):
-    """Serie FRED completa (pd.Series, indice data)."""
+    """Serie FRED completa (pd.Series, indice data). Con FRED_API_KEY usa l'API ufficiale (affidabile dai server
+    di GitHub); altrimenti il CSV pubblico, che dai server cloud spesso non risponde: dopo 2 fallimenti di fila
+    smette di provarci per questa notte e passa alle fonti alternative."""
     if sid in _FRED:
         return _FRED[sid]
-    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid})
+    if FRED_KEY:
+        r = get('https://api.stlouisfed.org/fred/series/observations',
+                {'series_id': sid, 'api_key': FRED_KEY, 'file_type': 'json'}, timeout=40)
+        obs = r.json()['observations']
+        s = pd.Series({pd.Timestamp(o['date']): float(o['value']) for o in obs if o['value'] not in ('.', '')}).sort_index()
+        _FRED[sid] = s
+        return s
+    if _FRED_DOWN['n'] >= 2:
+        raise RuntimeError('FRED non raggiungibile da questo server (serve la chiave API FRED_API_KEY)')
+    try:
+        r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid}, tries=1, timeout=20)
+        _FRED_DOWN['n'] = 0
+    except Exception:
+        _FRED_DOWN['n'] += 1
+        raise
     df = pd.read_csv(io.StringIO(r.text))
     df.columns = ['date', 'v']
     df['v'] = pd.to_numeric(df['v'], errors='coerce')
     s = df.dropna().set_index(pd.to_datetime(df.dropna()['date']))['v']
     _FRED[sid] = s
     return s
+
+
+# fonti alternative ufficiali quando FRED non risponde
+ALT = {
+    'ECBDFR': lambda: ecb('FM/B.U2.EUR.4F.KR.DFR.LEV'),
+    'ECBMRRFR': lambda: ecb('FM/B.U2.EUR.4F.KR.MRR_FR.LEV'),
+    'DEXUSEU': lambda: ecb('EXR/D.USD.EUR.SP00.A'),
+    'EXUSEU': lambda: month_avg(ecb('EXR/D.USD.EUR.SP00.A')),
+    'CP0000EZ19M086NEST': lambda: ecb('ICP/M.U2.N.000000.4.INX'),
+    'CP0000ITM086NEST': lambda: ecb('ICP/M.IT.N.000000.4.INX'),
+    'IRLTLT01ITM156N': lambda: ecb('IRS/M.IT.L.L40.CI.0000.EUR.N.Z'),
+    'IRLTLT01DEM156N': lambda: ecb('IRS/M.DE.L.L40.CI.0000.EUR.N.Z'),
+}
+TSY_COL = {'DGS1MO': '1 Mo', 'DGS3MO': '3 Mo', 'DGS6MO': '6 Mo', 'DGS1': '1 Yr', 'DGS2': '2 Yr', 'DGS3': '3 Yr', 'DGS5': '5 Yr',
+           'DGS7': '7 Yr', 'DGS10': '10 Yr', 'DGS20': '20 Yr', 'DGS30': '30 Yr'}
+TSY_REAL = {'DFII5': '5 YR', 'DFII10': '10 YR'}
+_TSY = {}
+
+
+def treasury_year(year, real=False):
+    k = (year, real)
+    if k not in _TSY:
+        typ = 'daily_treasury_real_yield_curve' if real else 'daily_treasury_yield_curve'
+        r = get(f'https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/{year}/all',
+                {'type': typ, 'field_tdr_date_value': year, 'page': '', '_format': 'csv'}, timeout=40)
+        df = pd.read_csv(io.StringIO(r.text))
+        df['Date'] = pd.to_datetime(df['Date'])
+        _TSY[k] = df.set_index('Date').sort_index()
+    return _TSY[k]
+
+
+def treasury(sid, start_year):
+    real = sid in TSY_REAL
+    col = (TSY_REAL if real else TSY_COL)[sid]
+    parts = []
+    for y in range(start_year, TODAY.year + 1):
+        df = treasury_year(y, real)
+        c = [x for x in df.columns if x.strip().upper() == col.upper()]
+        if c:
+            parts.append(pd.to_numeric(df[c[0]], errors='coerce').dropna())
+    return pd.concat(parts).sort_index()
+
+
+def series(sid, start_year=None):
+    """FRED se disponibile, altrimenti la fonte ufficiale alternativa."""
+    try:
+        return fred(sid)
+    except Exception as e:  # noqa: BLE001
+        if sid in ALT:
+            return ALT[sid]()
+        if sid in TSY_COL or sid in TSY_REAL:
+            return treasury(sid, start_year or (TODAY.year - 1))
+        if sid == 'TB3MS':
+            return month_avg(treasury('DGS3MO', start_year or TODAY.year - 1))
+        if sid in ('GS10', 'GS2'):
+            return month_avg(treasury('DGS' + sid[2:], start_year or TODAY.year - 1))
+        if sid == 'T10Y2Y':
+            a, b = treasury('DGS10', start_year or TODAY.year - 1), treasury('DGS2', start_year or TODAY.year - 1)
+            return (a - b).dropna()
+        raise e
 
 
 def sdmx_csv(url, params=None):
@@ -92,7 +170,7 @@ def ecb(key, start=None):
 
 def bbk(key):
     flow, rest = key.split('.', 1)
-    return sdmx_csv(f'https://api.statistiken.bundesbank.de/rest/data/{flow}/{rest}', {'format': 'csv', 'lang': 'en'})
+    return sdmx_csv(f'https://api.statistiken.bundesbank.de/rest/data/{flow}/{rest}', {'format': 'sdmx_csv', 'lang': 'en'})
 
 
 _YH = {}
@@ -133,7 +211,7 @@ def yahoo(sym, start, adjusted=True):
 def msci(code, variant, ccy, start='2015-01-01'):
     r = get('https://app2.msci.com/products/service/index/indexmaster/getLevelDataForGraph',
             {'currency_symbol': ccy, 'index_variant': variant, 'start_date': start.replace('-', ''),
-             'end_date': TODAY.strftime('%Y%m%d'), 'data_frequency': 'END_OF_MONTH', 'index_codes': code})
+             'end_date': TODAY.strftime('%Y%m%d'), 'data_frequency': 'END_OF_MONTH', 'index_codes': code}, timeout=60)
     rows = r.json()['indexes']['INDEX_LEVELS']
     s = pd.Series({pd.Timestamp(str(x['calc_date'])): float(x['level_eod']) for x in rows}).sort_index()
     return s
@@ -285,11 +363,11 @@ def upd_mkt():
 YH_DAILY = {k: k for k in ['IEF', 'TLT', 'SHY', 'AGG', 'GLD', 'EEM', 'VWO', 'EFA', 'URTH', 'SWDA.MI', 'XEON.DE', 'VWRL.AS',
                            'VUSA.AS', 'VAGF.DE', 'CSBGE3.MI', 'IBGX.AS', 'SXRQ.DE', 'SXRT.DE', 'DJP',
                            'XLK', 'XLF', 'XLV', 'XLE', 'XLY', 'XLI', 'XLP', 'XLB', 'XLU', 'XLRE', 'XLC']}
-# serie nate da justETF: si cerca il ticker Yahoo in EUR che coincide con lo storico
+# serie nate da justETF: solo quotazioni in EUR (Milano, Xetra, Amsterdam); si sceglie quella che coincide meglio con lo storico
 YH_CAND = {'AGGI': ['AGGH.MI', 'EUNA.DE', 'AGGH.AS'], 'IE15': ['IE15.MI', 'EUN5.DE', 'IE15.AS'],
-           'CMOD': ['CMOD.MI', 'CMOD.DE', 'CMOD.L'], 'EMBE': ['EMBE.MI', 'IS3C.DE', 'EMBE.AS'],
-           'CRUD': ['CRUD.MI', 'CRUD.DE'], 'BRNT': ['BRNT.MI', 'OD7F.DE'], 'IGLN': ['IGLN.MI', 'IS0E.DE', 'SGLN.MI'],
-           'XGLD': ['4GLD.DE', '4GLD.F'], 'PHAG': ['PHAG.MI', 'VZLC.DE', 'PHAG.AS']}
+           'CMOD': ['CMOD.MI', 'CMOD.DE'], 'EMBE': ['EMBE.MI', 'IS3C.DE', 'EMBE.AS'],
+           'CRUD': ['CRUD.MI'], 'BRNT': ['BRNT.MI'], 'IGLN': ['IS0E.DE', 'IGLN.MI', 'SGLD.MI'],
+           'XGLD': ['4GLD.DE', '4GLD.F'], 'PHAG': ['PHAG.MI', 'PHAG.AS', 'VZLD.DE']}
 YH_MONTHLY = {'FSPV': ['IVE'], 'FSPG': ['IVW'], 'FSPEW': ['RSP'], 'FSDY': ['SDY'], 'FSPHD': ['SPYD'], 'FSPY': ['SPY'],
               'FSPEWU': ['XDEW.DE', 'XDEW.MI'], 'FSDYU': ['USDV.MI', 'SPYD.DE', 'USDV.DE']}
 MSCI_MAP = {'MSCIEM': ('891800', 'NETR', 'USD'), 'MSCIEM_EUR': ('891800', 'NETR', 'EUR'),
@@ -322,25 +400,30 @@ def upd_assets():
     def daily(key, cands, tol=0.006):
         o = A[key]
         start = (pd.Timestamp(o['d'][-1]) - pd.Timedelta(days=60)).date()
-        errs = []
+        errs, best = [], None
         for sym in cands:
             try:
                 s = yahoo(sym, start)['Close']
-                d, c, n, rr, disp = splice_levels(o['d'], o['c'], s, key, tol=tol)
-                o['d'], o['c'] = d, c
-                chosen[key] = sym
-                log('ASSETS.' + key, 'ok', d[-1], f'+{n} sedute (Yahoo {sym}, scarto aggancio {disp:.2%})', 'Yahoo ' + sym)
-                return
+                res = splice_levels(o['d'], o['c'], s, key, tol=tol)
+                if best is None or res[4] < best[1][4]:
+                    best = (sym, res)
+                if res[4] < 0.004:
+                    break
             except Exception as e:  # noqa: BLE001
                 errs.append(f'{sym}: {e}')
-        raise RuntimeError(' | '.join(errs))
+        if best is None:
+            raise RuntimeError(' | '.join(errs))
+        sym, (d, c, n, rr, disp) = best
+        o['d'], o['c'] = d, c
+        chosen[key] = sym
+        log('ASSETS.' + key, 'ok', d[-1], f'+{n} sedute (Yahoo {sym}, scarto aggancio {disp:.2%})', 'Yahoo ' + sym)
 
     for key, sym in YH_DAILY.items():
         if key in A:
             run('ASSETS.' + key, lambda key=key, sym=sym: daily(key, [sym]))
     for key, c in YH_CAND.items():
         if key in A:
-            run('ASSETS.' + key, lambda key=key, c=c: daily(key, c, tol=0.012))
+            run('ASSETS.' + key, lambda key=key, c=c: daily(key, c, tol=0.04))
 
     def monthly_yh(key, cands):
         o = A[key]
@@ -385,7 +468,7 @@ def upd_assets():
 
     def cpi(key, sid):
         o = A[key]
-        s = fred(sid)
+        s = series(sid)
         s = s[s.index.strftime('%Y-%m') < CUR_M]
         d, c, n, rr, disp = splice_levels(o['d'], o['c'], s, key, tol=0.004, min_overlap=2, monthly=True)
         # le date di queste serie sono fine mese di calendario
@@ -399,7 +482,7 @@ def upd_assets():
     # obbligazioni a scadenza costante ricostruite dai rendimenti + liquidità
     def bond(key, sid, n_years, how):
         o = A[key]
-        ys = fred(sid)
+        ys = series(sid)
         ym = month_end(ys) if how == 'eop' else ys
         ymap = dict(zip(ym.index.strftime('%Y-%m'), ym.values))
         last = o['d'][-1][:7]
@@ -433,7 +516,7 @@ def upd_rates():
     for k, sid, how in [('DGS10', 'DGS10', 'eop'), ('DGS2', 'DGS2', 'eop'), ('TB3MS', 'TB3MS', 'm'),
                         ('IRLTLT01ITM156N', 'IRLTLT01ITM156N', 'm')]:
         def one(k=k, sid=sid, how=how):
-            s = fred(sid)
+            s = series(sid)
             s = month_end(s) if how == 'eop' else s
             s.index = [(pd.Timestamp(i.strftime('%Y-%m-01')) + pd.offsets.MonthEnd(0)) for i in s.index]
             n = append_values(Y[k], s, k, 'D', check_tol=0.06)
@@ -446,7 +529,7 @@ def upd_rates():
 
     def changes(k, sid):  # serie a "punti di variazione" (tassi ufficiali)
         o = Y['_rates'][k]
-        s = fred(sid)
+        s = series(sid)
         last = o['d'][-1]
         n = 0
         for i, x in s.items():
@@ -468,7 +551,7 @@ def upd_rates():
     MF = D.load('MACROF')
     for k in MF:
         def one(k=k):
-            n = append_values(MF[k], fred(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)
+            n = append_values(MF[k], series(k), k, 'M', check_tol=0.3 if k.startswith('CP') else 0.06)
             log('MACROF.' + k, 'ok', MF[k]['d'][-1], f'+{n}', 'FRED ' + k)
         run('MACROF.' + k, one)
     D.save('MACROF', MF)
@@ -480,7 +563,7 @@ def upd_rates():
         log('MACRO.cpi', 'ok', MA['cpi']['d'][-1], f'+{n}', 'FRED CPIAUCNS')
 
     def eur():
-        n = append_values(MA['eur'], fred('DEXUSEU'), 'eur', 'D', check_tol=0.01)
+        n = append_values(MA['eur'], series('DEXUSEU'), 'eur', 'D', check_tol=0.01)
         log('MACRO.eur', 'ok', MA['eur']['d'][-1], f'+{n}', 'FRED DEXUSEU')
     run('MACRO.cpi', cpi); run('MACRO.eur', eur)
     D.save('MACRO', MA)
@@ -488,7 +571,7 @@ def upd_rates():
     B = D.load('BUND')
 
     def de10o():
-        n = append_values(B['DE10_OECD'], fred('IRLTLT01DEM156N'), 'DE10_OECD', 'M01', check_tol=0.05)
+        n = append_values(B['DE10_OECD'], series('IRLTLT01DEM156N'), 'DE10_OECD', 'M01', check_tol=0.05)
         log('BUND.DE10_OECD', 'ok', B['DE10_OECD']['d'][-1], f'+{n}', 'FRED IRLTLT01DEM156N')
 
     def de10e():
@@ -497,10 +580,14 @@ def upd_rates():
 
     def bbk_one(k, mat):
         errs = []
-        for key in [f'BBSIS.M.I.UMR.RD.EUR.S1311.B.A604.R{mat}XX.R.A.A._Z._Z.A',
-                    f'BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R{mat}XX.R.A.A._Z._Z.A']:
+        for key in [f'BBSIS.M.I.ZST.ZI.EUR.S1311.B.A604.R{mat}XX.R.A.A._Z._Z.A',
+                    f'BBSIS.D.I.ZST.ZI.EUR.S1311.B.A604.R{mat}XX.R.A.A._Z._Z.A']:
             try:
-                n = append_values(B[k], bbk(key), k, 'M01', check_tol=0.05)
+                ser = bbk(key)
+                if '.D.' in key:
+                    ser = month_end(ser)
+                    ser.index = [pd.Timestamp(i.strftime('%Y-%m-01')) for i in ser.index]
+                n = append_values(B[k], ser, k, 'M01', check_tol=0.08)
                 log('BUND.' + k, 'ok', B[k]['d'][-1], f'+{n}', 'Bundesbank ' + key)
                 return
             except Exception as e:  # noqa: BLE001
@@ -514,7 +601,7 @@ def upd_rates():
     S = D.load('SIGNALS')
     for k, sid in (('T10Y2Y', 'T10Y2Y'), ('HY', 'BAMLH0A0HYM2'), ('BAA10Y', 'BAA10Y')):
         def one(k=k, sid=sid):
-            n = append_values(S[k], month_end(fred(sid)), k, 'M', complete_months=False, check_tol=0.08)
+            n = append_values(S[k], month_end(series(sid)), k, 'M', complete_months=False, check_tol=0.08)
             log('SIGNALS.' + k, 'ok', S[k]['d'][-1], f'+{n} (ultimo mese = ultimo valore)', 'FRED ' + sid)
         run('SIGNALS.' + k, one)
 
@@ -556,7 +643,12 @@ def upd_curve():
     C = D.load('CURVE') or {'_info': 'Rendimenti e spread giornalieri (FRED)'}
     for sid in CURVE_FRED:
         def one(sid=sid):
-            s = fred(sid)
+            old = C.get(sid)
+            s = series(sid, start_year=(int(old['d'][-1][:4]) if old and old.get('d') else 1990))
+            if old and old.get('d') and s.index.min().strftime('%Y-%m-%d') > old['d'][0]:
+                # fonte alternativa con storia breve: si aggiunge in coda allo storico esistente
+                keep = [(d, v) for d, v in zip(old['d'], old['v']) if d < s.index.min().strftime('%Y-%m-%d')]
+                s = pd.concat([pd.Series([v for _, v in keep], index=pd.to_datetime([d for d, _ in keep])), s])
             if sid not in ('NFCI', 'STLFSI4', 'BAA10Y'):
                 s = s[s.index >= '1990-01-01']
             C[sid] = {'d': list(s.index.strftime('%Y-%m-%d')), 'v': [float(x) for x in s.values]}
