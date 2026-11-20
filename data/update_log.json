@@ -1,5 +1,5 @@
 {
- "run": "2026-11-20T05:38:41Z",
+ "run": "2026-11-20T10:10:08Z",
  "series": {
   "MKT.^GSPC": {
    "status": "ok",
@@ -46,235 +46,235 @@
   "ASSETS.IEF": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo IEF, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo IEF, scarto aggancio 0.00%)",
    "src": "Yahoo IEF"
   },
   "ASSETS.TLT": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo TLT, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo TLT, scarto aggancio 0.00%)",
    "src": "Yahoo TLT"
   },
   "ASSETS.SHY": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo SHY, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo SHY, scarto aggancio 0.00%)",
    "src": "Yahoo SHY"
   },
   "ASSETS.AGG": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo AGG, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo AGG, scarto aggancio 0.00%)",
    "src": "Yahoo AGG"
   },
   "ASSETS.GLD": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo GLD, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo GLD, scarto aggancio 0.00%)",
    "src": "Yahoo GLD"
   },
   "ASSETS.EEM": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo EEM, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo EEM, scarto aggancio 0.00%)",
    "src": "Yahoo EEM"
   },
   "ASSETS.VWO": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo VWO, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo VWO, scarto aggancio 0.00%)",
    "src": "Yahoo VWO"
   },
   "ASSETS.EFA": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo EFA, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo EFA, scarto aggancio 0.00%)",
    "src": "Yahoo EFA"
   },
   "ASSETS.URTH": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo URTH, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo URTH, scarto aggancio 0.00%)",
    "src": "Yahoo URTH"
   },
   "ASSETS.SWDA.MI": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo SWDA.MI, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo SWDA.MI, scarto aggancio 0.00%)",
    "src": "Yahoo SWDA.MI"
   },
   "ASSETS.XEON.DE": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo XEON.DE, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo XEON.DE, scarto aggancio 0.00%)",
    "src": "Yahoo XEON.DE"
   },
   "ASSETS.VWRL.AS": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo VWRL.AS, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo VWRL.AS, scarto aggancio 0.00%)",
    "src": "Yahoo VWRL.AS"
   },
   "ASSETS.VUSA.AS": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo VUSA.AS, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo VUSA.AS, scarto aggancio 0.00%)",
    "src": "Yahoo VUSA.AS"
   },
   "ASSETS.VAGF.DE": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo VAGF.DE, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo VAGF.DE, scarto aggancio 0.00%)",
    "src": "Yahoo VAGF.DE"
   },
   "ASSETS.CSBGE3.MI": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo CSBGE3.MI, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo CSBGE3.MI, scarto aggancio 0.00%)",
    "src": "Yahoo CSBGE3.MI"
   },
   "ASSETS.IBGX.AS": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo IBGX.AS, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo IBGX.AS, scarto aggancio 0.00%)",
    "src": "Yahoo IBGX.AS"
   },
   "ASSETS.SXRQ.DE": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo SXRQ.DE, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo SXRQ.DE, scarto aggancio 0.00%)",
    "src": "Yahoo SXRQ.DE"
   },
   "ASSETS.SXRT.DE": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo SXRT.DE, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo SXRT.DE, scarto aggancio 0.00%)",
    "src": "Yahoo SXRT.DE"
   },
   "ASSETS.DJP": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo DJP, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo DJP, scarto aggancio 0.00%)",
    "src": "Yahoo DJP"
   },
   "ASSETS.XLK": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XLK, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLK, scarto aggancio 0.00%)",
    "src": "Yahoo XLK"
   },
   "ASSETS.XLF": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XLF, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLF, scarto aggancio 0.00%)",
    "src": "Yahoo XLF"
   },
   "ASSETS.XLV": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XLV, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLV, scarto aggancio 0.00%)",
    "src": "Yahoo XLV"
   },
   "ASSETS.XLE": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XLE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLE, scarto aggancio 0.00%)",
    "src": "Yahoo XLE"
   },
   "ASSETS.XLY": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XLY, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLY, scarto aggancio 0.00%)",
    "src": "Yahoo XLY"
   },
   "ASSETS.XLI": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XLI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLI, scarto aggancio 0.00%)",
    "src": "Yahoo XLI"
   },
   "ASSETS.XLP": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XLP, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLP, scarto aggancio 0.00%)",
    "src": "Yahoo XLP"
   },
   "ASSETS.XLB": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XLB, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLB, scarto aggancio 0.00%)",
    "src": "Yahoo XLB"
   },
   "ASSETS.XLU": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XLU, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XLU, scarto aggancio 0.00%)",
    "src": "Yahoo XLU"
   },
   "ASSETS.XLRE": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo XLRE, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo XLRE, scarto aggancio 0.00%)",
    "src": "Yahoo XLRE"
   },
   "ASSETS.XLC": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo XLC, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo XLC, scarto aggancio 0.00%)",
    "src": "Yahoo XLC"
   },
   "ASSETS.AGGI": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo AGGH.MI, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo AGGH.MI, scarto aggancio 0.00%)",
    "src": "Yahoo AGGH.MI"
   },
   "ASSETS.IE15": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo EUN5.DE, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo EUN5.DE, scarto aggancio 0.00%)",
    "src": "Yahoo EUN5.DE"
   },
   "ASSETS.CMOD": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo CMOD.MI, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo CMOD.MI, scarto aggancio 0.00%)",
    "src": "Yahoo CMOD.MI"
   },
   "ASSETS.EMBE": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo EMBE.MI, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo EMBE.MI, scarto aggancio 0.00%)",
    "src": "Yahoo EMBE.MI"
   },
   "ASSETS.CRUD": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo CRUD.MI, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo CRUD.MI, scarto aggancio 0.00%)",
    "src": "Yahoo CRUD.MI"
   },
   "ASSETS.BRNT": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo BRNT.MI, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo BRNT.MI, scarto aggancio 0.00%)",
    "src": "Yahoo BRNT.MI"
   },
   "ASSETS.IGLN": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo SGLD.MI, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo SGLD.MI, scarto aggancio 0.00%)",
    "src": "Yahoo SGLD.MI"
   },
   "ASSETS.XGLD": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo 4GLD.DE, scarto aggancio 0.00%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo 4GLD.DE, scarto aggancio 0.00%)",
    "src": "Yahoo 4GLD.DE"
   },
   "ASSETS.PHAG": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute (Yahoo PHAG.MI, scarto aggancio 0.12%)",
+   "last": "2026-11-19",
+   "note": "+1 sedute (Yahoo PHAG.MI, scarto aggancio 0.12%)",
    "src": "Yahoo PHAG.MI"
   },
   "ASSETS.FSPV": {
@@ -326,10 +326,10 @@
    "src": "Yahoo USDV.MI"
   },
   "ASSETS.MSCIEM": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 891800 NETR USD"
   },
   "ASSETS.MSCIEM_EUR": {
    "status": "ok",
@@ -338,10 +338,10 @@
    "src": "MSCI 891800 NETR EUR"
   },
   "ASSETS.MSCIWD": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 990100 NETR USD"
   },
   "ASSETS.MSCIWD_EUR": {
    "status": "ok",
@@ -350,10 +350,10 @@
    "src": "MSCI 990100 NETR EUR"
   },
   "ASSETS.MSCIEMP": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 891800 STRD USD"
   },
   "ASSETS.MSCIEMP_EUR": {
    "status": "ok",
@@ -362,28 +362,28 @@
    "src": "MSCI 891800 STRD EUR"
   },
   "ASSETS.MSCIWDP": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 990100 STRD USD"
   },
   "ASSETS.MSCIWDP_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 990100 STRD EUR"
   },
   "ASSETS.FWORLD": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 990100 NETR USD"
   },
   "ASSETS.FWORLD_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 990100 NETR EUR"
   },
   "ASSETS.MSCI_CN": {
    "status": "ok",
@@ -392,10 +392,10 @@
    "src": "MSCI 302400 NETR USD"
   },
   "ASSETS.MSCI_CN_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 302400 NETR EUR"
   },
   "ASSETS.MSCI_IN": {
    "status": "ok",
@@ -410,16 +410,16 @@
    "src": "MSCI 935600 NETR EUR"
   },
   "ASSETS.MSCI_KR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 941000 NETR USD"
   },
   "ASSETS.MSCI_KR_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 941000 NETR EUR"
   },
   "ASSETS.MSCI_TW": {
    "status": "ok",
@@ -446,16 +446,16 @@
    "src": "MSCI 907600 NETR EUR"
   },
   "ASSETS.MSCI_SA": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 705405 NETR USD"
   },
   "ASSETS.MSCI_SA_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 705405 NETR EUR"
   },
   "ASSETS.MSCI_ZA": {
    "status": "ok",
@@ -464,10 +464,10 @@
    "src": "MSCI 971000 NETR USD"
   },
   "ASSETS.MSCI_ZA_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 971000 NETR EUR"
   },
   "ASSETS.MSCI_MX": {
    "status": "ok",
@@ -476,10 +476,10 @@
    "src": "MSCI 848400 NETR USD"
   },
   "ASSETS.MSCI_MX_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 848400 NETR EUR"
   },
   "ASSETS.FVAL": {
    "status": "ok",
@@ -488,10 +488,10 @@
    "src": "MSCI 105868 NETR USD"
   },
   "ASSETS.FVAL_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 105868 NETR EUR"
   },
   "ASSETS.FMOM": {
    "status": "ok",
@@ -500,16 +500,16 @@
    "src": "MSCI 703755 NETR USD"
   },
   "ASSETS.FMOM_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 703755 NETR EUR"
   },
   "ASSETS.FQUAL": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 702787 NETR USD"
   },
   "ASSETS.FQUAL_EUR": {
    "status": "ok",
@@ -518,16 +518,16 @@
    "src": "MSCI 702787 NETR EUR"
   },
   "ASSETS.FSNQ": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 705169 NETR USD"
   },
   "ASSETS.FSNQ_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 705169 NETR EUR"
   },
   "ASSETS.FMINV": {
    "status": "ok",
@@ -548,16 +548,16 @@
    "src": "MSCI 106230 NETR USD"
   },
   "ASSETS.FSMALL_EUR": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 106230 NETR EUR"
   },
   "ASSETS.FEQW": {
-   "status": "ERRORE",
-   "last": null,
-   "note": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "src": ""
+   "status": "ok",
+   "last": "2026-10-30",
+   "note": "+0 mesi",
+   "src": "MSCI 129857 NETR USD"
   },
   "ASSETS.FEQW_EUR": {
    "status": "ok",
@@ -1330,37 +1330,37 @@
   "XTRA.SPY": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo SPY"
   },
   "XTRA.RSP": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo RSP"
   },
   "XTRA.QQQ": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo QQQ"
   },
   "XTRA.IWM": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo IWM"
   },
   "XTRA.GC=F": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "6582 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo GC=F"
   },
   "XTRA.HG=F": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "6586 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo HG=F"
   },
   "XTRA.CL=F": {
@@ -1372,7 +1372,7 @@
   "XTRA.BZ=F": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "4808 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo BZ=F"
   },
   "XTRA.NG=F": {
@@ -1384,7 +1384,7 @@
   "XTRA.SI=F": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "6583 sedute (storia completa)",
+   "note": "+0 sedute",
    "src": "Yahoo SI=F"
   },
   "XTRA.DX-Y.NYB": {
@@ -1432,157 +1432,157 @@
   "XTRA.HYG": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo HYG"
   },
   "XTRA.LQD": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo LQD"
   },
   "XTRA.TIP": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo TIP"
   },
   "XTRA.BTC-USD": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute",
+   "last": "2026-11-19",
+   "note": "+1 sedute",
    "src": "Yahoo BTC-USD"
   },
   "XTRA.^STOXX50E": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^STOXX50E"
   },
   "XTRA.^GDAXI": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^GDAXI"
   },
   "XTRA.FTSEMIB.MI": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo FTSEMIB.MI"
   },
   "XTRA.^N225": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ^N225"
   },
   "XTRA.EEM": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo EEM"
   },
   "XTRA.ACWI": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo ACWI"
   },
   "XTRA.URTH": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo URTH"
   },
   "XTRA.XLK": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo XLK"
   },
   "XTRA.XLF": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo XLF"
   },
   "XTRA.XLV": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo XLV"
   },
   "XTRA.XLE": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo XLE"
   },
   "XTRA.XLY": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo XLY"
   },
   "XTRA.XLI": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo XLI"
   },
   "XTRA.XLP": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo XLP"
   },
   "XTRA.XLB": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo XLB"
   },
   "XTRA.XLU": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo XLU"
   },
   "XTRA.XLRE": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute",
+   "last": "2026-11-19",
+   "note": "+1 sedute",
    "src": "Yahoo XLRE"
   },
   "XTRA.XLC": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "+0 sedute",
+   "last": "2026-11-19",
+   "note": "+1 sedute",
    "src": "Yahoo XLC"
   },
   "XTRA.SMH": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo SMH"
   },
   "XTRA.TLT": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo TLT"
   },
   "XTRA.IEF": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo IEF"
   },
   "XTRA.GLD": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo GLD"
   },
   "PESNAP": {
@@ -1593,90 +1593,6 @@
   }
  },
  "errors": [
-  {
-   "key": "ASSETS.MSCIEM",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCIWD",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCIEMP",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCIWDP",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCIWDP_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.FWORLD",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.FWORLD_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCI_CN_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCI_KR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCI_KR_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCI_SA",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCI_SA_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCI_ZA_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.MSCI_MX_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.FVAL_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.FMOM_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.FQUAL",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.FSNQ",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.FSNQ_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.FSMALL_EUR",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
-  {
-   "key": "ASSETS.FEQW",
-   "err": "de(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 458, in <lambda>\n    run('ASSETS.' + key, lambda key=key: msci_one(key))\n                                         ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 451, in msci_one\n    s = msci(code, var, ccy, start=str(int(o['d'][-1][:4]) - 1) + '-01-01')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 216, in msci\n    rows = r.json()['indexes']['INDEX_LEVELS']\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
-  },
   {
    "key": "ASSETS.BRENT",
    "err": "Traceback (most recent call last):\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 339, in run\n    raise box['err']\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 318, in _safe\n    fn()\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 467, in <lambda>\n    run('ASSETS.BRENT', lambda: fred_daily('BRENT', 'DCOILBRENTEU'))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 462, in fred_daily\n    s = fred(sid)\n        ^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 79, in fred\n    r = get('https://fred.stlouisfed.org/graph/fredgraph.csv', {'id': sid}, tries=1, timeout=20)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quant-Markets/Quant-Markets/tools/update.py\", line 54, in get\n    raise RuntimeError(f'{url}: {err}')\nRuntimeError: https://fred.stlouisfed.org/graph/fredgraph.csv: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=20)\n"
@@ -1771,21 +1687,21 @@
   }
  ],
  "timing": {
-  "MKT.^GSPC": 0.7,
+  "MKT.^GSPC": 1.5,
   "MKT.^DJI": 0.1,
   "MKT.^IXIC": 0.1,
-  "MKT.^NDX": 0.1,
+  "MKT.^NDX": 0.2,
   "MKT.^RUT": 0.1,
   "MKT.^VIX": 0.1,
   "MKT.^SP500TR": 0.1,
-  "ASSETS.IEF": 0.1,
+  "ASSETS.IEF": 0.2,
   "ASSETS.TLT": 0.1,
   "ASSETS.SHY": 0.1,
   "ASSETS.AGG": 0.1,
   "ASSETS.GLD": 0.1,
   "ASSETS.EEM": 0.1,
   "ASSETS.VWO": 0.1,
-  "ASSETS.EFA": 0.1,
+  "ASSETS.EFA": 0.2,
   "ASSETS.URTH": 0.1,
   "ASSETS.SWDA.MI": 0.1,
   "ASSETS.XEON.DE": 0.1,
@@ -1805,68 +1721,89 @@
   "ASSETS.XLI": 0.1,
   "ASSETS.XLP": 0.1,
   "ASSETS.XLB": 0.1,
-  "ASSETS.XLU": 0.1,
+  "ASSETS.XLU": 0.2,
   "ASSETS.XLRE": 0.1,
   "ASSETS.XLC": 0.1,
   "ASSETS.AGGI": 0.1,
   "ASSETS.IE15": 6.6,
   "ASSETS.CMOD": 0.1,
-  "ASSETS.EMBE": 0.1,
+  "ASSETS.EMBE": 0.2,
   "ASSETS.CRUD": 0.1,
-  "ASSETS.BRNT": 0.1,
-  "ASSETS.IGLN": 6.6,
+  "ASSETS.BRNT": 0.2,
+  "ASSETS.IGLN": 6.7,
   "ASSETS.XGLD": 0.1,
   "ASSETS.PHAG": 0.1,
   "ASSETS.FSPV": 0.1,
   "ASSETS.FSPG": 0.1,
   "ASSETS.FSPEW": 0.1,
   "ASSETS.FSDY": 0.2,
-  "ASSETS.FSPHD": 0.1,
+  "ASSETS.FSPHD": 0.2,
   "ASSETS.FSPY": 0.1,
   "ASSETS.FSPEWU": 0.1,
-  "ASSETS.FSDYU": 0.2,
-  "ASSETS.MSCIEM_EUR": 0.4,
+  "ASSETS.FSDYU": 0.1,
+  "ASSETS.MSCIEM": 0.4,
+  "ASSETS.MSCIEM_EUR": 0.5,
+  "ASSETS.MSCIWD": 0.4,
   "ASSETS.MSCIWD_EUR": 0.4,
+  "ASSETS.MSCIEMP": 0.4,
   "ASSETS.MSCIEMP_EUR": 0.4,
+  "ASSETS.MSCIWDP": 0.4,
+  "ASSETS.MSCIWDP_EUR": 0.4,
+  "ASSETS.FWORLD": 0.5,
+  "ASSETS.FWORLD_EUR": 0.4,
   "ASSETS.MSCI_CN": 0.5,
-  "ASSETS.MSCI_IN": 0.3,
-  "ASSETS.MSCI_IN_EUR": 0.4,
+  "ASSETS.MSCI_CN_EUR": 0.6,
+  "ASSETS.MSCI_IN": 0.4,
+  "ASSETS.MSCI_IN_EUR": 0.6,
+  "ASSETS.MSCI_KR": 0.4,
+  "ASSETS.MSCI_KR_EUR": 0.4,
   "ASSETS.MSCI_TW": 0.4,
-  "ASSETS.MSCI_TW_EUR": 0.4,
-  "ASSETS.MSCI_BR": 0.3,
-  "ASSETS.MSCI_BR_EUR": 0.3,
+  "ASSETS.MSCI_TW_EUR": 0.5,
+  "ASSETS.MSCI_BR": 0.6,
+  "ASSETS.MSCI_BR_EUR": 0.5,
+  "ASSETS.MSCI_SA": 0.3,
+  "ASSETS.MSCI_SA_EUR": 0.3,
   "ASSETS.MSCI_ZA": 0.4,
-  "ASSETS.MSCI_MX": 0.3,
-  "ASSETS.FVAL": 0.8,
-  "ASSETS.FMOM": 1.3,
-  "ASSETS.FQUAL_EUR": 1.0,
-  "ASSETS.FMINV": 0.4,
-  "ASSETS.FMINV_EUR": 0.3,
-  "ASSETS.FSMALL": 1.1,
-  "ASSETS.FEQW_EUR": 0.5,
-  "ASSETS.FHDY": 0.5,
-  "ASSETS.FHDY_EUR": 0.3,
-  "ASSETS.CPI_EA": 1.2,
-  "ASSETS.CPI_IT": 4.2,
-  "ASSETS.UST10C": 0.9,
+  "ASSETS.MSCI_ZA_EUR": 0.4,
+  "ASSETS.MSCI_MX": 0.5,
+  "ASSETS.MSCI_MX_EUR": 0.5,
+  "ASSETS.FVAL": 1.0,
+  "ASSETS.FVAL_EUR": 0.5,
+  "ASSETS.FMOM": 0.4,
+  "ASSETS.FMOM_EUR": 0.5,
+  "ASSETS.FQUAL": 0.5,
+  "ASSETS.FQUAL_EUR": 0.4,
+  "ASSETS.FSNQ": 0.6,
+  "ASSETS.FSNQ_EUR": 0.8,
+  "ASSETS.FMINV": 0.5,
+  "ASSETS.FMINV_EUR": 0.4,
+  "ASSETS.FSMALL": 0.5,
+  "ASSETS.FSMALL_EUR": 0.4,
+  "ASSETS.FEQW": 0.4,
+  "ASSETS.FEQW_EUR": 0.4,
+  "ASSETS.FHDY": 0.6,
+  "ASSETS.FHDY_EUR": 0.4,
+  "ASSETS.CPI_EA": 1.9,
+  "ASSETS.CPI_IT": 4.4,
+  "ASSETS.UST10C": 0.7,
   "ASSETS.UST2C": 0.0,
-  "ASSETS.BTP10C": 1.1,
+  "ASSETS.BTP10C": 1.5,
   "YIELDS.DGS10": 0.0,
   "YIELDS.DGS2": 0.0,
   "YIELDS.IRLTLT01ITM156N": 0.5,
-  "YIELDS._rates.ECBDFR": 1.1,
-  "YIELDS._rates.ECBMRRFR": 1.9,
+  "YIELDS._rates.ECBDFR": 4.6,
+  "YIELDS._rates.ECBMRRFR": 3.0,
   "MACROF.GS10": 0.0,
   "MACROF.GS2": 0.0,
-  "MACROF.IRLTLT01DEM156N": 3.4,
-  "MACROF.EXUSEU": 4.4,
-  "MACROF.CP0000EZ19M086NEST": 0.5,
-  "MACRO.eur": 0.9,
+  "MACROF.IRLTLT01DEM156N": 2.6,
+  "MACROF.EXUSEU": 0.8,
+  "MACROF.CP0000EZ19M086NEST": 0.7,
+  "MACRO.eur": 0.8,
   "BUND.DE10_OECD": 0.5,
   "BUND.DE10_ECB": 0.5,
-  "BUND.DE10_BBK": 0.6,
-  "BUND.DE5_BBK": 0.5,
-  "BUND.DE2_BBK": 0.5,
+  "BUND.DE10_BBK": 1.1,
+  "BUND.DE5_BBK": 0.6,
+  "BUND.DE2_BBK": 0.6,
   "SIGNALS.T10Y2Y": 0.0,
   "SIGNALS.CAPE": 0.0,
   "SIGNALS.PE": 0.0,
@@ -1880,43 +1817,43 @@
   "CURVE.DGS10": 0.1,
   "CURVE.DGS20": 0.1,
   "CURVE.DGS30": 0.1,
-  "CURVE.DFII5": 0.5,
+  "CURVE.DFII5": 0.3,
   "CURVE.DFII10": 0.0,
   "CURVE.T10Y2Y": 0.1,
-  "EUCURVE.AAA_3M": 1.0,
-  "EUCURVE.AAA_1Y": 1.7,
-  "EUCURVE.AAA_2Y": 3.6,
-  "EUCURVE.AAA_3Y": 3.2,
-  "EUCURVE.AAA_5Y": 3.4,
-  "EUCURVE.AAA_7Y": 3.6,
-  "EUCURVE.AAA_10Y": 4.2,
-  "EUCURVE.AAA_15Y": 2.8,
-  "EUCURVE.AAA_20Y": 1.0,
-  "EUCURVE.AAA_30Y": 3.1,
-  "EUCURVE.ALL_3M": 1.2,
-  "EUCURVE.ALL_1Y": 4.3,
-  "EUCURVE.ALL_2Y": 3.3,
-  "EUCURVE.ALL_3Y": 2.6,
-  "EUCURVE.ALL_5Y": 2.9,
-  "EUCURVE.ALL_7Y": 2.3,
-  "EUCURVE.ALL_10Y": 3.9,
+  "EUCURVE.AAA_3M": 7.2,
+  "EUCURVE.AAA_1Y": 2.1,
+  "EUCURVE.AAA_2Y": 3.9,
+  "EUCURVE.AAA_3Y": 2.5,
+  "EUCURVE.AAA_5Y": 5.3,
+  "EUCURVE.AAA_7Y": 2.3,
+  "EUCURVE.AAA_10Y": 6.0,
+  "EUCURVE.AAA_15Y": 4.9,
+  "EUCURVE.AAA_20Y": 4.1,
+  "EUCURVE.AAA_30Y": 5.0,
+  "EUCURVE.ALL_3M": 2.1,
+  "EUCURVE.ALL_1Y": 2.7,
+  "EUCURVE.ALL_2Y": 2.7,
+  "EUCURVE.ALL_3Y": 3.0,
+  "EUCURVE.ALL_5Y": 2.2,
+  "EUCURVE.ALL_7Y": 3.9,
+  "EUCURVE.ALL_10Y": 4.6,
   "EUCURVE.ALL_15Y": 3.9,
-  "EUCURVE.ALL_20Y": 2.8,
-  "EUCURVE.ALL_30Y": 1.9,
-  "EUCURVE.GOV10_IT": 2.9,
-  "EUCURVE.GOV10_DE": 3.1,
-  "EUCURVE.GOV10_FR": 1.2,
-  "EUCURVE.GOV10_ES": 3.3,
+  "EUCURVE.ALL_20Y": 1.1,
+  "EUCURVE.ALL_30Y": 5.2,
+  "EUCURVE.GOV10_IT": 2.8,
+  "EUCURVE.GOV10_DE": 4.7,
+  "EUCURVE.GOV10_FR": 4.3,
+  "EUCURVE.GOV10_ES": 4.2,
   "XTRA.SPY": 0.1,
   "XTRA.RSP": 0.1,
-  "XTRA.QQQ": 0.2,
+  "XTRA.QQQ": 0.1,
   "XTRA.IWM": 0.1,
-  "XTRA.GC=F": 0.3,
-  "XTRA.HG=F": 0.2,
+  "XTRA.GC=F": 0.1,
+  "XTRA.HG=F": 0.1,
   "XTRA.CL=F": 0.1,
-  "XTRA.BZ=F": 0.2,
+  "XTRA.BZ=F": 0.1,
   "XTRA.NG=F": 0.1,
-  "XTRA.SI=F": 0.3,
+  "XTRA.SI=F": 0.1,
   "XTRA.DX-Y.NYB": 0.1,
   "XTRA.EURUSD=X": 0.1,
   "XTRA.^VIX": 0.1,
