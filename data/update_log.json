@@ -1,280 +1,280 @@
 {
- "run": "2026-11-20T10:10:08Z",
+ "run": "2026-11-21T05:32:08Z",
  "series": {
   "MKT.^GSPC": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^GSPC"
   },
   "MKT.^DJI": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^DJI"
   },
   "MKT.^IXIC": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^IXIC"
   },
   "MKT.^NDX": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^NDX"
   },
   "MKT.^RUT": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^RUT"
   },
   "MKT.^VIX": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^VIX"
   },
   "MKT.^SP500TR": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^SP500TR"
   },
   "ASSETS.IEF": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo IEF, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo IEF, scarto aggancio 0.00%)",
    "src": "Yahoo IEF"
   },
   "ASSETS.TLT": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo TLT, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo TLT, scarto aggancio 0.00%)",
    "src": "Yahoo TLT"
   },
   "ASSETS.SHY": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo SHY, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo SHY, scarto aggancio 0.00%)",
    "src": "Yahoo SHY"
   },
   "ASSETS.AGG": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo AGG, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo AGG, scarto aggancio 0.00%)",
    "src": "Yahoo AGG"
   },
   "ASSETS.GLD": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo GLD, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo GLD, scarto aggancio 0.00%)",
    "src": "Yahoo GLD"
   },
   "ASSETS.EEM": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo EEM, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo EEM, scarto aggancio 0.00%)",
    "src": "Yahoo EEM"
   },
   "ASSETS.VWO": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo VWO, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo VWO, scarto aggancio 0.00%)",
    "src": "Yahoo VWO"
   },
   "ASSETS.EFA": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo EFA, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo EFA, scarto aggancio 0.00%)",
    "src": "Yahoo EFA"
   },
   "ASSETS.URTH": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo URTH, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo URTH, scarto aggancio 0.00%)",
    "src": "Yahoo URTH"
   },
   "ASSETS.SWDA.MI": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo SWDA.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo SWDA.MI, scarto aggancio 0.00%)",
    "src": "Yahoo SWDA.MI"
   },
   "ASSETS.XEON.DE": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo XEON.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo XEON.DE, scarto aggancio 0.00%)",
    "src": "Yahoo XEON.DE"
   },
   "ASSETS.VWRL.AS": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo VWRL.AS, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo VWRL.AS, scarto aggancio 0.00%)",
    "src": "Yahoo VWRL.AS"
   },
   "ASSETS.VUSA.AS": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo VUSA.AS, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo VUSA.AS, scarto aggancio 0.00%)",
    "src": "Yahoo VUSA.AS"
   },
   "ASSETS.VAGF.DE": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo VAGF.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo VAGF.DE, scarto aggancio 0.00%)",
    "src": "Yahoo VAGF.DE"
   },
   "ASSETS.CSBGE3.MI": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo CSBGE3.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo CSBGE3.MI, scarto aggancio 0.00%)",
    "src": "Yahoo CSBGE3.MI"
   },
   "ASSETS.IBGX.AS": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo IBGX.AS, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo IBGX.AS, scarto aggancio 0.00%)",
    "src": "Yahoo IBGX.AS"
   },
   "ASSETS.SXRQ.DE": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo SXRQ.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo SXRQ.DE, scarto aggancio 0.00%)",
    "src": "Yahoo SXRQ.DE"
   },
   "ASSETS.SXRT.DE": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo SXRT.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo SXRT.DE, scarto aggancio 0.00%)",
    "src": "Yahoo SXRT.DE"
   },
   "ASSETS.DJP": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo DJP, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo DJP, scarto aggancio 0.00%)",
    "src": "Yahoo DJP"
   },
   "ASSETS.XLK": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo XLK, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo XLK, scarto aggancio 0.00%)",
    "src": "Yahoo XLK"
   },
   "ASSETS.XLF": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo XLF, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo XLF, scarto aggancio 0.00%)",
    "src": "Yahoo XLF"
   },
   "ASSETS.XLV": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo XLV, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo XLV, scarto aggancio 0.00%)",
    "src": "Yahoo XLV"
   },
   "ASSETS.XLE": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo XLE, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo XLE, scarto aggancio 0.00%)",
    "src": "Yahoo XLE"
   },
   "ASSETS.XLY": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo XLY, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo XLY, scarto aggancio 0.00%)",
    "src": "Yahoo XLY"
   },
   "ASSETS.XLI": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo XLI, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo XLI, scarto aggancio 0.00%)",
    "src": "Yahoo XLI"
   },
   "ASSETS.XLP": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo XLP, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo XLP, scarto aggancio 0.00%)",
    "src": "Yahoo XLP"
   },
   "ASSETS.XLB": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo XLB, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo XLB, scarto aggancio 0.00%)",
    "src": "Yahoo XLB"
   },
   "ASSETS.XLU": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute (Yahoo XLU, scarto aggancio 0.00%)",
+   "last": "2026-11-20",
+   "note": "+1 sedute (Yahoo XLU, scarto aggancio 0.00%)",
    "src": "Yahoo XLU"
   },
   "ASSETS.XLRE": {
    "status": "ok",
-   "last": "2026-11-19",
+   "last": "2026-11-20",
    "note": "+1 sedute (Yahoo XLRE, scarto aggancio 0.00%)",
    "src": "Yahoo XLRE"
   },
   "ASSETS.XLC": {
    "status": "ok",
-   "last": "2026-11-19",
+   "last": "2026-11-20",
    "note": "+1 sedute (Yahoo XLC, scarto aggancio 0.00%)",
    "src": "Yahoo XLC"
   },
   "ASSETS.AGGI": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo AGGH.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo AGGH.MI, scarto aggancio 0.00%)",
    "src": "Yahoo AGGH.MI"
   },
   "ASSETS.IE15": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo EUN5.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo EUN5.DE, scarto aggancio 0.00%)",
    "src": "Yahoo EUN5.DE"
   },
   "ASSETS.CMOD": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo CMOD.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo CMOD.MI, scarto aggancio 0.00%)",
    "src": "Yahoo CMOD.MI"
   },
   "ASSETS.EMBE": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo EMBE.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo EMBE.MI, scarto aggancio 0.00%)",
    "src": "Yahoo EMBE.MI"
   },
   "ASSETS.CRUD": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo CRUD.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo CRUD.MI, scarto aggancio 0.00%)",
    "src": "Yahoo CRUD.MI"
   },
   "ASSETS.BRNT": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo BRNT.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo BRNT.MI, scarto aggancio 0.00%)",
    "src": "Yahoo BRNT.MI"
   },
   "ASSETS.IGLN": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo SGLD.MI, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo SGLD.MI, scarto aggancio 0.00%)",
    "src": "Yahoo SGLD.MI"
   },
   "ASSETS.XGLD": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo 4GLD.DE, scarto aggancio 0.00%)",
+   "note": "+0 sedute (Yahoo 4GLD.DE, scarto aggancio 0.00%)",
    "src": "Yahoo 4GLD.DE"
   },
   "ASSETS.PHAG": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute (Yahoo PHAG.MI, scarto aggancio 0.12%)",
+   "note": "+0 sedute (Yahoo PHAG.MI, scarto aggancio 0.12%)",
    "src": "Yahoo PHAG.MI"
   },
   "ASSETS.FSPV": {
@@ -969,8 +969,8 @@
   },
   "MACRO.eur": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0",
+   "last": "2026-11-20",
+   "note": "+1",
    "src": "FRED DEXUSEU"
   },
   "BUND.DE10_OECD": {
@@ -1041,74 +1041,74 @@
   },
   "CURVE.DGS3MO": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "9224 osservazioni",
+   "last": "2026-11-20",
+   "note": "9225 osservazioni",
    "src": "FRED DGS3MO"
   },
   "CURVE.DGS6MO": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "9227 osservazioni",
+   "last": "2026-11-20",
+   "note": "9228 osservazioni",
    "src": "FRED DGS6MO"
   },
   "CURVE.DGS1": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "9227 osservazioni",
+   "last": "2026-11-20",
+   "note": "9228 osservazioni",
    "src": "FRED DGS1"
   },
   "CURVE.DGS2": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "9227 osservazioni",
+   "last": "2026-11-20",
+   "note": "9228 osservazioni",
    "src": "FRED DGS2"
   },
   "CURVE.DGS3": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "9227 osservazioni",
+   "last": "2026-11-20",
+   "note": "9228 osservazioni",
    "src": "FRED DGS3"
   },
   "CURVE.DGS5": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "9227 osservazioni",
+   "last": "2026-11-20",
+   "note": "9228 osservazioni",
    "src": "FRED DGS5"
   },
   "CURVE.DGS7": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "9227 osservazioni",
+   "last": "2026-11-20",
+   "note": "9228 osservazioni",
    "src": "FRED DGS7"
   },
   "CURVE.DGS10": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "9227 osservazioni",
+   "last": "2026-11-20",
+   "note": "9228 osservazioni",
    "src": "FRED DGS10"
   },
   "CURVE.DGS20": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "8288 osservazioni",
+   "last": "2026-11-20",
+   "note": "8289 osservazioni",
    "src": "FRED DGS20"
   },
   "CURVE.DGS30": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "8233 osservazioni",
+   "last": "2026-11-20",
+   "note": "8234 osservazioni",
    "src": "FRED DGS30"
   },
   "CURVE.DFII5": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "5975 osservazioni",
+   "last": "2026-11-20",
+   "note": "5976 osservazioni",
    "src": "FRED DFII5"
   },
   "CURVE.DFII10": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "5975 osservazioni",
+   "last": "2026-11-20",
+   "note": "5976 osservazioni",
    "src": "FRED DFII10"
   },
   "CURVE.T10YIE": {
@@ -1131,8 +1131,8 @@
   },
   "CURVE.T10Y2Y": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "9227 osservazioni",
+   "last": "2026-11-20",
+   "note": "9228 osservazioni",
    "src": "FRED T10Y2Y"
   },
   "CURVE.BAMLH0A0HYM2": {
@@ -1185,122 +1185,122 @@
   },
   "EUCURVE.AAA_3M": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_1Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_2Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_3Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_5Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_7Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_10Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_15Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_20Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.AAA_30Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_3M": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_1Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_2Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_3Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_5Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_7Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_10Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_15Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_20Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.ALL_30Y": {
    "status": "ok",
-   "last": "2026-11-18",
-   "note": "15 oss.",
+   "last": "2026-11-19",
+   "note": "16 oss.",
    "src": "BCE YC"
   },
   "EUCURVE.GOV10_IT": {
@@ -1329,265 +1329,265 @@
   },
   "XTRA.SPY": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo SPY"
   },
   "XTRA.RSP": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo RSP"
   },
   "XTRA.QQQ": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo QQQ"
   },
   "XTRA.IWM": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo IWM"
   },
   "XTRA.GC=F": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo GC=F"
   },
   "XTRA.HG=F": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo HG=F"
   },
   "XTRA.CL=F": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo CL=F"
   },
   "XTRA.BZ=F": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo BZ=F"
   },
   "XTRA.NG=F": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo NG=F"
   },
   "XTRA.SI=F": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo SI=F"
   },
   "XTRA.DX-Y.NYB": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo DX-Y.NYB"
   },
   "XTRA.EURUSD=X": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo EURUSD=X"
   },
   "XTRA.^VIX": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^VIX"
   },
   "XTRA.^VIX3M": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^VIX3M"
   },
   "XTRA.^VIX9D": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^VIX9D"
   },
   "XTRA.^MOVE": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^MOVE"
   },
   "XTRA.^SKEW": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^SKEW"
   },
   "XTRA.HYG": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo HYG"
   },
   "XTRA.LQD": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo LQD"
   },
   "XTRA.TIP": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo TIP"
   },
   "XTRA.BTC-USD": {
    "status": "ok",
    "last": "2026-11-19",
-   "note": "+1 sedute",
+   "note": "+0 sedute",
    "src": "Yahoo BTC-USD"
   },
   "XTRA.^STOXX50E": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^STOXX50E"
   },
   "XTRA.^GDAXI": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^GDAXI"
   },
   "XTRA.FTSEMIB.MI": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo FTSEMIB.MI"
   },
   "XTRA.^N225": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ^N225"
   },
   "XTRA.EEM": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo EEM"
   },
   "XTRA.ACWI": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo ACWI"
   },
   "XTRA.URTH": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo URTH"
   },
   "XTRA.XLK": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo XLK"
   },
   "XTRA.XLF": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo XLF"
   },
   "XTRA.XLV": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo XLV"
   },
   "XTRA.XLE": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo XLE"
   },
   "XTRA.XLY": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo XLY"
   },
   "XTRA.XLI": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo XLI"
   },
   "XTRA.XLP": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo XLP"
   },
   "XTRA.XLB": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo XLB"
   },
   "XTRA.XLU": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo XLU"
   },
   "XTRA.XLRE": {
    "status": "ok",
-   "last": "2026-11-19",
+   "last": "2026-11-20",
    "note": "+1 sedute",
    "src": "Yahoo XLRE"
   },
   "XTRA.XLC": {
    "status": "ok",
-   "last": "2026-11-19",
+   "last": "2026-11-20",
    "note": "+1 sedute",
    "src": "Yahoo XLC"
   },
   "XTRA.SMH": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo SMH"
   },
   "XTRA.TLT": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo TLT"
   },
   "XTRA.IEF": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo IEF"
   },
   "XTRA.GLD": {
    "status": "ok",
-   "last": "2026-11-19",
-   "note": "+0 sedute",
+   "last": "2026-11-20",
+   "note": "+1 sedute",
    "src": "Yahoo GLD"
   },
   "PESNAP": {
    "status": "ok",
-   "last": "2026-11-19",
+   "last": "2026-11-20",
    "note": "28/28 ETF",
    "src": "Yahoo (quoteSummary)"
   }
@@ -1687,123 +1687,123 @@
   }
  ],
  "timing": {
-  "MKT.^GSPC": 1.5,
-  "MKT.^DJI": 0.1,
-  "MKT.^IXIC": 0.1,
+  "MKT.^GSPC": 1.1,
+  "MKT.^DJI": 0.2,
+  "MKT.^IXIC": 0.3,
   "MKT.^NDX": 0.2,
-  "MKT.^RUT": 0.1,
-  "MKT.^VIX": 0.1,
-  "MKT.^SP500TR": 0.1,
+  "MKT.^RUT": 0.2,
+  "MKT.^VIX": 0.2,
+  "MKT.^SP500TR": 0.2,
   "ASSETS.IEF": 0.2,
-  "ASSETS.TLT": 0.1,
-  "ASSETS.SHY": 0.1,
-  "ASSETS.AGG": 0.1,
-  "ASSETS.GLD": 0.1,
-  "ASSETS.EEM": 0.1,
-  "ASSETS.VWO": 0.1,
-  "ASSETS.EFA": 0.2,
-  "ASSETS.URTH": 0.1,
-  "ASSETS.SWDA.MI": 0.1,
-  "ASSETS.XEON.DE": 0.1,
-  "ASSETS.VWRL.AS": 0.1,
-  "ASSETS.VUSA.AS": 0.1,
-  "ASSETS.VAGF.DE": 0.1,
-  "ASSETS.CSBGE3.MI": 0.1,
-  "ASSETS.IBGX.AS": 0.1,
-  "ASSETS.SXRQ.DE": 0.1,
-  "ASSETS.SXRT.DE": 0.1,
-  "ASSETS.DJP": 0.1,
-  "ASSETS.XLK": 0.1,
-  "ASSETS.XLF": 0.1,
-  "ASSETS.XLV": 0.1,
-  "ASSETS.XLE": 0.1,
-  "ASSETS.XLY": 0.1,
-  "ASSETS.XLI": 0.1,
-  "ASSETS.XLP": 0.1,
-  "ASSETS.XLB": 0.1,
-  "ASSETS.XLU": 0.2,
-  "ASSETS.XLRE": 0.1,
-  "ASSETS.XLC": 0.1,
-  "ASSETS.AGGI": 0.1,
-  "ASSETS.IE15": 6.6,
-  "ASSETS.CMOD": 0.1,
+  "ASSETS.TLT": 0.2,
+  "ASSETS.SHY": 0.3,
+  "ASSETS.AGG": 0.2,
+  "ASSETS.GLD": 0.2,
+  "ASSETS.EEM": 0.2,
+  "ASSETS.VWO": 0.2,
+  "ASSETS.EFA": 0.4,
+  "ASSETS.URTH": 0.2,
+  "ASSETS.SWDA.MI": 0.2,
+  "ASSETS.XEON.DE": 0.2,
+  "ASSETS.VWRL.AS": 0.3,
+  "ASSETS.VUSA.AS": 0.2,
+  "ASSETS.VAGF.DE": 0.2,
+  "ASSETS.CSBGE3.MI": 0.2,
+  "ASSETS.IBGX.AS": 0.3,
+  "ASSETS.SXRQ.DE": 0.2,
+  "ASSETS.SXRT.DE": 0.2,
+  "ASSETS.DJP": 0.2,
+  "ASSETS.XLK": 0.2,
+  "ASSETS.XLF": 0.2,
+  "ASSETS.XLV": 0.2,
+  "ASSETS.XLE": 0.2,
+  "ASSETS.XLY": 0.3,
+  "ASSETS.XLI": 0.2,
+  "ASSETS.XLP": 0.2,
+  "ASSETS.XLB": 0.5,
+  "ASSETS.XLU": 0.3,
+  "ASSETS.XLRE": 0.3,
+  "ASSETS.XLC": 0.2,
+  "ASSETS.AGGI": 0.2,
+  "ASSETS.IE15": 7.3,
+  "ASSETS.CMOD": 0.2,
   "ASSETS.EMBE": 0.2,
-  "ASSETS.CRUD": 0.1,
+  "ASSETS.CRUD": 0.2,
   "ASSETS.BRNT": 0.2,
-  "ASSETS.IGLN": 6.7,
-  "ASSETS.XGLD": 0.1,
-  "ASSETS.PHAG": 0.1,
-  "ASSETS.FSPV": 0.1,
-  "ASSETS.FSPG": 0.1,
-  "ASSETS.FSPEW": 0.1,
-  "ASSETS.FSDY": 0.2,
+  "ASSETS.IGLN": 7.3,
+  "ASSETS.XGLD": 0.3,
+  "ASSETS.PHAG": 0.2,
+  "ASSETS.FSPV": 0.2,
+  "ASSETS.FSPG": 0.2,
+  "ASSETS.FSPEW": 0.2,
+  "ASSETS.FSDY": 0.3,
   "ASSETS.FSPHD": 0.2,
-  "ASSETS.FSPY": 0.1,
-  "ASSETS.FSPEWU": 0.1,
-  "ASSETS.FSDYU": 0.1,
+  "ASSETS.FSPY": 0.2,
+  "ASSETS.FSPEWU": 0.2,
+  "ASSETS.FSDYU": 0.2,
   "ASSETS.MSCIEM": 0.4,
-  "ASSETS.MSCIEM_EUR": 0.5,
-  "ASSETS.MSCIWD": 0.4,
-  "ASSETS.MSCIWD_EUR": 0.4,
-  "ASSETS.MSCIEMP": 0.4,
-  "ASSETS.MSCIEMP_EUR": 0.4,
-  "ASSETS.MSCIWDP": 0.4,
-  "ASSETS.MSCIWDP_EUR": 0.4,
-  "ASSETS.FWORLD": 0.5,
-  "ASSETS.FWORLD_EUR": 0.4,
-  "ASSETS.MSCI_CN": 0.5,
-  "ASSETS.MSCI_CN_EUR": 0.6,
-  "ASSETS.MSCI_IN": 0.4,
-  "ASSETS.MSCI_IN_EUR": 0.6,
-  "ASSETS.MSCI_KR": 0.4,
-  "ASSETS.MSCI_KR_EUR": 0.4,
-  "ASSETS.MSCI_TW": 0.4,
-  "ASSETS.MSCI_TW_EUR": 0.5,
-  "ASSETS.MSCI_BR": 0.6,
-  "ASSETS.MSCI_BR_EUR": 0.5,
-  "ASSETS.MSCI_SA": 0.3,
-  "ASSETS.MSCI_SA_EUR": 0.3,
-  "ASSETS.MSCI_ZA": 0.4,
-  "ASSETS.MSCI_ZA_EUR": 0.4,
-  "ASSETS.MSCI_MX": 0.5,
-  "ASSETS.MSCI_MX_EUR": 0.5,
-  "ASSETS.FVAL": 1.0,
-  "ASSETS.FVAL_EUR": 0.5,
-  "ASSETS.FMOM": 0.4,
-  "ASSETS.FMOM_EUR": 0.5,
-  "ASSETS.FQUAL": 0.5,
-  "ASSETS.FQUAL_EUR": 0.4,
-  "ASSETS.FSNQ": 0.6,
-  "ASSETS.FSNQ_EUR": 0.8,
-  "ASSETS.FMINV": 0.5,
-  "ASSETS.FMINV_EUR": 0.4,
-  "ASSETS.FSMALL": 0.5,
-  "ASSETS.FSMALL_EUR": 0.4,
-  "ASSETS.FEQW": 0.4,
-  "ASSETS.FEQW_EUR": 0.4,
-  "ASSETS.FHDY": 0.6,
-  "ASSETS.FHDY_EUR": 0.4,
-  "ASSETS.CPI_EA": 1.9,
-  "ASSETS.CPI_IT": 4.4,
-  "ASSETS.UST10C": 0.7,
+  "ASSETS.MSCIEM_EUR": 0.3,
+  "ASSETS.MSCIWD": 0.3,
+  "ASSETS.MSCIWD_EUR": 0.3,
+  "ASSETS.MSCIEMP": 0.3,
+  "ASSETS.MSCIEMP_EUR": 0.3,
+  "ASSETS.MSCIWDP": 0.3,
+  "ASSETS.MSCIWDP_EUR": 0.3,
+  "ASSETS.FWORLD": 0.3,
+  "ASSETS.FWORLD_EUR": 0.3,
+  "ASSETS.MSCI_CN": 0.4,
+  "ASSETS.MSCI_CN_EUR": 0.4,
+  "ASSETS.MSCI_IN": 0.3,
+  "ASSETS.MSCI_IN_EUR": 0.3,
+  "ASSETS.MSCI_KR": 0.3,
+  "ASSETS.MSCI_KR_EUR": 0.3,
+  "ASSETS.MSCI_TW": 0.3,
+  "ASSETS.MSCI_TW_EUR": 0.3,
+  "ASSETS.MSCI_BR": 0.3,
+  "ASSETS.MSCI_BR_EUR": 0.3,
+  "ASSETS.MSCI_SA": 0.2,
+  "ASSETS.MSCI_SA_EUR": 0.2,
+  "ASSETS.MSCI_ZA": 0.3,
+  "ASSETS.MSCI_ZA_EUR": 0.3,
+  "ASSETS.MSCI_MX": 0.3,
+  "ASSETS.MSCI_MX_EUR": 0.3,
+  "ASSETS.FVAL": 0.3,
+  "ASSETS.FVAL_EUR": 0.3,
+  "ASSETS.FMOM": 0.3,
+  "ASSETS.FMOM_EUR": 0.3,
+  "ASSETS.FQUAL": 1.7,
+  "ASSETS.FQUAL_EUR": 0.3,
+  "ASSETS.FSNQ": 0.8,
+  "ASSETS.FSNQ_EUR": 0.3,
+  "ASSETS.FMINV": 0.3,
+  "ASSETS.FMINV_EUR": 0.3,
+  "ASSETS.FSMALL": 0.3,
+  "ASSETS.FSMALL_EUR": 0.3,
+  "ASSETS.FEQW": 0.5,
+  "ASSETS.FEQW_EUR": 0.3,
+  "ASSETS.FHDY": 0.3,
+  "ASSETS.FHDY_EUR": 0.3,
+  "ASSETS.CPI_EA": 0.9,
+  "ASSETS.CPI_IT": 0.8,
+  "ASSETS.UST10C": 0.8,
   "ASSETS.UST2C": 0.0,
-  "ASSETS.BTP10C": 1.5,
+  "ASSETS.BTP10C": 0.9,
   "YIELDS.DGS10": 0.0,
   "YIELDS.DGS2": 0.0,
   "YIELDS.IRLTLT01ITM156N": 0.5,
-  "YIELDS._rates.ECBDFR": 4.6,
-  "YIELDS._rates.ECBMRRFR": 3.0,
+  "YIELDS._rates.ECBDFR": 0.9,
+  "YIELDS._rates.ECBMRRFR": 1.0,
   "MACROF.GS10": 0.0,
   "MACROF.GS2": 0.0,
-  "MACROF.IRLTLT01DEM156N": 2.6,
+  "MACROF.IRLTLT01DEM156N": 0.6,
   "MACROF.EXUSEU": 0.8,
-  "MACROF.CP0000EZ19M086NEST": 0.7,
-  "MACRO.eur": 0.8,
-  "BUND.DE10_OECD": 0.5,
-  "BUND.DE10_ECB": 0.5,
-  "BUND.DE10_BBK": 1.1,
+  "MACROF.CP0000EZ19M086NEST": 0.5,
+  "MACRO.eur": 0.7,
+  "BUND.DE10_OECD": 0.4,
+  "BUND.DE10_ECB": 0.6,
+  "BUND.DE10_BBK": 1.6,
   "BUND.DE5_BBK": 0.6,
-  "BUND.DE2_BBK": 0.6,
+  "BUND.DE2_BBK": 0.7,
   "SIGNALS.T10Y2Y": 0.0,
   "SIGNALS.CAPE": 0.0,
   "SIGNALS.PE": 0.0,
@@ -1817,65 +1817,65 @@
   "CURVE.DGS10": 0.1,
   "CURVE.DGS20": 0.1,
   "CURVE.DGS30": 0.1,
-  "CURVE.DFII5": 0.3,
+  "CURVE.DFII5": 0.6,
   "CURVE.DFII10": 0.0,
   "CURVE.T10Y2Y": 0.1,
-  "EUCURVE.AAA_3M": 7.2,
-  "EUCURVE.AAA_1Y": 2.1,
-  "EUCURVE.AAA_2Y": 3.9,
-  "EUCURVE.AAA_3Y": 2.5,
-  "EUCURVE.AAA_5Y": 5.3,
-  "EUCURVE.AAA_7Y": 2.3,
-  "EUCURVE.AAA_10Y": 6.0,
-  "EUCURVE.AAA_15Y": 4.9,
-  "EUCURVE.AAA_20Y": 4.1,
-  "EUCURVE.AAA_30Y": 5.0,
-  "EUCURVE.ALL_3M": 2.1,
-  "EUCURVE.ALL_1Y": 2.7,
-  "EUCURVE.ALL_2Y": 2.7,
-  "EUCURVE.ALL_3Y": 3.0,
-  "EUCURVE.ALL_5Y": 2.2,
-  "EUCURVE.ALL_7Y": 3.9,
-  "EUCURVE.ALL_10Y": 4.6,
-  "EUCURVE.ALL_15Y": 3.9,
-  "EUCURVE.ALL_20Y": 1.1,
-  "EUCURVE.ALL_30Y": 5.2,
-  "EUCURVE.GOV10_IT": 2.8,
-  "EUCURVE.GOV10_DE": 4.7,
-  "EUCURVE.GOV10_FR": 4.3,
-  "EUCURVE.GOV10_ES": 4.2,
-  "XTRA.SPY": 0.1,
+  "EUCURVE.AAA_3M": 3.4,
+  "EUCURVE.AAA_1Y": 3.2,
+  "EUCURVE.AAA_2Y": 1.4,
+  "EUCURVE.AAA_3Y": 2.7,
+  "EUCURVE.AAA_5Y": 1.8,
+  "EUCURVE.AAA_7Y": 2.5,
+  "EUCURVE.AAA_10Y": 0.8,
+  "EUCURVE.AAA_15Y": 2.5,
+  "EUCURVE.AAA_20Y": 2.8,
+  "EUCURVE.AAA_30Y": 1.6,
+  "EUCURVE.ALL_3M": 2.4,
+  "EUCURVE.ALL_1Y": 2.3,
+  "EUCURVE.ALL_2Y": 2.6,
+  "EUCURVE.ALL_3Y": 2.8,
+  "EUCURVE.ALL_5Y": 2.1,
+  "EUCURVE.ALL_7Y": 2.8,
+  "EUCURVE.ALL_10Y": 2.3,
+  "EUCURVE.ALL_15Y": 2.3,
+  "EUCURVE.ALL_20Y": 1.8,
+  "EUCURVE.ALL_30Y": 2.4,
+  "EUCURVE.GOV10_IT": 0.6,
+  "EUCURVE.GOV10_DE": 0.6,
+  "EUCURVE.GOV10_FR": 0.9,
+  "EUCURVE.GOV10_ES": 1.3,
+  "XTRA.SPY": 0.2,
   "XTRA.RSP": 0.1,
-  "XTRA.QQQ": 0.1,
-  "XTRA.IWM": 0.1,
-  "XTRA.GC=F": 0.1,
-  "XTRA.HG=F": 0.1,
-  "XTRA.CL=F": 0.1,
-  "XTRA.BZ=F": 0.1,
-  "XTRA.NG=F": 0.1,
-  "XTRA.SI=F": 0.1,
-  "XTRA.DX-Y.NYB": 0.1,
-  "XTRA.EURUSD=X": 0.1,
+  "XTRA.QQQ": 0.2,
+  "XTRA.IWM": 0.2,
+  "XTRA.GC=F": 0.3,
+  "XTRA.HG=F": 0.2,
+  "XTRA.CL=F": 0.2,
+  "XTRA.BZ=F": 0.2,
+  "XTRA.NG=F": 0.2,
+  "XTRA.SI=F": 0.2,
+  "XTRA.DX-Y.NYB": 0.3,
+  "XTRA.EURUSD=X": 0.2,
   "XTRA.^VIX": 0.1,
-  "XTRA.^VIX3M": 0.1,
-  "XTRA.^VIX9D": 0.1,
-  "XTRA.^MOVE": 0.1,
-  "XTRA.^SKEW": 0.1,
-  "XTRA.HYG": 0.1,
-  "XTRA.LQD": 0.1,
-  "XTRA.TIP": 0.1,
-  "XTRA.BTC-USD": 0.1,
-  "XTRA.^STOXX50E": 0.1,
-  "XTRA.^GDAXI": 0.1,
-  "XTRA.FTSEMIB.MI": 0.1,
-  "XTRA.^N225": 0.1,
+  "XTRA.^VIX3M": 0.2,
+  "XTRA.^VIX9D": 0.2,
+  "XTRA.^MOVE": 0.3,
+  "XTRA.^SKEW": 0.2,
+  "XTRA.HYG": 0.2,
+  "XTRA.LQD": 0.2,
+  "XTRA.TIP": 0.2,
+  "XTRA.BTC-USD": 0.3,
+  "XTRA.^STOXX50E": 0.2,
+  "XTRA.^GDAXI": 0.2,
+  "XTRA.FTSEMIB.MI": 0.2,
+  "XTRA.^N225": 0.2,
   "XTRA.EEM": 0.1,
-  "XTRA.ACWI": 0.1,
+  "XTRA.ACWI": 0.3,
   "XTRA.URTH": 0.1,
   "XTRA.XLK": 0.1,
   "XTRA.XLF": 0.1,
   "XTRA.XLV": 0.1,
-  "XTRA.XLE": 0.1,
+  "XTRA.XLE": 0.2,
   "XTRA.XLY": 0.1,
   "XTRA.XLI": 0.1,
   "XTRA.XLP": 0.1,
@@ -1883,8 +1883,8 @@
   "XTRA.XLU": 0.1,
   "XTRA.XLRE": 0.1,
   "XTRA.XLC": 0.1,
-  "XTRA.SMH": 0.1,
-  "XTRA.TLT": 0.1,
+  "XTRA.SMH": 0.2,
+  "XTRA.TLT": 0.2,
   "XTRA.IEF": 0.1,
   "XTRA.GLD": 0.1
  },
